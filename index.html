@@ -1,41 +1,45 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Industrial Power & Energy Solutions</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  https://cdn.tailwindcss.com</script>
 </head>
 <body class="font-sans text-gray-800">
 
   <!-- NAVBAR -->
   <header class="w-full border-b relative">
     <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-      <div class="text-2xl font-bold">
-        <img src="assets/img/sandro-energy-logo.png">
+      <div class="flex items-center gap-3">
+        assets/img/sandro-energy-logo.png
+        <span class="text-xl font-semibold">Industrial Power & Energy</span>
       </div>
+
       <nav class="space-x-6 hidden md:flex items-center">
-        <a href="#home" class="hover:text-blue-600">Home</a>
-        <button id="productsBtn" class="hover:text-blue-600">Products & Services</button>
-        <a href="#solutions" class="hover:text-blue-600">Solutions</a>
-        <a href="#why" class="hover:text-blue-600">Why Choose Us</a>
-        <a href="#about" class="hover:text-blue-600">About Us</a>
-        <a href="#contact" class="hover:text-blue-600">Contact</a>
+        #homeHome</a>
+        <button id="productsBtn" class="hover:text-blue-600">Products &amp; Services</button>
+        #solutionsSolutions</a>
+        <ahyWhy Choose Us</a>
+        #aboutAbout Us</a>
+        <contactContact</a>
       </nav>
     </div>
 
     <!-- MEGA MENU -->
     <div id="megaMenu" class="absolute left-0 top-full w-full bg-white shadow-lg hidden">
       <div class="max-w-7xl mx-auto grid grid-cols-3 gap-8 px-6 py-8">
+
         <!-- MAIN CATEGORIES -->
         <div class="space-y-3">
-          <button data-category="transmission" class="category-btn w-full text-left font-semibold hover:text-blue-600">Transmission & Transformation</button>
-          <button data-category="distribution" class="category-btn w-full text-left font-semibold hover:text-blue-600">Distribution & Utilization</button>
+          <button data-category="transmission" class="category-btn w-full text-left font-semibold hover:text-blue-600">Transmission &amp; Transformation</button>
+          <button data-category="distribution" class="category-btn w-full text-left font-semibold hover:text-blue-600">Distribution &amp; Utilization</button>
           <button data-category="storage" class="category-btn w-full text-left font-semibold hover:text-blue-600">Energy Storage</button>
         </div>
 
-        <!-- SUBCATEGORIES -->
-        <div id="subcategories" class="space-y-2"></div>
+        <!-- SUBCATEGORIES (clickable links to product.html?product=...) -->
+        <div id="subcategories" class="space-y-2 text-sm"></div>
 
         <!-- PRODUCT FEATURE -->
         <div id="productDetail" class="text-sm text-gray-600"></div>
@@ -45,43 +49,48 @@
 
   <!-- HERO -->
   <section id="home" class="py-24 text-center">
-    <h1 class="text-4xl md:text-5xl font-semibold">Your Industrial Power & Energy Solutions Partner</h1>
+    <h1 class="text-4xl md:text-5xl font-semibold">Your Industrial Power &amp; Energy Solutions Partner</h1>
   </section>
 
-  <!-- PRODUCTS & SERVICES -->
+  <!-- PRODUCTS & SERVICES (grid with deep links) -->
   <section id="products" class="py-20 bg-gray-50">
     <div class="max-w-7xl mx-auto px-6">
-      <h2 class="text-3xl font-semibold mb-12">Products & Services</h2>
+      <h2 class="text-3xl font-semibold mb-12">Products &amp; Services</h2>
+
       <div class="grid md:grid-cols-3 gap-8">
-        <!-- CATEGORY -->
+        <!-- Transmission & Transformation -->
         <div class="bg-white p-6 shadow rounded">
-          <h3 class="text-xl font-semibold mb-4">Transmission & Transformation</h3>
+          <h3 class="text-xl font-semibold mb-4">Transmission &amp; Transformation</h3>
           <ul class="space-y-2">
-            <li>HVDC</li>
-            <li>High-Voltage Substation</li>
-            <li>Power Transformer</li>
-            <li>High Voltage Switchgear</li>
-            <li>HV Circuit Breaker & Disconnector</li>
-            <li>Substation Automation</li>
-            <li>High Voltage Instrument Transformer</li>
-            <li>High Voltage Bushing</li>
-            <li>High Voltage Power Capacitor</li>
+            <li>product.html?product=hvdcHVDC</a></li>
+            <li>product.html?product=high-voltage-substationHigh-Voltage Substation</a></li>
+            <li>product.html?product=power-transformerPower Transformer</a></li>
+            <li>product.html?product=high-voltage-switchgearHigh Voltage Switchgear</a></li>
+            <li>product.html?product=hv-cb-disconnectorHV Circuit Breaker &amp; Disconnector</a></li>
+            <li>product.html?product=substation-automationSubstation Automation</a></li>
+            <li>product.html?product=hv-instrument-transformerHigh Voltage Instrument Transformer</a></li>
+            <li>product.html?product=hv-bushingHigh Voltage Bushing</a></li>
+            <li>product.html?product=hv-power-capacitorHigh Voltage Power Capacitor</a></li>
           </ul>
         </div>
+
+        <!-- Distribution & Utilization -->
         <div class="bg-white p-6 shadow rounded">
-          <h3 class="text-xl font-semibold mb-4">Distribution & Utilization</h3>
+          <h3 class="text-xl font-semibold mb-4">Distribution &amp; Utilization</h3>
           <ul class="space-y-2">
-            <li>Medium Voltage Switchgear</li>
-            <li>Low Voltage Switchgear</li>
-            <li>Energy Management Systems</li>
+            <li>product.html?product=mv-switchgearMedium Voltage Switchgear</a></li>
+            <li>product.html?product=lv-switchgearLow Voltage Switchgear</a></li>
+            <li>product.html?product=emsEnergy Management Systems</a></li>
           </ul>
         </div>
+
+        <!-- Energy Storage -->
         <div class="bg-white p-6 shadow rounded">
           <h3 class="text-xl font-semibold mb-4">Energy Storage</h3>
           <ul class="space-y-2">
-            <li>Battery Energy Storage Systems</li>
-            <li>Grid Stabilization Solutions</li>
-            <li>Static Synchronous Compensator (STATCOM)</li>
+            <li>product.html?product=bessBattery Energy Storage Systems</a></li>
+            <li>product.html?product=grid-stabilizationGrid Stabilization Solutions</a></li>
+            <li><a class="hover:text-blue-600" href="product.html?pensator (STATCOM)</a></li>
           </ul>
         </div>
       </div>
@@ -98,7 +107,7 @@
         </p>
       </div>
       <div>
-        <img src="https://source.unsplash.com/800x600/?power,substation" class="rounded shadow" />
+        https://source.unsplash.com/800x600/?power,substation
       </div>
     </div>
   </section>
@@ -113,7 +122,7 @@
         </p>
       </div>
       <div>
-        <img src="https://source.unsplash.com/800x600/?energy,industry" class="rounded shadow" />
+        https://source.unsplash.com/800x600/?energy,industry
       </div>
     </div>
   </section>
@@ -126,65 +135,14 @@
   </section>
 
   <footer class="py-6 text-center border-t">
-    © 2026 Company Name. All rights reserved.
+    © <span id="year"></span> Company Name. All rights reserved.
   </footer>
 
+  <!-- Shared JS -->
+  assets/js/main.js</script>
   <script>
-    const productsBtn = document.getElementById('productsBtn');
-    const megaMenu = document.getElementById('megaMenu');
-    const subcategories = document.getElementById('subcategories');
-    const productDetail = document.getElementById('productDetail');
-
-    const data = {
-      transmission: {
-        items: [
-          'HVDC',
-          'High-Voltage Substation',
-          'Power Transformer',
-          'High Voltage Switchgear',
-          'HV Circuit Breaker & Disconnector',
-          'Substation Automation',
-          'High Voltage Instrument Transformer',
-          'High Voltage Bushing',
-          'High Voltage Power Capacitor'
-        ],
-        detail: 'Advanced solutions for long-distance power transmission and grid transformation.'
-      },
-      distribution: {
-        items: [
-          'Medium Voltage Switchgear',
-          'Low Voltage Switchgear',
-          'Energy Management Systems'
-        ],
-        detail: 'Reliable distribution systems ensuring efficient power utilization.'
-      },
-      storage: {
-        items: [
-          'Battery Energy Storage Systems',
-          'Grid Stabilization Solutions',
-          'Static Synchronous Compensator (STATCOM)'
-        ],
-        detail: 'Modern energy storage and grid stability technologies.'
-      }
-    };
-
-    productsBtn.addEventListener('click', () => {
-      megaMenu.classList.toggle('hidden');
-    });
-
-    document.querySelectorAll('.category-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const category = btn.dataset.category;
-        subcategories.innerHTML = data[category].items.map(item => `<div class="hover:text-blue-600 cursor-pointer">${item}</div>`).join('');
-        productDetail.textContent = data[category].detail;
-      });
-    });
-
-    document.addEventListener('click', e => {
-      if (!megaMenu.contains(e.target) && e.target !== productsBtn) {
-        megaMenu.classList.add('hidden');
-      }
-    });
+    document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
+``
