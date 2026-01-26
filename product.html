@@ -4,45 +4,41 @@
   <meta charset="UTF-8">
   <title>Product</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
 <body>
 
-<header class="navbar simple">
-  <a href="index.html">← Back</a>
-</header>
-
-<main class="product container">
-  <h1 id="name"></h1>
+<div class="container product">
+  <h1 id="title"></h1>
   <p id="desc"></p>
 
   <ul id="bullets"></ul>
 
   <div class="tabs">
-    <button data-tab="features" class="active">Features</button>
+    <button class="active" data-tab="features">Features</button>
     <button data-tab="specs">Technical Specifications</button>
   </div>
 
-  <div id="features" class="tab">
+  <div id="features" class="tab-content">
     <h3>01 Low loss, low noise, high reliability</h3>
     <p>
       The shunt reactor adopts a radial iron disc structure with high core fill
-      factor, uniform magnetic flux distribution, and ultra-low noise.
+      factor and ultra-low operational noise.
     </p>
   </div>
 
-  <div id="specs" class="tab hidden">
+  <div id="specs" class="tab-content hidden">
     <table>
       <tr><td>Voltage level</td><td>750kV and below</td></tr>
       <tr><td>Cooling medium</td><td>Mineral oil, Ester oil</td></tr>
       <tr><td>Voltage Regulation</td><td>Fixed, Adjustable</td></tr>
     </table>
 
-    <button class="download">Download</button>
+    <div class="download">Download</div>
   </div>
-</main>
+</div>
 
 <script src="assets/js/product.js"></script>
 </body>
