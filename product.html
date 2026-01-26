@@ -1,86 +1,49 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Product | Industrial Power & Energy</title>
-  https://cdn.tailwindcss.com</script>
+  <meta charset="UTF-8">
+  <title>Product</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body class="font-sans text-gray-800">
-  <header class="w-full border-b">
-    <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-      index.html
-        assets/img/sandro-energy-logo.png
-        <span class="text-xl font-semibold">Industrial Power & Energy</span>
-      </a>
-      <nav class="hidden md:flex items-center gap-6">
-        index.html#productsProducts &amp; Services</a>
-        index.html#whyWhy</a>
-        index.html#aboutAbout</a>
-        <ndex.html#contactContact</a>
-      </nav>
-    </div>
-  </header>
 
-  <main id="product-detail-root">
-    <!-- Title / Breadcrumb -->
-    <section class="py-8 border-b">
-      <div class="max-w-7xl mx-auto px-6">
-        <nav class="text-sm text-gray-500 mb-1">
-          index.htmlHome</a> ›
-          index.html#productsProducts</a> ›
-          <span data-title>Loading…</span>
-        </nav>
-        <h1 class="text-3xl md:text-4xl font-semibold pb-1 border-b-4 border-orange-500 inline-block" data-title>
-          Product Title
-        </h1>
-      </div>
-    </section>
+<body>
 
-    <!-- Description / Image -->
-    <section class="py-10">
-      <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-start">
-        <article>
-          <h2 class="text-2xl font-semibold mb-3">Description</h2>
-          <p class="text-gray-700 leading-relaxed" data-desc>Loading…</p>
-        </article>
-        <aside>
-          assets/img/placeholder.svg
-        </aside>
-      </div>
-    </section>
+<header class="navbar simple">
+  <a href="index.html">← Back</a>
+</header>
 
-    <!-- Chart + Table -->
-    <section class="pb-16">
-      <div class="max-w-7xl mx-auto px-6">
-        <div class="rounded border shadow-sm">
-          <div class="bg-orange-50 border-b border-orange-200 text-orange-900 font-semibold px-4 py-3">
-            Chart / Key Specifications
-          </div>
-          <div class="p-4">
-            <figure class="m-0">
-              <img id="spec-chart" src="" alt="Product specification chart"
-                   class="max-w-full h-auto hidden rounded bg-gray-50 border"/>
-              <figcaption class="text-gray-500 text-sm mt-2">
-                If the PNG chart is not available, the specification table below will be shown.
-              </figcaption>
-            </figure>
+<main class="product container">
+  <h1 id="name"></h1>
+  <p id="desc"></p>
 
-            <div class="overflow-auto mt-4">
-              <table id="spec-table" class="w-full border-collapse text-sm">
-                <tbody>
-                  <tr><th class="text-left border-b p-2">Parameter</th><td class="border-b p-2">Value</td></tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+  <ul id="bullets"></ul>
 
-  <!-- Shared JS -->
-  assets/js/main.js</script>
+  <div class="tabs">
+    <button data-tab="features" class="active">Features</button>
+    <button data-tab="specs">Technical Specifications</button>
+  </div>
+
+  <div id="features" class="tab">
+    <h3>01 Low loss, low noise, high reliability</h3>
+    <p>
+      The shunt reactor adopts a radial iron disc structure with high core fill
+      factor, uniform magnetic flux distribution, and ultra-low noise.
+    </p>
+  </div>
+
+  <div id="specs" class="tab hidden">
+    <table>
+      <tr><td>Voltage level</td><td>750kV and below</td></tr>
+      <tr><td>Cooling medium</td><td>Mineral oil, Ester oil</td></tr>
+      <tr><td>Voltage Regulation</td><td>Fixed, Adjustable</td></tr>
+    </table>
+
+    <button class="download">Download</button>
+  </div>
+</main>
+
+<script src="assets/js/product.js"></script>
 </body>
 </html>
