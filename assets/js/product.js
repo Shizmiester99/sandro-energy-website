@@ -1,22 +1,45 @@
-const params = new URLSearchParams(location.search);
-const name = params.get("id");
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
 
-document.getElementById("name").textContent = name;
-document.getElementById("desc").textContent =
-  "High-performance industrial equipment designed for reliability and efficiency.";
+<body>
 
-document.getElementById("bullets").innerHTML = `
-  <li>IEC / IEEE compliant</li>
-  <li>Long service life</li>
-  <li>Low maintenance</li>
-  <li>High operational stability</li>
-`;
+<div class="container product">
+  <h1 id="title"></h1>
+  <p id="desc"></p>
 
-document.querySelectorAll(".tabs button").forEach(btn => {
-  btn.onclick = () => {
-    document.querySelectorAll(".tabs button").forEach(b => b.classList.remove("active"));
-    document.querySelectorAll(".tab").forEach(t => t.classList.add("hidden"));
-    btn.classList.add("active");
-    document.getElementById(btn.dataset.tab).classList.remove("hidden");
-  };
-});
+  <ul id="bullets"></ul>
+
+  <div class="tabs">
+    <button class="active" data-tab="features">Features</button>
+    <button data-tab="specs">Technical Specifications</button>
+  </div>
+
+  <div id="features" class="tab-content">
+    <h3>01 Low loss, low noise, high reliability</h3>
+    <p>
+      The shunt reactor adopts a radial iron disc structure with high core fill
+      factor and ultra-low operational noise.
+    </p>
+  </div>
+
+  <div id="specs" class="tab-content hidden">
+    <table>
+      <tr><td>Voltage level</td><td>750kV and below</td></tr>
+      <tr><td>Cooling medium</td><td>Mineral oil, Ester oil</td></tr>
+      <tr><td>Voltage Regulation</td><td>Fixed, Adjustable</td></tr>
+    </table>
+
+    <div class="download">Download</div>
+  </div>
+</div>
+
+<script src="assets/js/product.js"></script>
+</body>
+</html>
