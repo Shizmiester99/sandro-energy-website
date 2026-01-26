@@ -2,208 +2,73 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Industrial Power & Energy Solutions</title>
+  <title>Industrial Energy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Tailwind -->
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
-  <style>
-    body { font-family: 'Inter', sans-serif; }
-  </style>
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body class="text-gray-800">
+<body>
 
-<!-- NAVBAR -->
-<header class="w-full border-b relative bg-white">
-  <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-    <div class="flex items-center gap-3">
-      <img src="assets/img/sandro-energy-logo.png" alt="Company Logo" style="height: 300px;" class="h-8 w-auto" />
-    </div>
+<header class="navbar">
+  <div class="container">
+    <div class="logo">Industrial Energy</div>
 
-    <nav class="hidden md:flex items-center space-x-6 text-sm font-medium">
-      <a href="#home" class="hover:text-[#37BEB0]">Home</a>
-
-      <button id="productsBtn"
-        class="hover:text-[#37BEB0]"
-        aria-haspopup="true"
-        aria-expanded="false">
-        Products & Services
-      </button>
-
-      <a href="#solutions" class="hover:text-[#37BEB0]">Solutions</a>
-      <a href="#why" class="hover:text-[#37BEB0]">Why Choose Us</a>
-      <a href="#about" class="hover:text-[#37BEB0]">About Us</a>
-      <a href="#contact" class="hover:text-[#37BEB0]">Contact</a>
+    <nav>
+      <button id="productsBtn">Products & Services</button>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
     </nav>
   </div>
 
   <!-- MEGA MENU -->
-  <div id="megaMenu" class="absolute inset-x-0 top-full bg-white shadow-lg hidden z-50">
-    <div class="max-w-7xl mx-auto grid grid-cols-3 gap-8 px-6 py-8 text-sm">
+  <div id="megaMenu" class="mega hidden">
+    <div class="mega-grid">
 
-      <!-- MAIN CATEGORIES -->
-      <div class="space-y-3">
-        <button data-category="transmission" class="category-btn block w-full text-left font-semibold hover:text-[#37BEB0]">
-          Transmission & Transformation
-        </button>
-        <button data-category="distribution" class="category-btn block w-full text-left font-semibold hover:text-[#37BEB0]">
-          Distribution & Utilization
-        </button>
-        <button data-category="storage" class="category-btn block w-full text-left font-semibold hover:text-[#37BEB0]">
-          Energy Storage
-        </button>
+      <!-- PANEL 1 -->
+      <div class="panel">
+        <button data-cat="transmission">Transmission & Transformation</button>
       </div>
 
-      <!-- SUBCATEGORIES -->
-      <div id="subcategories" class="space-y-2"></div>
+      <!-- PANEL 2 -->
+      <div id="subcats" class="panel"></div>
 
-      <!-- DETAIL -->
-      <div id="productDetail" class="text-gray-600 leading-relaxed"></div>
+      <!-- PANEL 3 -->
+      <div id="products" class="panel"></div>
+
     </div>
   </div>
 </header>
 
-<!-- HERO -->
-<section id="home" class="py-24 text-center">
-  <h1 class="text-4xl md:text-5xl font-semibold">
-    Your Industrial Power & Energy Solutions Partner
-  </h1>
+<section class="hero">
+  <h1>Your Industrial Power & Energy Partner</h1>
 </section>
 
-<!-- PRODUCTS -->
-<section id="products" class="py-20 bg-gray-50">
-  <div class="max-w-7xl mx-auto px-6">
-    <h2 class="text-3xl font-semibold mb-12">Products & Services</h2>
-
-    <div class="grid md:grid-cols-3 gap-8">
-      <div class="bg-white p-6 shadow rounded">
-        <h3 class="text-xl font-semibold mb-4">Transmission & Transformation</h3>
-        <ul class="space-y-2">
-          <li><a href="product.html?product=hvdc" class="hover:text-[#37BEB0]">HVDC</a></li>
-          <li><a href="product.html?product=substation" class="hover:text-[#37BEB0]">High-Voltage Substation</a></li>
-          <li><a href="product.html?product=transformer" class="hover:text-[#37BEB0]">Power Transformer</a></li>
-        </ul>
-      </div>
-
-      <div class="bg-white p-6 shadow rounded">
-        <h3 class="text-xl font-semibold mb-4">Distribution & Utilization</h3>
-        <ul class="space-y-2">
-          <li><a href="product.html?product=mv-switchgear" class="hover:text-[#37BEB0]">Medium Voltage Switchgear</a></li>
-          <li><a href="product.html?product=lv-switchgear" class="hover:text-[#37BEB0]">Low Voltage Switchgear</a></li>
-        </ul>
-      </div>
-
-      <div class="bg-white p-6 shadow rounded">
-        <h3 class="text-xl font-semibold mb-4">Energy Storage</h3>
-        <ul class="space-y-2">
-          <li><a href="product.html?product=bess" class="hover:text-[#37BEB0]">Battery Energy Storage Systems</a></li>
-          <li><a href="product.html?product=statcom" class="hover:text-[#37BEB0]">STATCOM</a></li>
-        </ul>
-      </div>
-    </div>
+<section id="about" class="split">
+  <div>
+    <h2>About Us</h2>
+    <p>
+      We are a trusted industrial power and energy partner providing end-to-end
+      solutions across transmission, distribution, and energy storage sectors.
+    </p>
   </div>
+  <img src="https://source.unsplash.com/800x600/?energy,industry">
 </section>
 
-<!-- WHY -->
-<section id="why" class="py-20">
-  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-    <div>
-      <h2 class="text-3xl font-semibold mb-4">Why Choose Us</h2>
-      <p class="text-lg leading-relaxed">
-        Reliable, scalable, and future-proof industrial energy solutions backed by deep engineering expertise.
-      </p>
-    </div>
-    <img src="https://source.unsplash.com/800x600/?power,substation" class="rounded shadow" alt="">
-  </div>
-</section>
-
-<!-- ABOUT -->
-<section id="about" class="py-20 bg-gray-50">
-  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-    <div>
-      <h2 class="text-3xl font-semibold mb-4">About Us</h2>
-      <p class="text-lg leading-relaxed">
-        A trusted industrial power partner delivering end-to-end solutions across transmission, distribution, and storage.
-      </p>
-    </div>
-    <img src="https://source.unsplash.com/800x600/?energy,industry" class="rounded shadow" alt="">
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="py-20 text-center">
-  <h2 class="text-3xl font-semibold mb-6">Contact Us</h2>
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
   <p>Email: info@company.com</p>
   <p>Phone: +1 (000) 000-0000</p>
 </section>
 
-<footer class="py-6 text-center border-t text-sm">
-  © <span id="year"></span> Company Name. All rights reserved.
+<footer>
+  © 2026 Company Name
 </footer>
 
-<!-- JS -->
-<script>
-(() => {
-  const productsBtn = document.getElementById('productsBtn');
-  const megaMenu = document.getElementById('megaMenu');
-  const subcategories = document.getElementById('subcategories');
-  const productDetail = document.getElementById('productDetail');
-
-  if (!productsBtn || !megaMenu) return;
-
-  const data = {
-    transmission: {
-      items: ['HVDC', 'High-Voltage Substation', 'Power Transformer'],
-      detail: 'Advanced solutions for long-distance transmission and grid transformation.'
-    },
-    distribution: {
-      items: ['Medium Voltage Switchgear', 'Low Voltage Switchgear'],
-      detail: 'Efficient and reliable power distribution systems.'
-    },
-    storage: {
-      items: ['Battery Energy Storage Systems', 'STATCOM'],
-      detail: 'Grid stabilization and modern energy storage technologies.'
-    }
-  };
-
-  productsBtn.addEventListener('click', e => {
-    e.stopPropagation();
-    megaMenu.classList.toggle('hidden');
-    productsBtn.setAttribute(
-      'aria-expanded',
-      !megaMenu.classList.contains('hidden')
-    );
-  });
-
-  document.querySelectorAll('.category-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const category = btn.dataset.category;
-      const payload = data[category];
-      if (!payload) return;
-
-      subcategories.innerHTML = payload.items
-        .map(i => `<div class="hover:text-[#37BEB0] cursor-pointer">${i}</div>`)
-        .join('');
-
-      productDetail.textContent = payload.detail;
-    });
-  });
-
-  document.addEventListener('click', () => {
-    megaMenu.classList.add('hidden');
-    productsBtn.setAttribute('aria-expanded', 'false');
-  });
-
-  document.getElementById('year').textContent = new Date().getFullYear();
-})();
-</script>
-
+<script src="assets/js/main.js"></script>
 </body>
 </html>
