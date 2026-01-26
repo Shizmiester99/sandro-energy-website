@@ -4,20 +4,15 @@
   <meta charset="UTF-8" />
   <title>Industrial Energy</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
 <body>
 
-<header class="navbar">
-  <div class="container">
-    <div class="logo">Industrial Energy</div>
-
+<header>
+  <div class="container navbar">
+    <div>Industrial Energy</div>
     <nav>
       <button id="productsBtn">Products & Services</button>
       <a href="#about">About</a>
@@ -25,49 +20,38 @@
     </nav>
   </div>
 
-  <!-- MEGA MENU -->
   <div id="megaMenu" class="mega hidden">
-    <div class="mega-grid">
-
-      <!-- PANEL 1 -->
-      <div class="panel">
-        <button data-cat="transmission">Transmission & Transformation</button>
+    <div class="container mega-inner">
+      <div class="mega-column">
+        <h4>Products</h4>
+        <div data-cat="transmission">Transmission & Transformation</div>
       </div>
 
-      <!-- PANEL 2 -->
-      <div id="subcats" class="panel"></div>
-
-      <!-- PANEL 3 -->
-      <div id="products" class="panel"></div>
-
+      <div id="subcats" class="mega-column"></div>
+      <div id="products" class="mega-column"></div>
     </div>
   </div>
 </header>
 
 <section class="hero">
-  <h1>Your Industrial Power & Energy Partner</h1>
+  <h1>Industrial Power & Energy Solutions</h1>
 </section>
 
-<section id="about" class="split">
+<section id="about" class="container split">
   <div>
     <h2>About Us</h2>
     <p>
-      We are a trusted industrial power and energy partner providing end-to-end
-      solutions across transmission, distribution, and energy storage sectors.
+      We provide advanced transmission and transformation equipment for
+      modern power systems worldwide.
     </p>
   </div>
-  <img src="https://source.unsplash.com/800x600/?energy,industry">
+  <img src="https://source.unsplash.com/800x600/?substation">
 </section>
 
-<section id="contact" class="contact">
-  <h2>Contact Us</h2>
+<section id="contact" class="container" style="padding:96px 0">
+  <h2>Contact</h2>
   <p>Email: info@company.com</p>
-  <p>Phone: +1 (000) 000-0000</p>
 </section>
-
-<footer>
-  © 2026 Company Name
-</footer>
 
 <script src="assets/js/main.js"></script>
 </body>
