@@ -8,24 +8,38 @@
       "products": [
         {
           "id": "hvdc-circuit-breaker",
-          "title": "HVDC Circuit Breaker"
+          "title": "HVDC Circuit Breaker",
+          "description": "The HVDC Circuit Breaker enables fast and reliable interruption of DC fault currents in modern HVDC grids.",
+          "bullets": [
+            "Fast DC fault interruption",
+            "High operational reliability",
+            "Compact modular design",
+            "IEC / IEEE compliant"
+          ],
+          "image": "/assets/img/products/hvdc-circuit-breaker.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Low loss, low noise, high reliability",
+              "text": "The breaker adopts a radial iron disc structure with high core fill factor, uniform magnetic flux distribution, and ultra-low operational noise."
+            },
+            {
+              "index": "02",
+              "title": "Smart monitoring",
+              "text": "Integrated intelligent monitoring enables real-time condition assessment and predictive maintenance."
+            }
+          ],
+          "specifications": {
+            "Voltage level": "750kV and below",
+            "Cooling medium": "Mineral oil, Ester oil",
+            "Voltage regulation": "Fixed, Adjustable"
+          }
         }
       ]
-    },
-    {
-      "id": "high-voltage-substation",
-      "title": "High-Voltage Substation",
-      "products": [
-        {
-          "id": "prefabricated-substation",
-          "title": "Prefabricated Substation"
-        },
-        {
-          "id": "mobile-substation",
-          "title": "Mobile Substation"
-        }
-      ]
-    },
+    }
+  ]
+}
+,
     {
       "id": "power-transformer",
       "title": "Power Transformer",
