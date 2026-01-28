@@ -1,6 +1,7 @@
+
 {
   "id": "transmission-transformation",
-  "title": "Transmission & Transformation",
+  "title": "Transmission &amp; Transformation",
   "subcategories": [
     {
       "id": "hvdc",
@@ -36,10 +37,7 @@
           }
         }
       ]
-    }
-  ]
-}
-,
+    },
     {
       "id": "power-transformer",
       "title": "Power Transformer",
@@ -78,7 +76,7 @@
     },
     {
       "id": "hv-circuit-breaker-disconnector",
-      "title": "HV Circuit Breaker & Disconnector",
+      "title": "HV Circuit Breaker &amp; Disconnector",
       "products": [
         {
           "id": "live-tank-cb",
