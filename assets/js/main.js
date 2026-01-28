@@ -91,12 +91,12 @@ productsBtn.addEventListener("click", e => {
 
 
 document.addEventListener('click', e => {
-  if (!mena.contains(e.target) && e.target !== productsBtn) {
-    mena.classList.add('hidden');
+  if (!menu.contains(e.target) && e.target !== productsBtn) {
+    menu.classList.add('hidden');
   }
 });
 
-mena.addEventListener('click', e => {
+menu.addEventListener('click', e => {
   e.stopPropagation();
 });
 
