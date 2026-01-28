@@ -1,68 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Product</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <meta charset="UTF-8" />
+  <title>Product | Sandro Energy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 
-  <header>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
   <div class="container navbar">
-    <div>Industrial Energy</div>
+    <div class="logo">Sandro Energy</div>
     <nav>
       <button id="productsBtn">Products & Services</button>
-      <a href="/index.html#about">About</a>
+      <a href="/index.html#solutions">Solutions</a>
+      <a href="/index.html#why">Why Choose Us</a>
+      <a href="/index.html#about">About Us</a>
       <a href="/index.html#contact">Contact</a>
     </nav>
   </div>
 
+  <!-- Mega Menu -->
   <div id="megaMenu" class="mega hidden">
     <div class="container mega-inner">
-      <div class="mega-column">
-        <h4>Products</h4>
-        <div data-cat="transmission">Transmission & Transformation</div>
-      </div>
-
-      <div id="subcats" class="mega-column"></div>
+      <div id="mainCats" class="mega-column"></div>
+      <div id="subCats" class="mega-column"></div>
       <div id="products" class="mega-column"></div>
     </div>
   </div>
 </header>
 
-<body>
+<!-- ================= BREADCRUMB ================= -->
+<section class="breadcrumb container">
+  <a href="/">Home</a>
+  <span>›</span>
+  <a href="/products.html">Products & Services</a>
+  <span>›</span>
+  <span id="breadcrumbProduct">Product</span>
+</section>
 
-<div class="container product">
-  <h1 id="title"></h1>
-  <p id="desc"></p>
-
-  <ul id="bullets"></ul>
-
-  <div class="tabs">
-    <button class="active" data-tab="features">Features</button>
-    <button data-tab="specs">Technical Specifications</button>
+<!-- ================= PRODUCT HERO ================= -->
+<section class="container product-hero" id="overview">
+  <div class="product-hero-text">
+    <h1 id="title"></h1>
+    <p id="desc"></p>
+    <ul id="bullets"></ul>
   </div>
 
-  <div id="features" class="tab-content">
-    <h3>01 Low loss, low noise, high reliability</h3>
-    <p>
-      The shunt reactor adopts a radial iron disc structure with high core fill
-      factor and ultra-low operational noise.
-    </p>
+  <div class="product-hero-image">
+    <img id="productImage" alt="Product image">
   </div>
+</section>
 
-  <div id="specs" class="tab-content hidden">
-    <table>
-      <tr><td>Voltage level</td><td>750kV and below</td></tr>
-      <tr><td>Cooling medium</td><td>Mineral oil, Ester oil</td></tr>
-      <tr><td>Voltage Regulation</td><td>Fixed, Adjustable</td></tr>
-    </table>
+<!-- ================= PRODUCT BODY ================= -->
+<section class="container product-layout">
 
-    <div class="download">Download</div>
-  </div>
-</div>
+  <!-- Sticky Left Nav -->
+  <aside class="product-nav">
+    <a href="#overview">Overview</a>
+    <a href="#features">Features</a>
+    <a href="#specs">Technical Specifications</a>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="product-content">
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="active" data-tab="features">Features</button>
+      <button data-tab="specs">Technical Specifications</button>
+    </div>
+
+    <!-- FEATURES -->
+    <div id="features" class="tab-content">
+      <!-- injected by product.js -->
+    </div>
+
+    <!-- SPECS -->
+    <div id="specs" class="tab-content hidden">
+      <!-- injected by product.js -->
+      <div class="download">Download</div>
+    </div>
+
+  </main>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  © 2026 Sandro Energy. All rights reserved.
+</footer>
+
+<!-- ================= SCRIPTS ================= -->
 <script src="/assets/js/main.js"></script>
-<script src="assets/js/product.js"></script>
+<script src="/assets/js/product.js"></script>
+
 </body>
 </html>
