@@ -19,12 +19,17 @@ const DATA = {
   }
 };
 
-productsBtn.onclick = e => {
-  e.stopPropagation();
-  mega.classList.toggle("hidden");
-};
 
-document.addEventListener("click", () => mega.classList.add("hidden"));
+
+document.addEventListener('click', e => {
+  if (!megaMenu.contains(e.target) && e.target !== productsBtn) {
+    megaMenu.classList.add('hidden');
+  }
+});
+
+megaMenu.addEventListener('click', e => {
+  e.stopPropagation();
+});
 
 document.querySelector("[data-cat]").onclick = () => {
   subcats.innerHTML = "";
@@ -34,9 +39,9 @@ document.querySelector("[data-cat]").onclick = () => {
     const el = document.createElement("div");
     el.textContent = group;
     el.onclick = () => {
-      products.innerHTML = items
-        .map(p => `<a href="product.html?id=${encodeURIComponent(p)}">${p}</a>`)
-        .join("");
+      products.innerHTML = items.map(p =>
+  `<a href="product.html?id=${encodeURIComponent(p)}">${p}</a>`
+).join('');
     };
     subcats.appendChild(el);
   });
