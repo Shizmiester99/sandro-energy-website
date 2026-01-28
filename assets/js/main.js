@@ -19,30 +19,41 @@ const DATA = {
   }
 };
 
+productsBtn.addEventListener("click", e => {
+  e.stopPropagation();            // prevent document click
+  mega.classList.remove("hidden"); // OPEN menu
+});
+
 
 
 document.addEventListener('click', e => {
-  if (!megaMenu.contains(e.target) && e.target !== productsBtn) {
-    megaMenu.classList.add('hidden');
+  if (!mega.contains(e.target) && e.target !== productsBtn) {
+    mega.classList.add('hidden');
   }
 });
 
-megaMenu.addEventListener('click', e => {
+mega.addEventListener('click', e => {
   e.stopPropagation();
 });
 
-document.querySelector("[data-cat]").onclick = () => {
-  subcats.innerHTML = "";
-  products.innerHTML = "";
+document.querySelectorAll("[data-cat]").forEach(cat => {
+  cat.addEventListener("click", e => {
+    e.stopPropagation();
+    subcats.innerHTML = "";
+    products.innerHTML = "";
 
-  Object.entries(DATA.transmission).forEach(([group, items]) => {
-    const el = document.createElement("div");
-    el.textContent = group;
-    el.onclick = () => {
-      products.innerHTML = items.map(p =>
-  `<a href="product.html?id=${encodeURIComponent(p)}">${p}</a>`
-).join('');
-    };
-    subcats.appendChild(el);
+    Object.entries(DATA.transmission).forEach(([group, items]) => {
+      const el = document.createElement("div");
+      el.textContent = group;
+      el.className = "mega-item";
+
+      el.onclick = () => {
+        products.innerHTML = items
+          .map(p => `<a href="product.html?id=${encodeURIComponent(p)}">${p}</a>`)
+          .join("");
+      };
+
+      subcats.appendChild(el);
+    });
   });
-};
+});
