@@ -45,7 +45,7 @@
             "Overload current (5S) A": "1500/9000/3300(long time)",
             "Breaking time ms": "≤3/≤5/≤3",
             "Rated DC withstand voltage kV": "17.6 /252/856(1min)",
-            "Rated switching impulse voltage kV": "50/450/1425",
+            "Rated switching impulse voltage kV": "50/450/1425"
           }
         }
       ]
