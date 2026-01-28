@@ -1,0 +1,84 @@
+{
+  "id": "transmission-transformation",
+  "title": "Transmission & Transformation",
+  "subcategories": [
+    {
+      "id": "hvdc",
+      "title": "HVDC",
+      "products": [
+        {
+          "id": "hvdc-circuit-breaker",
+          "title": "HVDC Circuit Breaker"
+        }
+      ]
+    },
+    {
+      "id": "high-voltage-substation",
+      "title": "High-Voltage Substation",
+      "products": [
+        {
+          "id": "prefabricated-substation",
+          "title": "Prefabricated Substation"
+        },
+        {
+          "id": "mobile-substation",
+          "title": "Mobile Substation"
+        }
+      ]
+    },
+    {
+      "id": "power-transformer",
+      "title": "Power Transformer",
+      "products": [
+        {
+          "id": "oil-immersed-power-transformer",
+          "title": "Oil Immersed Insulated Power Transformer"
+        },
+        {
+          "id": "gas-insulated-power-transformer",
+          "title": "Gas Insulated Power Transformer"
+        },
+        {
+          "id": "high-voltage-reactor",
+          "title": "High Voltage Reactor"
+        }
+      ]
+    },
+    {
+      "id": "high-voltage-switchgear",
+      "title": "High-Voltage Switchgear",
+      "products": [
+        {
+          "id": "gas-insulated-switchgear",
+          "title": "Gas Insulated Switchgear"
+        },
+        {
+          "id": "gas-insulated-transmission-line",
+          "title": "Gas-Insulated Transmission Line"
+        },
+        {
+          "id": "hybrid-gis",
+          "title": "Hybrid Gas Insulated Switchgear"
+        }
+      ]
+    },
+    {
+      "id": "hv-circuit-breaker-disconnector",
+      "title": "HV Circuit Breaker & Disconnector",
+      "products": [
+        {
+          "id": "live-tank-cb",
+          "title": "Live Tank Circuit Breaker"
+        },
+        {
+          "id": "dead-tank-cb",
+          "title": "Dead Tank Circuit Breaker"
+        },
+        {
+          "id": "hv-disconnector-switch",
+          "title": "HV Disconnector Switch"
+        }
+      ]
+    }
+  ]
+}
