@@ -9,30 +9,43 @@
         {
           "id": "hvdc-circuit-breaker",
           "title": "HVDC Circuit Breaker",
-          "description": "The HVDC Circuit Breaker enables fast and reliable interruption of DC fault currents in modern HVDC grids.",
+          "description": "The new high voltage DC circuit breaker is a kind of product based on the“Artificial intelligence zero crossing”converter technology. The new product perfectly solves the technical defects of the traditional high voltage DC circuit breaker, such as slow operating speed, long arc extinguishing time and so on.",
           "bullets": [
-            "Fast DC fault interruption",
-            "High operational reliability",
-            "Compact modular design",
-            "IEC / IEEE compliant"
+            "Power system reliability",
+            "Miniaturization",
+            "Smart features",
+            "Smart operation"
           ],
           "image": "assets/img/products/hvdc-circuit-breaker.jpg",
           "features": [
             {
               "index": "01",
-              "title": "Low loss, low noise, high reliability",
-              "text": "The breaker adopts a radial iron disc structure with high core fill factor, uniform magnetic flux distribution, and ultra-low operational noise."
+              "title": "Power system reliability",
+              "text": "Through the“mechanical DC circuit breaker” technology, the abnormal power branch system is quickly disconnected."
             },
             {
               "index": "02",
-              "title": "Smart monitoring",
-              "text": "Integrated intelligent monitoring enables real-time condition assessment and predictive maintenance."
+              "title": "Smart features",
+              "text": "Product integration intelligent monitoring and automatic control functions, improve the level of intelligence of the system, can be real-time on-line monitoring."
+            },
+             {
+              "index": "03",
+              "title": "Miniaturization",
+              "text": "The design is more compact, takes up less space, and is conducive to system integration and layout requirements."
+            },
+             {
+              "index": "04",
+              "title": "Smart operation",
+              "text": "Intelligent diagnosis component state, the implementation is bad recovery."
             }
           ],
           "specifications": {
-            "Voltage level": "750kV and below",
-            "Cooling medium": "Mineral oil, Ester oil",
-            "Voltage regulation": "Fixed, Adjustable"
+            "Rated voltage kV": "±10.7/±160/535",
+            "Rated current A": "1000 /1000/3000",
+            "Overload current (5S) A": "1500/9000/3300(long time)",
+            "Breaking time ms": "≤3/≤5/≤3",
+            "Rated DC withstand voltage kV": "17.6 /252/856(1min)",
+            "Rated switching impulse voltage kV": "50/450/1425",
           }
         }
       ]
