@@ -23,15 +23,22 @@ document.addEventListener("click", () => {
   menu.classList.add("hidden");
 });
 
+
+const BASE = "/sandro-energy-website";
+
 function loadTransmission() {
-  fetch("/assets/data/transmission-transformation.json")
-    .then(res => res.json())
+  fetch(`${BASE}/assets/data/transmission-transformation.json`)
+    .then(res => {
+      if (!res.ok) throw new Error(`HTTP ${res.status} for ${res.url}`);
+      return res.json();
+    })
     .then(data => {
       categoryData = data;
       renderMainCategory(data);
     })
-    .catch(err => console.error(err));
+    .catch(err => console.error("loadTransmission error:", err));
 }
+
 
 function renderMainCategory(data) {
   mainCatsEl.innerHTML = `<div class="active">${data.title}</div>`;
