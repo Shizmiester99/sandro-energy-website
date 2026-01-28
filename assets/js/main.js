@@ -24,7 +24,9 @@ document.addEventListener("click", () => {
 });
 
 
-const BASE = "/sandro-energy-website";
+const BASE = window.location.pathname.includes("sandro-energy-website")
+  ? "/sandro-energy-website"
+  : "";
 
 function loadTransmission() {
   fetch(`${BASE}/assets/data/transmission-transformation.json`)
@@ -38,6 +40,7 @@ function loadTransmission() {
     })
     .catch(err => console.error("loadTransmission error:", err));
 }
+
 
 
 function renderMainCategory(data) {
