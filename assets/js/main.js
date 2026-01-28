@@ -61,6 +61,6 @@ function renderSubCategories(subcategories) {
 
 function renderProducts(products) {
   productsEl.innerHTML = products
-    .map(p => `<a href="/product.html?id=${p.id}">${p.title}</a>`)
+    .map(p => `<a href="product.html?id=${p.id}">${p.title}</a>`)
     .join("");
 }
