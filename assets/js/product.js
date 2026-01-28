@@ -4,7 +4,7 @@ if (!productId) {
   console.error("No product id provided");
 }
 
-fetch("/assets/data/transmission-transformation.json")
+fetch("assets/data/transmission-transformation.json")
   .then(res => res.json())
   .then(data => {
     const product = findProduct(data, productId);
