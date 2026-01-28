@@ -1,4 +1,3 @@
-
 {
   "id": "transmission-transformation",
   "title": "Transmission &amp; Transformation",
@@ -17,7 +16,7 @@
             "Compact modular design",
             "IEC / IEEE compliant"
           ],
-          "image": "/assets/img/products/hvdc-circuit-breaker.jpg",
+          "image": "assets/img/products/hvdc-circuit-breaker.jpg",
           "features": [
             {
               "index": "01",
@@ -38,110 +37,853 @@
         }
       ]
     },
+
+    /* -------------------- NEW SUBCATEGORIES YOU ASKED FOR -------------------- */
+
+    {
+      "id": "high-voltage-substation",
+      "title": "High-Voltage Substation",
+      "products": [
+        {
+          "id": "prefabricated-substation",
+          "title": "Prefabricated Substation",
+          "description": "Placeholder description for Prefabricated Substation.",
+          "bullets": [
+            "Factory-assembled modules",
+            "Fast on-site deployment",
+            "Compact footprint",
+            "Standards compliant"
+          ],
+          "image": "assets/img/products/prefabricated-substation.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Modular design",
+              "text": "Plug-and-play building blocks accelerate construction and commissioning."
+            },
+            {
+              "index": "02",
+              "title": "Integrated protection &amp; control",
+              "text": "Primary equipment delivered with pre-integrated secondary systems."
+            }
+          ],
+          "specifications": {
+            "Voltage level": "Up to 245kV (placeholder)",
+            "Enclosure": "Skid / Containerized",
+            "Environmental rating": "IP-rated, utility grade"
+          }
+        },
+        {
+          "id": "mobile-substation",
+          "title": "Mobile Substation",
+          "description": "Placeholder description for Mobile Substation.",
+          "bullets": [
+            "Rapid emergency deployment",
+            "Trailer-mounted",
+            "Flexible configuration",
+            "Grid restoration ready"
+          ],
+          "image": "assets/img/products/mobile-substation.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "High mobility",
+              "text": "Trailerized design enables fast relocation and setup."
+            },
+            {
+              "index": "02",
+              "title": "Turnkey package",
+              "text": "Includes transformer, switchgear, protection, and auxiliaries."
+            }
+          ],
+          "specifications": {
+            "Voltage level": "Up to 245kV (placeholder)",
+            "Transport": "Trailer / Skid",
+            "Setup time": "Fast deployment"
+          }
+        }
+      ]
+    },
+
     {
       "id": "power-transformer",
       "title": "Power Transformer",
       "products": [
         {
           "id": "oil-immersed-power-transformer",
-          "title": "Oil Immersed Insulated Power Transformer"
+          "title": "Oil Immersed Insulated Power Transformer",
+          "description": "Placeholder description for Oil Immersed Insulated Power Transformer.",
+          "bullets": [
+            "High efficiency core",
+            "Robust insulation system",
+            "On-load / off-load tap options",
+            "IEC / IEEE compliant"
+          ],
+          "image": "assets/img/products/oil-immersed-power-transformer.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Thermal performance",
+              "text": "Optimized cooling design for rated loading and ambient conditions."
+            },
+            {
+              "index": "02",
+              "title": "Reliability",
+              "text": "Field-proven insulation and mechanical robustness."
+            }
+          ],
+          "specifications": {
+            "Voltage level": "Up to 750kV (placeholder)",
+            "Cooling medium": "Mineral oil / Ester oil",
+            "Tap changer": "On-load / Off-load"
+          }
         },
         {
           "id": "gas-insulated-power-transformer",
-          "title": "Gas Insulated Power Transformer"
+          "title": "Gas Insulated Power Transformer",
+          "description": "Placeholder description for Gas Insulated Power Transformer.",
+          "bullets": [
+            "Compact footprint",
+            "Reduced fire risk",
+            "Low maintenance",
+            "Standards compliant"
+          ],
+          "image": "assets/img/products/gas-insulated-power-transformer.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Space saving",
+              "text": "Optimized for urban and space-constrained substations."
+            },
+            {
+              "index": "02",
+              "title": "Environmental",
+              "text": "Designed to minimize environmental impact."
+            }
+          ],
+          "specifications": {
+            "Voltage level": "Up to 245kV (placeholder)",
+            "Insulation": "Gas-insulated",
+            "Cooling": "Forced / Natural (placeholder)"
+          }
         },
         {
           "id": "high-voltage-reactor",
-          "title": "High Voltage Reactor"
+          "title": "High Voltage Reactor",
+          "description": "Placeholder description for High Voltage Reactor.",
+          "bullets": [
+            "Reactive power control",
+            "Robust construction",
+            "Grid stability support",
+            "Custom configurations"
+          ],
+          "image": "assets/img/products/high-voltage-reactor.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Performance",
+              "text": "Designed to meet harmonic and thermal requirements."
+            },
+            {
+              "index": "02",
+              "title": "Integration",
+              "text": "Compatible with modern protection and control schemes."
+            }
+          ],
+          "specifications": {
+            "Voltage level": "Up to 245kV (placeholder)",
+            "Type": "Shunt / Series",
+            "Cooling": "AN / AF (placeholder)"
+          }
         }
       ]
     },
+
     {
       "id": "high-voltage-switchgear",
       "title": "High-Voltage Switchgear",
       "products": [
         {
           "id": "gas-insulated-switchgear",
-          "title": "Gas Insulated Switchgear"
+          "title": "Gas Insulated Switchgear",
+          "description": "Placeholder description for Gas Insulated Switchgear.",
+          "bullets": [
+            "Compact bay layout",
+            "High reliability",
+            "Reduced maintenance",
+            "Arc-safe design"
+          ],
+          "image": "assets/img/products/gas-insulated-switchgear.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Space efficiency",
+              "text": "High integration for urban or constrained substations."
+            },
+            {
+              "index": "02",
+              "title": "Operational safety",
+              "text": "Enhanced interlocks and arc-resistant compartments."
+            }
+          ],
+          "specifications": {
+            "Voltage level": "Up to 550kV (placeholder)",
+            "Insulation": "Gas",
+            "Bay configuration": "Single / Double bus"
+          }
         },
         {
           "id": "gas-insulated-transmission-line",
-          "title": "Gas-Insulated Transmission Line"
+          "title": "Gas-Insulated Transmission Line",
+          "description": "Placeholder description for Gas-Insulated Transmission Line.",
+          "bullets": [
+            "High power density",
+            "Underground / Tunnel installation",
+            "Low EMF emissions",
+            "High availability"
+          ],
+          "image": "assets/img/products/gas-insulated-transmission-line.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Right-of-way optimization",
+              "text": "Suitable for dense urban corridors and sensitive areas."
+            },
+            {
+              "index": "02",
+              "title": "Reliability",
+              "text": "Sealed system with minimal maintenance."
+            }
+          ],
+          "specifications": {
+            "Voltage level": "Up to 550kV (placeholder)",
+            "Installation": "Tunnel / Underground",
+            "Power rating": "High-capacity (placeholder)"
+          }
         },
         {
           "id": "hybrid-gis",
-          "title": "Hybrid Gas Insulated Switchgear"
+          "title": "Hybrid Gas Insulated Switchgear",
+          "description": "Placeholder description for Hybrid Gas Insulated Switchgear.",
+          "bullets": [
+            "Hybrid AIS/GIS architecture",
+            "Flexible expansion",
+            "Reduced footprint",
+            "Cost-effective retrofit"
+          ],
+          "image": "assets/img/products/hybrid-gis.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Flexibility",
+              "text": "Combines GIS compactness with AIS accessibility."
+            },
+            {
+              "index": "02",
+              "title": "Upgrade path",
+              "text": "Supports staged modernization programs."
+            }
+          ],
+          "specifications": {
+            "Voltage level": "Up to 245kV (placeholder)",
+            "Insulation": "Gas + Air",
+            "Bus scheme": "Flexible"
+          }
         }
       ]
     },
+
     {
       "id": "hv-circuit-breaker-disconnector",
       "title": "HV Circuit Breaker &amp; Disconnector",
-       "products": [
+      "products": [
         {
-          "id": "hvdc-circuit-breaker",
-          "title": "HVDC Circuit Breaker",
-          "description": "The HVDC Circuit Breaker enables fast and reliable interruption of DC fault currents in modern HVDC grids.",
+          "id": "live-tank-cb",
+          "title": "Live Tank Circuit Breaker",
+          "description": "Placeholder description for Live Tank Circuit Breaker.",
           "bullets": [
-            "Fast DC fault interruption",
-            "High operational reliability",
-            "Compact modular design",
-            "IEC / IEEE compliant"
+            "Proven interrupter technology",
+            "High mechanical endurance",
+            "Low maintenance",
+            "Wide climate applicability"
           ],
-          "image": "/assets/img/products/hvdc-circuit-breaker.jpg",
+          "image": "assets/img/products/live-tank-cb.jpg",
           "features": [
             {
               "index": "01",
-              "title": "Low loss, low noise, high reliability",
-              "text": "The breaker adopts a radial iron disc structure with high core fill factor, uniform magnetic flux distribution, and ultra-low operational noise."
+              "title": "Performance",
+              "text": "Fast, reliable interruption for diverse grid conditions."
             },
             {
               "index": "02",
-              "title": "Smart monitoring",
-              "text": "Integrated intelligent monitoring enables real-time condition assessment and predictive maintenance."
+              "title": "Serviceability",
+              "text": "Accessible design simplifies routine maintenance."
             }
           ],
           "specifications": {
-            "Voltage level": "750kV and below",
-            "Cooling medium": "Mineral oil, Ester oil",
-            "Voltage regulation": "Fixed, Adjustable"
+            "Voltage level": "Up to 550kV (placeholder)",
+            "Drive": "Spring / Hydraulic",
+            "Interrupting medium": "Gas / Vacuum (placeholder)"
+          }
+        },
+        {
+          "id": "dead-tank-cb",
+          "title": "Dead Tank Circuit Breaker",
+          "description": "Placeholder description for Dead Tank Circuit Breaker.",
+          "bullets": [
+            "Grounded tank safety",
+            "High short-circuit ratings",
+            "Robust design",
+            "Standards compliant"
+          ],
+          "image": "assets/img/products/dead-tank-cb.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Safety",
+              "text": "Grounded tank construction enhances operator protection."
+            },
+            {
+              "index": "02",
+              "title": "Durability",
+              "text": "Engineered for harsh environments and heavy duty cycles."
+            }
+          ],
+          "specifications": {
+            "Voltage level": "Up to 550kV (placeholder)",
+            "Drive": "Spring / Hydraulic",
+            "Interrupting medium": "Gas / Vacuum (placeholder)"
+          }
+        },
+        {
+          "id": "hv-disconnector-switch",
+          "title": "HV Disconnector Switch",
+          "description": "Placeholder description for HV Disconnector Switch.",
+          "bullets": [
+            "Visible isolation",
+            "Reliable interlocking",
+            "Outdoor / Indoor variants",
+            "Custom configurations"
+          ],
+          "image": "assets/img/products/hv-disconnector-switch.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Isolation assurance",
+              "text": "Clear isolating gaps for maintenance safety."
+            },
+            {
+              "index": "02",
+              "title": "Integration",
+              "text": "Compatible with breaker bays and busbar schemes."
+            }
+          ],
+          "specifications": {
+            "Voltage level": "Up to 550kV (placeholder)",
+            "Type": "Center / Double break",
+            "Mounting": "Outdoor / Indoor"
           }
         }
       ]
     },
+
     {
-      "id": "power-transformer",
-      "title": "Power Transformer",
+      "id": "substation-automation",
+      "title": "Substation Automation",
       "products": [
         {
-          "id": "oil-immersed-power-transformer",
-          "title": "Oil Immersed Insulated Power Transformer"
+          "id": "protection-relay",
+          "title": "Protection Relay",
+          "description": "Placeholder description for Protection Relay.",
+          "bullets": [
+            "Comprehensive protection functions",
+            "IEC 61850 support",
+            "High-speed performance",
+            "Event &amp; disturbance records"
+          ],
+          "image": "assets/img/products/protection-relay.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Interoperability",
+              "text": "Standards-based communications and data models."
+            },
+            {
+              "index": "02",
+              "title": "Security",
+              "text": "Role-based access and secure protocols (placeholder)."
+            }
+          ],
+          "specifications": {
+            "Protocols": "IEC 61850 / DNP3 / Modbus (placeholder)",
+            "CT/VT inputs": "Configurable",
+            "I/O": "Programmable"
+          }
         },
         {
-          "id": "gas-insulated-power-transformer",
-          "title": "Gas Insulated Power Transformer"
+          "id": "substation-monitoring-control",
+          "title": "Substation Monitoring and Control",
+          "description": "Placeholder description for Substation Monitoring and Control.",
+          "bullets": [
+            "Real-time visualization",
+            "Alarm &amp; event management",
+            "SCADA integration",
+            "Historical archiving"
+          ],
+          "image": "assets/img/products/substation-monitoring-control.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Situational awareness",
+              "text": "Unified HMI for operations and maintenance."
+            },
+            {
+              "index": "02",
+              "title": "Scalability",
+              "text": "Expandable architecture for multi-station fleets."
+            }
+          ],
+          "specifications": {
+            "Architecture": "Client/Server (placeholder)",
+            "Protocols": "IEC 60870-5 / DNP3 / IEC 61850 (placeholder)",
+            "Redundancy": "N+1 / Hot-standby"
+          }
         },
         {
-          "id": "high-voltage-reactor",
-          "title": "High Voltage Reactor"
+          "id": "substation-intelligent-om",
+          "title": "Substation Intelligent Operation and Maintenance",
+          "description": "Placeholder description for Substation Intelligent Operation and Maintenance.",
+          "bullets": [
+            "Predictive maintenance",
+            "Asset health indexing",
+            "Anomaly detection",
+            "Work order integration"
+          ],
+          "image": "assets/img/products/substation-intelligent-om.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Analytics",
+              "text": "Condition-based models for asset performance."
+            },
+            {
+              "index": "02",
+              "title": "Integration",
+              "text": "Interfaces with EAM/CMMS systems (placeholder)."
+            }
+          ],
+          "specifications": {
+            "Data sources": "IEDs, sensors, SCADA",
+            "Analytics": "CBM / RCM (placeholder)",
+            "APIs": "REST/JSON (placeholder)"
+          }
+        },
+        {
+          "id": "online-monitoring",
+          "title": "Online Monitoring",
+          "description": "Placeholder description for Online Monitoring.",
+          "bullets": [
+            "Continuous condition assessment",
+            "Alarms &amp; thresholds",
+            "Remote access",
+            "Historical trends"
+          ],
+          "image": "assets/img/products/online-monitoring.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Real-time insights",
+              "text": "Key parameters tracked for early issue detection."
+            },
+            {
+              "index": "02",
+              "title": "Dashboards",
+              "text": "Customizable visualizations for operations teams."
+            }
+          ],
+          "specifications": {
+            "Sampling": "Configurable rates",
+            "Comms": "Ethernet / Cellular (placeholder)",
+            "Data retention": "Configurable"
+          }
         }
       ]
     },
+
     {
-      "id": "high-voltage-switchgear",
-      "title": "High-Voltage Switchgear",
+      "id": "high-voltage-instrument-transformer",
+      "title": "High Voltage Instrument Transformer",
       "products": [
         {
-          "id": "gas-insulated-switchgear",
-          "title": "Gas Insulated Switchgear"
+          "id": "current-transformer",
+          "title": "Current Transformer",
+          "description": "Placeholder description for Current Transformer.",
+          "bullets": [
+            "Accurate measurement",
+            "Wide ratio selections",
+            "Insulation for HV service",
+            "Standards compliant"
+          ],
+          "image": "assets/img/products/current-transformer.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Accuracy",
+              "text": "Meets metering and protection classes (placeholder)."
+            },
+            {
+              "index": "02",
+              "title": "Durability",
+              "text": "Designed for outdoor high-voltage environments."
+            }
+          ],
+          "specifications": {
+            "Voltage level": "Up to 550kV (placeholder)",
+            "Accuracy class": "Metering / Protection",
+            "Insulation": "Oil / Gas / Solid (placeholder)"
+          }
         },
         {
-          "id": "gas-insulated-transmission-line",
-          "title": "Gas-Insulated Transmission Line"
+          "id": "voltage-transformer",
+          "title": "Voltage Transformer",
+          "description": "Placeholder description for Voltage Transformer.",
+          "bullets": [
+            "Stable voltage scaling",
+            "High dielectric strength",
+            "Robust construction",
+            "Grid ready"
+          ],
+          "image": "assets/img/products/voltage-transformer.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Performance",
+              "text": "Designed for precise voltage measurement and isolation."
+            },
+            {
+              "index": "02",
+              "title": "Integration",
+              "text": "Compatible with protection and metering schemes."
+            }
+          ],
+          "specifications": {
+            "Voltage level": "Up to 550kV (placeholder)",
+            "Type": "Inductive / Capacitive (placeholder)",
+            "Accuracy class": "Metering / Protection"
+          }
         },
         {
-          "id": "hybrid-gis",
-          "title": "Hybrid Gas Insulated Switchgear"
+          "id": "coupling-capacitor",
+          "title": "Coupling Capacitor",
+          "description": "Placeholder description for Coupling Capacitor.",
+          "bullets": [
+            "PLC carrier coupling",
+            "High insulation reliability",
+            "Low losses",
+            "Standards compliant"
+          ],
+          "image": "assets/img/products/coupling-capacitor.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Signal coupling",
+              "text": "Optimized for power line carrier applications."
+            },
+            {
+              "index": "02",
+              "title": "Reliability",
+              "text": "Robust dielectric design for HV operation."
+            }
+          ],
+          "specifications": {
+            "Voltage level": "Up to 550kV (placeholder)",
+            "Capacitance": "As specified",
+            "Application": "PLC / Measurement"
+          }
+        },
+        {
+          "id": "powerpt-ssvt",
+          "title": "PowerPT/SSVT",
+          "description": "Placeholder description for PowerPT/SSVT.",
+          "bullets": [
+            "Station service voltage transformation",
+            "Direct HV connection",
+            "Compact solution",
+            "Reliable auxiliary supply"
+          ],
+          "image": "assets/img/products/powerpt-ssvt.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Simplicity",
+              "text": "Direct from HV bus to station service without MV."
+            },
+            {
+              "index": "02",
+              "title": "Availability",
+              "text": "High reliability for critical auxiliaries."
+            }
+          ],
+          "specifications": {
+            "Primary voltage": "HV line (placeholder)",
+            "Secondary": "Common station service levels",
+            "Insulation": "Oil / Gas (placeholder)"
+          }
         }
       ]
     },
+
+    {
+      "id": "high-voltage-bushing",
+      "title": "High Voltage Bushing",
+      "products": [
+        {
+          "id": "uhv-ac-bushing",
+          "title": "Ultra-high Voltage AC Bushing",
+          "description": "Placeholder description for Ultra-high Voltage AC Bushing.",
+          "bullets": [
+            "High dielectric strength",
+            "Low partial discharge",
+            "Outdoor durability",
+            "Standards compliant"
+          ],
+          "image": "assets/img/products/uhv-ac-bushing.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Dielectric design",
+              "text": "Optimized field grading for AC stress."
+            },
+            {
+              "index": "02",
+              "title": "Reliability",
+              "text": "Designed for long service life in harsh climates."
+            }
+          ],
+          "specifications": {
+            "Voltage level": "Up to 1100kV AC (placeholder)",
+            "Insulation": "OIP / RIP (placeholder)",
+            "Mounting": "Transformer / GIS / Wall"
+          }
+        },
+        {
+          "id": "uhv-dc-bushing",
+          "title": "Ultra-high Voltage DC Bushing",
+          "description": "Placeholder description for Ultra-high Voltage DC Bushing.",
+          "bullets": [
+            "DC optimized insulation",
+            "Low leakage current",
+            "Robust construction",
+            "Standards compliant"
+          ],
+          "image": "assets/img/products/uhv-dc-bushing.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "DC stress control",
+              "text": "Field grading tailored for DC operation."
+            },
+            {
+              "index": "02",
+              "title": "Environmental",
+              "text": "Engineered for altitude and pollution classes."
+            }
+          ],
+          "specifications": {
+            "Voltage level": "Up to 1100kV DC (placeholder)",
+            "Insulation": "OIP / RIP (placeholder)",
+            "Mounting": "Converter transformer / Wall"
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "high-voltage-power-capacitor",
+      "title": "High Voltage Power Capacitor",
+      "products": [
+        {
+          "id": "oil-immersed-power-capacitor",
+          "title": "Oil-Immersed Power Capacitor",
+          "description": "Placeholder description for Oil-Immersed Power Capacitor.",
+          "bullets": [
+            "Reactive power compensation",
+            "Low losses",
+            "High reliability",
+            "Grid standards compliant"
+          ],
+          "image": "assets/img/products/oil-immersed-power-capacitor.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Efficiency",
+              "text": "Low dielectric losses for long-term performance."
+            },
+            {
+              "index": "02",
+              "title": "Safety",
+              "text": "Designed with appropriate protection interfaces."
+            }
+          ],
+          "specifications": {
+            "Voltage level": "Up to 245kV (placeholder)",
+            "Dielectric": "Impregnated film (placeholder)",
+            "Configuration": "Single / Bank"
+          }
+        },
+        {
+          "id": "open-rack-capacitor-installation",
+          "title": "Open Rack Type Capacitor Installation",
+          "description": "Placeholder description for Open Rack Type Capacitor Installation.",
+          "bullets": [
+            "Scalable bank architecture",
+            "Accessible maintenance",
+            "Flexible ratings",
+            "Protection integration"
+          ],
+          "image": "assets/img/products/open-rack-capacitor-installation.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Modularity",
+              "text": "Banks configured to system reactive needs."
+            },
+            {
+              "index": "02",
+              "title": "Maintainability",
+              "text": "Rack layout for safe access and replacement."
+            }
+          ],
+          "specifications": {
+            "Voltage level": "Up to 245kV (placeholder)",
+            "Bank type": "Shunt / Filter (placeholder)",
+            "Protection": "Fuses / Reactor (placeholder)"
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "neutral-grounding",
+      "title": "Neutral Grounding",
+      "products": [
+        {
+          "id": "earthing-transformer",
+          "title": "Earthing Transformer",
+          "description": "Placeholder description for Earthing Transformer.",
+          "bullets": [
+            "System grounding",
+            "Zig-zag or wye-delta",
+            "Fault current control",
+            "Custom ratings"
+          ],
+          "image": "assets/img/products/earthing-transformer.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Grounding performance",
+              "text": "Stabilizes system neutral and fault levels."
+            },
+            {
+              "index": "02",
+              "title": "Configurable",
+              "text": "Multiple connection schemes supported."
+            }
+          ],
+          "specifications": {
+            "Voltage level": "As specified (placeholder)",
+            "Connection": "Zig-zag / Wye-Delta",
+            "Rating": "Per system studies"
+          }
+        },
+        {
+          "id": "arc-suppression-coil",
+          "title": "Arc Suppression Coil",
+          "description": "Placeholder description for Arc Suppression Coil.",
+          "bullets": [
+            "Resonant grounding",
+            "Arc suppression",
+            "Adaptive tuning (optional)",
+            "Enhanced continuity"
+          ],
+          "image": "assets/img/products/arc-suppression-coil.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Resonant control",
+              "text": "Compensates capacitive earth fault currents."
+            },
+            {
+              "index": "02",
+              "title": "Monitoring",
+              "text": "Optional automation for dynamic tuning."
+            }
+          ],
+          "specifications": {
+            "Voltage level": "As specified (placeholder)",
+            "Tuning": "Fixed / Automatic",
+            "Installation": "Indoor / Outdoor"
+          }
+        },
+        {
+          "id": "neutral-grounding-resistor",
+          "title": "Neutral Grounding Resistor",
+          "description": "Placeholder description for Neutral Grounding Resistor.",
+          "bullets": [
+            "Limits fault current",
+            "Thermal withstand",
+            "Corrosion resistant",
+            "Custom enclosures"
+          ],
+          "image": "assets/img/products/neutral-grounding-resistor.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Protection",
+              "text": "Controls ground fault energy to protect equipment."
+            },
+            {
+              "index": "02",
+              "title": "Durability",
+              "text": "Weather-proof designs for substation service."
+            }
+          ],
+          "specifications": {
+            "Ohmic value": "Per system design",
+            "Duty": "10s / Continuous (placeholder)",
+            "Enclosure": "IP-rated"
+          }
+        },
+        {
+          "id": "flexible-grounding-device",
+          "title": "Flexible Grounding Device",
+          "description": "Placeholder description for Flexible Grounding Device.",
+          "bullets": [
+            "Adaptive grounding strategy",
+            "Grid condition responsive",
+            "Integration ready",
+            "High reliability"
+          ],
+          "image": "assets/img/products/flexible-grounding-device.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Adaptivity",
+              "text": "Adjusts grounding mode based on system state."
+            },
+            {
+              "index": "02",
+              "title": "Automation",
+              "text": "Interfaces with protection and control schemes."
+            }
+          ],
+          "specifications": {
+            "Control": "Automatic / Manual",
+            "Interfaces": "SCADA / Protection (placeholder)",
+            "Installation": "Indoor / Outdoor"
+          }
+        }
+      ]
+    }
+  ]
+}
