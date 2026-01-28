@@ -2,7 +2,6 @@ const productsBtn = document.getElementById("productsBtn");
 const mega = document.getElementById("megaMenu");
 const subcats = document.getElementById("subcats");
 const products = document.getElementById("products");
-const productsBtn = document.getElementById("productsBtn");
 const megaMenu = document.getElementById("megaMenu");
 
 const mainCatsEl = document.getElementById("mainCats");
