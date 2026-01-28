@@ -1,5 +1,5 @@
 const productsBtn = document.getElementById("productsBtn");
-const megaMenu = document.getElementById("megaMenu");
+const menu = document.getElementById("megaMenu");
 
 const mainCatsEl = document.getElementById("mainCats");
 const subCatsEl = document.getElementById("subCats");
@@ -10,17 +10,17 @@ let categoryData = null;
 /* Toggle mega menu */
 productsBtn.addEventListener("click", e => {
   e.stopPropagation();
-  megaMenu.classList.toggle("hidden");
+  menu.classList.toggle("hidden");
 
   if (!categoryData) loadTransmission();
 });
 
 /* Prevent close when clicking inside */
-megaMenu.addEventListener("click", e => e.stopPropagation());
+menu.addEventListener("click", e => e.stopPropagation());
 
 /* Close when clicking outside */
 document.addEventListener("click", () => {
-  megaMenu.classList.add("hidden");
+  menu.classList.add("hidden");
 });
 
 /* Load category JSON */
@@ -68,35 +68,35 @@ function renderProducts(products) {
 }
 
 
-if (productsBtn && megaMenu) {
+if (productsBtn && menu) {
   productsBtn.addEventListener("click", (e) => {
     e.stopPropagation();
-    megaMenu.classList.toggle("hidden");
+    menu.classList.toggle("hidden");
   });
 
   document.addEventListener("click", (e) => {
-    if (!megaMenu.contains(e.target)) {
-      megaMenu.classList.add("hidden");
+    if (!menu.contains(e.target)) {
+      menu.classList.add("hidden");
     }
   });
 
-  megaMenu.addEventListener("click", e => e.stopPropagation());
+  menu.addEventListener("click", e => e.stopPropagation());
 }
 
 productsBtn.addEventListener("click", e => {
   e.stopPropagation();            // prevent document click
-  mega.classList.remove("hidden"); // OPEN menu
+  menu.classList.remove("hidden"); // OPEN menu
 });
 
 
 
 document.addEventListener('click', e => {
-  if (!mega.contains(e.target) && e.target !== productsBtn) {
-    mega.classList.add('hidden');
+  if (!mena.contains(e.target) && e.target !== productsBtn) {
+    mena.classList.add('hidden');
   }
 });
 
-mega.addEventListener('click', e => {
+mena.addEventListener('click', e => {
   e.stopPropagation();
 });
 
