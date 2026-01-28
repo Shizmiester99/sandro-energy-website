@@ -1,7 +1,4 @@
 const productsBtn = document.getElementById("productsBtn");
-const mega = document.getElementById("megaMenu");
-const subcats = document.getElementById("subcats");
-const products = document.getElementById("products");
 const megaMenu = document.getElementById("megaMenu");
 
 const mainCatsEl = document.getElementById("mainCats");
@@ -10,7 +7,7 @@ const productsEl = document.getElementById("products");
 
 let categoryData = null;
 
-/* Open / close mega menu */
+/* Toggle mega menu */
 productsBtn.addEventListener("click", e => {
   e.stopPropagation();
   megaMenu.classList.toggle("hidden");
@@ -18,28 +15,31 @@ productsBtn.addEventListener("click", e => {
   if (!categoryData) loadTransmission();
 });
 
-/* Prevent menu from closing when clicking inside */
+/* Prevent close when clicking inside */
 megaMenu.addEventListener("click", e => e.stopPropagation());
 
+/* Close when clicking outside */
 document.addEventListener("click", () => {
   megaMenu.classList.add("hidden");
 });
 
-/* Load main category JSON */
+/* Load category JSON */
 function loadTransmission() {
   fetch("/assets/data/transmission-transformation.json")
-    .then(res => res.json())
+    .then(res => {
+      if (!res.ok) throw new Error("JSON not found");
+      return res.json();
+    })
     .then(data => {
       categoryData = data;
       renderMainCategory(data);
-    });
+    })
+    .catch(err => console.error(err));
 }
 
 /* Panel 1 */
 function renderMainCategory(data) {
-  mainCatsEl.innerHTML = `
-    <div class="active">${data.title}</div>
-  `;
+  mainCatsEl.innerHTML = `<div class="active">${data.title}</div>`;
   renderSubCategories(data.subcategories);
 }
 
@@ -51,6 +51,8 @@ function renderSubCategories(subcategories) {
   subcategories.forEach(sub => {
     const el = document.createElement("div");
     el.textContent = sub.title;
+    el.className = "mega-item";
+
     el.onclick = () => renderProducts(sub.products);
     subCatsEl.appendChild(el);
   });
@@ -60,11 +62,11 @@ function renderSubCategories(subcategories) {
 function renderProducts(products) {
   productsEl.innerHTML = products
     .map(
-      p =>
-        `<a href="/product.html?id=${p.id}" class="product-link">${p.title}</a>`
+      p => `<a href="/product.html?id=${p.id}" class="product-link">${p.title}</a>`
     )
     .join("");
 }
+
 
 if (productsBtn && megaMenu) {
   productsBtn.addEventListener("click", (e) => {
