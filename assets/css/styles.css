@@ -23,6 +23,17 @@ a {
   text-decoration: none;
 }
 
+h2, h3 {
+  colour: blue;
+}
+
+hr.thick {
+height: 4px;
+background-color: blue;
+border: none;
+}
+  
+
 .container {
   max-width: 1280px;
   margin: 0 auto;
@@ -44,7 +55,7 @@ header {
 
 .navbar nav a,
 .navbar nav button {
-  font-size: 14px;
+  font-size: 16px;
   background: none;
   border: none;
   margin-left: 32px;
@@ -158,7 +169,7 @@ header {
 }
 
 .tabs button {
-  font-size: 14px;
+  font-size: 6;
   background: none;
   border: none;
   padding: 12px 0;
