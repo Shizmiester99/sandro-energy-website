@@ -153,36 +153,125 @@ dependable partner for powering industrial success.
     alt="About Us"/>
 </section>
 
-<footer class="footer" id="contact" role="contentinfo">
-  <div class="container">
+<footer id="contact" role="contentinfo" style="
+  background:#0f1f1f;
+  color:#ffffff;
+  font-family:Inter, sans-serif;
+  padding:64px 24px;
+">
+  <div style="
+    max-width:1200px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:64px;
+  ">
+
+    <!-- CONTACT INFO -->
     <section>
-      <h3>Contact Us</h3>
-      <p>corporate@griffingrinding.com<br>5 /11 Anvril Way, Welshpool WA 6106</p>
-      <p>
-        <span class="badge">ISO 9001</span>
-        <span class="badge">Custom Alloys</span>
-        <span class="badge">Global Logistics</span>
+      <h3 style="
+        font-size:22px;
+        margin-bottom:16px;
+        color:#37BEB0;
+      ">
+        Contact Us
+      </h3>
+
+      <p style="line-height:1.6; margin-bottom:16px;">
+        corporate@griffingrinding.com<br>
+        5 /11 Anvril Way, Welshpool WA 6106
       </p>
-      <small>© <span id="year"></span> Griffin Grinding. All rights reserved.</small>
+
+      <div style="margin-bottom:24px;">
+        <span style="
+          display:inline-block;
+          background:#A4E5E0;
+          color:#0f1f1f;
+          padding:6px 12px;
+          border-radius:999px;
+          font-size:12px;
+          margin-right:8px;
+        ">ISO 9001</span>
+
+        <span style="
+          display:inline-block;
+          background:#A4E5E0;
+          color:#0f1f1f;
+          padding:6px 12px;
+          border-radius:999px;
+          font-size:12px;
+          margin-right:8px;
+        ">Custom Alloys</span>
+
+        <span style="
+          display:inline-block;
+          background:#A4E5E0;
+          color:#0f1f1f;
+          padding:6px 12px;
+          border-radius:999px;
+          font-size:12px;
+        ">Global Logistics</span>
+      </div>
+
+      <small style="color:#cccccc;">
+        © <span id="year"></span> Griffin Grinding. All rights reserved.
+      </small>
     </section>
+
+    <!-- QUICK MESSAGE -->
     <section>
-      <h3>Quick Message</h3>
-      <form action="mailto:corporate@griffingrinding.com" method="post" enctype="text/plain" id="footer-mailto-form" class="mailto-form">
-        <div class="contact-strip row" style="border:none;padding:0">
-          <input class="input" name="first_name" placeholder="First name">
-          <input class="input" name="last_name" placeholder="Last name">
-             </div>
-        <div class="contact-strip row" style="border:none;padding:0;margin-top:12px">
-           <input class="input" name="email" placeholder="Email">
-          <input class="input" name="mobile" placeholder="Mobile">
-          <input class="input" name="subject" placeholder="Subject (optional)">
+      <h3 style="
+        font-size:22px;
+        margin-bottom:16px;
+        color:#37BEB0;
+      ">
+        Quick Message
+      </h3>
+
+      <form
+        action="mailto:corporate@griffingrinding.com"
+        method="post"
+        enctype="text/plain"
+        style="display:flex;flex-direction:column;gap:12px;"
+      >
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+          <input name="first_name" placeholder="First name" style="padding:12px;border-radius:6px;border:none;">
+          <input name="last_name" placeholder="Last name" style="padding:12px;border-radius:6px;border:none;">
         </div>
-        <textarea class="input" name="message" rows="4" placeholder="Message" style="margin-top:12px"></textarea>
-        <div style="margin-top:10px"><button class="btn btn-primary" type="submit">Send</button></div>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;">
+          <input name="email" placeholder="Email" style="padding:12px;border-radius:6px;border:none;">
+          <input name="mobile" placeholder="Mobile" style="padding:12px;border-radius:6px;border:none;">
+          <input name="subject" placeholder="Subject (optional)" style="padding:12px;border-radius:6px;border:none;">
+        </div>
+
+        <textarea
+          name="message"
+          rows="4"
+          placeholder="Message"
+          style="padding:12px;border-radius:6px;border:none;"
+        ></textarea>
+
+        <button type="submit" style="
+          align-self:flex-start;
+          background:#37BEB0;
+          color:#0f1f1f;
+          border:none;
+          padding:12px 28px;
+          border-radius:6px;
+          font-size:14px;
+          cursor:pointer;
+        ">
+          Send
+        </button>
       </form>
     </section>
+
   </div>
-  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </footer>
 
 </body>
