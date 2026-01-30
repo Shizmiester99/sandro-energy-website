@@ -10,15 +10,45 @@
 
 <body>
 
-<header>
-  <div class="container navbar">
+<header style="height:72px;
+  display:flex;
+  align-items:center;
+  border-bottom:2px solid #37BEB0;
+  background:#fff;
+">
+  <div class="container navbar" style="
+    max-width:1200px;
+    width:100%;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 24px;
+  ">
     <a href="/"
    style="display:flex;align-items:center;">
-    <img src="assets/img/sandro-energy-logo.png" height="150" width="225"
+    <img src="assets/img/sandro-energy-logo.png" 
+      style="
+      height:48px;         
+      width:auto;
+      max-height:100%;
+      object-fit:contain;
+      display:block;
+      cursor:pointer;
+    "
     box-shadow:0 12px 30px rgba(0,0,0,0.08);">
       </a>
-    <nav>
-      <button id="productsBtn">Products &amp; Services</button>
+    <nav  style="display:flex;
+  align-items:center;
+  gap:28px;">
+      <button id="productsBtn"
+         style="
+    background:none;
+    border:none;
+    font-family:Inter, sans-serif;
+    font-size:15px;
+    cursor:pointer;
+  ">Products &amp; Services</button>
        <a href="#solutions">Solutions</a>
        <a href="#why-us">Why Choose Us</a>
       <a href="#about">About Us</a>
