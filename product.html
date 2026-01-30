@@ -15,7 +15,7 @@
 <body>
 
 <!-- ================= HEADER ================= -->
-<header>
+<header style="border-bottom:1px solid #A4E5E0;">
   <div class="container navbar">
     <img src="assets/img/sandro-energy.png" alt="Sandro Energy No Name"
   style="
@@ -44,7 +44,7 @@
 </header>
 
 <!-- ================= BREADCRUMB ================= -->
-<section class="breadcrumb container">
+<section style="color:#37BEB0;font-weight:600;" class="breadcrumb container">
   <a href="/">Home</a>
   <span>›</span>
   <a href="/products.html">Products & Services</a>
@@ -54,26 +54,21 @@
 
 <!-- ================= PRODUCT HERO ================= -->
 <section class="container product-hero" id="overview">
-  <div class="product-hero-text">
-    <h1 id="title"></h1>
+  <div style="
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:48px;
+  margin-top:40px;
+">
+  <div class="product-hero-text" style="flex:1;max-width:620px;">
+    <h1 style="color:#37BEB0;" id="title"></h1>
     <p id="desc"></p>
     <ul id="bullets"></ul>
   </div>
 
-  <div class="product-hero-image">
-    <img id="productImage" alt="Product image"
-  style="
-    width:100%;
-    max-width:420px;
-    height:auto;
-    border-radius:6px;
-    border:1px solid #e6e6e6;
-    background:#ffffff;
-  ">
-  </div>
-</section>
-
-  <div
+  
+    <div
   style="
     margin-top:24px;
     display:flex;
@@ -103,6 +98,19 @@
   </a>
 </div>
 
+  <div class="product-hero-image" style="flex:0 0 420px;text-align:right;">
+    <img id="productImage" alt="Product image"
+  style="
+    width:100%;
+    max-width:420px;
+    height:auto;
+    border-radius:6px;
+    border:1px solid #e6e6e6;
+    background:#ffffff;
+  ">
+  </div>  
+</div>
+  </section>
 
 <!-- ================= PRODUCT BODY ================= -->
 <section class="container product-layout">
