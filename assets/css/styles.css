@@ -27,13 +27,9 @@ a {
   text-decoration: none;
 }
 
-body > h2, h3 {
-  colour: blue;
-}
-
 hr.thick {
-height: 4px;
-background-color: blue;
+height: 3px;
+background-color: #37BEB0;
 border: none;
 }
   
