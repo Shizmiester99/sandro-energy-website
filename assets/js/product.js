@@ -34,7 +34,7 @@ function renderProduct(product) {
   document.getElementById("features").innerHTML =
     product.features.map(f => `
       <div class="feature-block">
-        <span>${f.index}</span>
+        //<span>${f.index}</span>
         <h3>${f.title}</h3>
         <p>${f.text}</p>
       </div>
