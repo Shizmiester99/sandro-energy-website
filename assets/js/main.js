@@ -5,6 +5,13 @@ const mainCatsEl = document.getElementById("mainCats");
 const subCatsEl = document.getElementById("subCats");
 const productsEl = document.getElementById("products");
 
+const CATEGORY_FILES = {
+  "transmission": "transmission-transformation.json",
+  "distribution": "distribution-utilization.json",
+  "storage": "energy-storage.json",
+  "automative": "automative-electrical.json"
+};
+
 let categoryData = null;
 
 /* Toggle menu */
@@ -28,17 +35,20 @@ const BASE = window.location.pathname.includes("sandro-energy-website")
   ? "/sandro-energy-website"
   : "";
 
-function loadTransmission() {
-  fetch(`${BASE}/assets/data/transmission-transformation.json`)
+function loadCategory(categoryKey) {
+  const file = CATEGORY_FILES[categoryKey];
+  if (!file) return;
+
+  fetch(`${BASE}/assets/data/${file}`)
     .then(res => {
-      if (!res.ok) throw new Error(`HTTP ${res.status} for ${res.url}`);
+      if (!res.ok) throw new Error(`Failed to load ${file}`);
       return res.json();
     })
     .then(data => {
       categoryData = data;
       renderMainCategory(data);
     })
-    .catch(err => console.error("loadTransmission error:", err));
+    .catch(err => console.error("Category load error:", err));
 }
 
 
