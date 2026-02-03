@@ -4,14 +4,35 @@ if (!productId) {
   console.error("No product id provided");
 }
 
-fetch("assets/data/transmission-transformation.json")
-  .then(res => res.json())
+const params = new URLSearchParams(window.location.search);
+const category = params.get("cat");
+const productId = params.get("id");
+
+if (!category || !productId) {
+  console.error("Missing category or product id");
+}
+
+/* Map category → JSON file */
+const CATEGORY_FILES = {
+  transmission: "transmission-transformation.json",
+  distribution: "distribution-utilization.json",
+  storage: "energy-storage.json",
+  automative: "automative-electrical.json"
+};
+
+const file = CATEGORY_FILES[category];
+
+fetch(`/assets/data/${file}`)
+  .then(res => {
+    if (!res.ok) throw new Error(`Failed to load ${file}`);
+    return res.json();
+  })
   .then(data => {
     const product = findProduct(data, productId);
     if (!product) throw new Error("Product not found");
     renderProduct(product);
   })
-  .catch(err => console.error(err));
+  .catch(err => console.error("Product load error:", err));
 
 function findProduct(data, id) {
   for (const sub of data.subcategories) {
