@@ -1,9 +1,3 @@
-const productId = new URLSearchParams(window.location.search).get("id");
-
-if (!productId) {
-  console.error("No product id provided");
-}
-
 const params = new URLSearchParams(window.location.search);
 const category = params.get("cat");
 const productId = params.get("id");
