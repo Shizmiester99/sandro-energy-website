@@ -15,14 +15,12 @@ if (!category || !productId) {
 let jsonFile = "";
 
 if (category === "transmission") {
-  jsonFile = "/assets/data/transmission-transformation.json";
+  jsonFile = "assets/data/transmission-transformation.json";
 } else if (category === "distribution") {
-  jsonFile = "/assets/data/distribution-utilization.json";
+  jsonFile = "assets/data/distribution-utilization.json";
 } else if (category === "storage") {
-  jsonFile = "/assets/data/energy-storage.json";
-} else if (category === "automotive") {
-  jsonFile = "/assets/data/automotive-electrical.json";
-} else {
+  jsonFile = "assets/data/energy-storage.json";
+}  else {
   console.error("Unknown category:", category);
 }
 
