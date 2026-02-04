@@ -19,13 +19,11 @@ let currentCategory = "transmission";
 ========================= */
 function getCategoryFile(category) {
   if (category === "transmission")
-    return "/assets/data/transmission-transformation.json";
+    return "assets/data/transmission-transformation.json";
   if (category === "distribution")
-    return "/assets/data/distribution-utilization.json";
+    return "assets/data/distribution-utilization.json";
   if (category === "storage")
-    return "/assets/data/energy-storage.json";
-  if (category === "automotive")
-    return "/assets/data/automotive-electrical.json";
+    return "assets/data/energy-storage.json";
 
   return null;
 }
