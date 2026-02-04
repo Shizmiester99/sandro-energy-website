@@ -68,7 +68,13 @@ function renderSubcategories(subcategories) {
 
 /* Render products */
 function renderProducts(products) {
-  productsEl.innerHTML = "";
+  productsEl.innerHTML = products
+  .map(p =>
+    `<a href="/product.html?cat=${currentCategory}&id=${p.id}">
+      ${p.title}
+    </a>`
+  )
+  .join("");
 
   products.forEach((p, index) => {
     const a = document.createElement("a");
