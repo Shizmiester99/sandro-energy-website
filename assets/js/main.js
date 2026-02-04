@@ -103,3 +103,9 @@ document.querySelectorAll("[data-category]").forEach(el => {
     loadCategory(el.dataset.category);
   });
 });
+
+// ===== PRODUCT PAGE DEFAULT MENU LOAD =====
+if (window.location.pathname.includes("product.html")) {
+  // preload first category so menu is populated
+  loadCategory("transmission");
+}
