@@ -1,0 +1,211 @@
+{
+  "id": "distribution-utilization",
+  "title": "Distribution & Utilization",
+  "subcategories": [
+    {
+      "id": "medium-voltage-substation",
+      "title": "Medium-Voltage Substation",
+      "products": [
+        {
+          "id": "prefabricated-medium-voltage-substation",
+          "title": "Prefabricated Medium-Voltage Substation",
+          "description": "x",
+          "bullets": ["x", "x", "x", "x"],
+          "image": "assets/img/products/prefabricated-medium-voltage-substation.jpg",
+          "features": [
+            { "title": "x", "text": "x" }
+          ],
+          "specifications": {
+            "x": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "distribution-transformer",
+      "title": "Distribution Transformer",
+      "products": [
+        {
+          "id": "dry-distribution-transformer",
+          "title": "Dry Distribution Transformer",
+          "description": "x",
+          "bullets": ["x", "x", "x", "x"],
+          "image": "assets/img/products/dry-distribution-transformer.jpg",
+          "features": [
+            { "title": "x", "text": "x" }
+          ],
+          "specifications": {
+            "x": "x"
+          }
+        },
+        {
+          "id": "medium-voltage-reactor",
+          "title": "Medium Voltage Reactor",
+          "description": "x",
+          "bullets": ["x", "x", "x", "x"],
+          "image": "assets/img/products/medium-voltage-reactor.jpg",
+          "features": [
+            { "title": "x", "text": "x" }
+          ],
+          "specifications": {
+            "x": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "medium-voltage-switchgear",
+      "title": "Medium Voltage Switchgear and Circuit Breaker",
+      "products": [
+        {
+          "id": "outdoor-pole-mounted-switchgear",
+          "title": "Outdoor Pole Mounted Switchgear (Set Series)",
+          "description": "x",
+          "bullets": ["x", "x", "x", "x"],
+          "image": "assets/img/products/outdoor-pole-mounted-switchgear.jpg",
+          "features": [
+            { "title": "x", "text": "x" }
+          ],
+          "specifications": {
+            "x": "x"
+          }
+        },
+        {
+          "id": "cabinet-switchgear",
+          "title": "Cabinet Switchgear (Set Series)",
+          "description": "x",
+          "bullets": ["x", "x", "x", "x"],
+          "image": "assets/img/products/cabinet-switchgear.jpg",
+          "features": [
+            { "title": "x", "text": "x" }
+          ],
+          "specifications": {
+            "x": "x"
+          }
+        },
+        {
+          "id": "mv-gis",
+          "title": "Medium Voltage Gas-Insulated Switchgear",
+          "description": "x",
+          "bullets": ["x", "x", "x", "x"],
+          "image": "assets/img/products/mv-gis.jpg",
+          "features": [
+            { "title": "x", "text": "x" }
+          ],
+          "specifications": {
+            "x": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "medium-voltage-capacitor",
+      "title": "Medium Voltage Power Capacitor",
+      "products": [
+        {
+          "id": "container-capacitor",
+          "title": "Container Capacitor",
+          "description": "x",
+          "bullets": ["x", "x", "x", "x"],
+          "image": "assets/img/products/container-capacitor.jpg",
+          "features": [
+            { "title": "x", "text": "x" }
+          ],
+          "specifications": {
+            "x": "x"
+          }
+        },
+        {
+          "id": "cabinet-capacitor",
+          "title": "Cabinet Capacitor",
+          "description": "x",
+          "bullets": ["x", "x", "x", "x"],
+          "image": "assets/img/products/cabinet-capacitor.jpg",
+          "features": [
+            { "title": "x", "text": "x" }
+          ],
+          "specifications": {
+            "x": "x"
+          }
+        },
+        {
+          "id": "assembling-capacitor-installation",
+          "title": "Assembling Capacitor Installation",
+          "description": "x",
+          "bullets": ["x", "x", "x", "x"],
+          "image": "assets/img/products/assembling-capacitor-installation.jpg",
+          "features": [
+            { "title": "x", "text": "x" }
+          ],
+          "specifications": {
+            "x": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "distribution-automation",
+      "title": "Distribution Automation",
+      "products": [
+        {
+          "id": "distribution-terminal-unit",
+          "title": "Distribution Terminal Unit",
+          "description": "x",
+          "bullets": ["x", "x", "x", "x"],
+          "image": "assets/img/products/distribution-terminal-unit.jpg",
+          "features": [
+            { "title": "x", "text": "x" }
+          ],
+          "specifications": {
+            "x": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "low-voltage-distribution",
+      "title": "Low Voltage Electrical Distribution Product and System",
+      "products": [
+        {
+          "id": "low-voltage-dc-switch",
+          "title": "Low Voltage DC Switch",
+          "description": "x",
+          "bullets": ["x", "x", "x", "x"],
+          "image": "assets/img/products/low-voltage-dc-switch.jpg",
+          "features": [
+            { "title": "x", "text": "x" }
+          ],
+          "specifications": {
+            "x": "x"
+          }
+        },
+        {
+          "id": "lv-switch-disconnector-fuse",
+          "title": "Low Voltage Switch-Disconnectors and Fuses",
+          "description": "x",
+          "bullets": ["x", "x", "x", "x"],
+          "image": "assets/img/products/lv-switch-disconnector-fuse.jpg",
+          "features": [
+            { "title": "x", "text": "x" }
+          ],
+          "specifications": {
+            "x": "x"
+          }
+        },
+        {
+          "id": "low-voltage-ac-switch",
+          "title": "Low Voltage AC Switch",
+          "description": "x",
+          "bullets": ["x", "x", "x", "x"],
+          "image": "assets/img/products/low-voltage-ac-switch.jpg",
+          "features": [
+            { "title": "x", "text": "x" }
+          ],
+          "specifications": {
+            "x": "x"
+          }
+        }
+      ]
+    }
+  ]
+}
