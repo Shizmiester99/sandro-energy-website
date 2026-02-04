@@ -50,7 +50,7 @@ function loadCategory(categoryKey) {
 }
 
 /* Render subcategories */
-function renderSubcategories(subcategories) {
+function renderSubCategories(subcategories) {
   subCatsEl.innerHTML = "";
   productsEl.innerHTML = "";
 
