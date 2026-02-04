@@ -72,9 +72,10 @@ header {
 
 .mega {
   position: absolute;
-  width: 100%;
+  top: 72px;            /* height of header */
+  left: 0;
+  z-index: 1000;
   background: #fff;
-  border-top: 1px solid var(--line);
 }
 
 .mega-inner {
