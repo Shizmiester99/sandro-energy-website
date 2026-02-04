@@ -38,7 +38,7 @@ function loadCategory(categoryKey) {
     .then(res => res.json())
     .then(data => {
       categoryData = data;
-      renderSubcategories(data.subcategories);
+      renderSubCategories(data.subcategories);
 
      // 🔥 PRESELECT FIRST SUBCATEGORY + PRODUCT
       const firstSub = data.subcategories[0];
