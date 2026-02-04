@@ -14,12 +14,20 @@ const CATEGORY_FILES = {
 
 let categoryData = null;
 
+function setActive(el, selector) {
+  document.querySelectorAll(selector).forEach(e => {
+    e.style.color = "";
+    e.style.fontWeight = "";
+  });
+
+  el.style.color = "#37BEB0";
+  el.style.fontWeight = "600";
+}
+
 /* Toggle menu */
 productsBtn.addEventListener("click", e => {
   e.stopPropagation();
   menu.classList.toggle("hidden");
-
-  if (!categoryData) loadTransmission();
 });
 
 /* Prevent close when clicking inside */
@@ -54,26 +62,58 @@ function loadCategory(categoryKey) {
 
 
 function renderMainCategory(data) {
-  mainCatsEl.innerHTML = `<div class="active">${data.title}</div>`;
-  renderSubCategories(data.subcategories);
+  // highlight first main category (already clicked)
+  const firstMain = document.querySelector(
+    `[data-category="${data.id}"]`
+  );
+  if (firstMain) setActive(firstMain, "[data-category]");
+
+  // PRESELECT first subcategory
+  const firstSub = data.subcategories[0];
+  renderSubCategories(data.subcategories, firstSub);
 }
 
-function renderSubCategories(subcategories) {
+function renderSubCategories(subcategories, preselectSub) {
   subCatsEl.innerHTML = "";
   productsEl.innerHTML = "";
 
-  subcategories.forEach(sub => {
+  subcategories.forEach((sub, index) => {
     const el = document.createElement("div");
     el.textContent = sub.title;
     el.className = "mega-item";
+    el.style.cursor = "pointer";
 
-    el.onclick = () => renderProducts(sub.products);
+    el.onclick = () => {
+      setActive(el, "#subCats .mega-item");
+      renderProducts(sub.products);
+    };
+
     subCatsEl.appendChild(el);
+
+    // HARD-CODED PRESELECTION
+    if (sub === preselectSub) {
+      setActive(el, "#subCats .mega-item");
+      renderProducts(sub.products);
+    }
   });
 }
 
 function renderProducts(products) {
-  productsEl.innerHTML = products
-    .map(p => `<a href="/product.html?cat=${categoryData.id}&id=${p.id}">${p.title}</a>`)
-    .join("");
+  productsEl.innerHTML = "";
+
+  products.forEach((p, index) => {
+    const link = document.createElement("a");
+    link.href = `/product.html?cat=${categoryData.id}&id=${p.id}`;
+    link.textContent = p.title;
+    link.className = "product-link";
+    link.style.display = "block";
+    link.style.marginBottom = "8px";
+
+    if (index === 0) {
+      link.style.color = "#37BEB0";
+      link.style.fontWeight = "600";
+    }
+
+    productsEl.appendChild(link);
+  });
 }
