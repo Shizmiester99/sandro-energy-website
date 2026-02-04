@@ -74,11 +74,14 @@ header {
   position: absolute;
   top: 72px;            /* height of header */
   left: 0;
+  width: 100%;
   z-index: 1000;
   background: #fff;
 }
 
 .mega-inner {
+  max-width: 1280px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 28% 36% 36%;
   padding: 40px 32px;
