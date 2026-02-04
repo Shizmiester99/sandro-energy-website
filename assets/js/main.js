@@ -24,11 +24,13 @@ function setActive(el, selector) {
   el.style.fontWeight = "600";
 }
 
-/* Toggle menu */
+/* Toggle menu 
 productsBtn.addEventListener("click", e => {
   e.stopPropagation();
   menu.classList.toggle("hidden");
 });
+*/
+
 
 /* Prevent close when clicking inside */
 menu.addEventListener("click", e => e.stopPropagation());
