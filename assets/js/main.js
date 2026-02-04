@@ -119,3 +119,16 @@ function renderProducts(products) {
     productsEl.appendChild(link);
   });
 }
+
+document.querySelectorAll("[data-category]").forEach(el => {
+  el.addEventListener("click", e => {
+    e.stopPropagation();
+
+    const category = el.dataset.category;
+
+    // reset cached data so re-render works
+    categoryData = null;
+
+    loadCategory(category);
+  });
+});
