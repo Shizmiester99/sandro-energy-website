@@ -17,7 +17,6 @@ const CATEGORY_FILES = {
   transmission: "transmission-transformation.json",
   distribution: "distribution-utilization.json",
   storage: "energy-storage.json",
-  automative: "automative-electrical.json"
 };
 
 const file = CATEGORY_FILES[category];
