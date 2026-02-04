@@ -73,7 +73,7 @@ function renderProducts(products) {
   products.forEach((p, index) => {
     const a = document.createElement("a");
     a.textContent = p.title;
-    a.href = `product.html?id=${p.id}&cat=${categoryData.id}`;
+    a.href = `product.html?id=${p.id}&cat=${categoryData._key}`;
 
     if (index === 0) a.style.color = "#37BEB0";
 
