@@ -13,7 +13,7 @@ const CATEGORY_FILES = {
   automotive: "automotive-electrical.json"
 };
 
-let categoryData = null;
+let currentCategory = "transmission"; // default
 
 /* Toggle mega menu */
 productsBtn.addEventListener("click", e => {
