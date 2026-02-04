@@ -1,0 +1,89 @@
+{
+  "id": "energy-storage",
+  "title": "Energy Storage",
+  "subcategories": [
+    {
+      "id": "utility-scale-bess",
+      "title": "Utility-Scale Battery Energy Storage Systems",
+      "products": [
+        {
+          "id": "lithium-battery-ess",
+          "title": "Lithium Battery Energy Storage Systems",
+          "description": "x",
+          "bullets": ["x", "x", "x", "x"],
+          "image": "assets/img/products/lithium-battery-ess.jpg",
+          "features": [
+            { "title": "x", "text": "x" }
+          ],
+          "specifications": {
+            "x": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "energy-storage-element",
+      "title": "Energy Storage Element",
+      "products": [
+        {
+          "id": "supercapacitor",
+          "title": "Supercapacitor",
+          "description": "x",
+          "bullets": ["x", "x", "x", "x"],
+          "image": "assets/img/products/supercapacitor.jpg",
+          "features": [
+            { "title": "x", "text": "x" }
+          ],
+          "specifications": {
+            "x": "x"
+          }
+        },
+        {
+          "id": "hybrid-ultracapacitor",
+          "title": "Hybrid Ultracapacitor",
+          "description": "x",
+          "bullets": ["x", "x", "x", "x"],
+          "image": "assets/img/products/hybrid-ultracapacitor.jpg",
+          "features": [
+            { "title": "x", "text": "x" }
+          ],
+          "specifications": {
+            "x": "x"
+          }
+        },
+        {
+          "id": "high-power-li-ion-cell",
+          "title": "High-power Lithium Ion Cell",
+          "description": "x",
+          "bullets": ["x", "x", "x", "x"],
+          "image": "assets/img/products/high-power-li-ion-cell.jpg",
+          "features": [
+            { "title": "x", "text": "x" }
+          ],
+          "specifications": {
+            "x": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "residential-ess",
+      "title": "Residential ESS",
+      "products": [
+        {
+          "id": "residential-ess",
+          "title": "Residential ESS",
+          "description": "x",
+          "bullets": ["x", "x", "x", "x"],
+          "image": "assets/img/products/residential-ess.jpg",
+          "features": [
+            { "title": "x", "text": "x" }
+          ],
+          "specifications": {
+            "x": "x"
+          }
+        }
+      ]
+    }
+  ]
+}
