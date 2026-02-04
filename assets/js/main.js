@@ -40,11 +40,13 @@ function loadCategory(categoryKey) {
       categoryData = data;
       renderSubcategories(data.subcategories);
 
-      // ✅ HARD-CODED PRESELECTION
+     // 🔥 PRESELECT FIRST SUBCATEGORY + PRODUCT
       const firstSub = data.subcategories[0];
-      renderProducts(firstSub.products);
-    })
-    .catch(err => console.error(err));
+      if (firstSub) {
+        renderSubCategories(data.subcategories);
+        renderProducts(firstSub.products);
+      }
+    });
 }
 
 /* Render subcategories */
