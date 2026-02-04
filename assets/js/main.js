@@ -20,6 +20,7 @@ productsBtn.addEventListener("click", e => {
   e.stopPropagation();
   menu.classList.toggle("hidden");
 
+  let categoryData = "transmission";
   // preload default category once
   if (!categoryData) {
     loadCategory("transmission");
