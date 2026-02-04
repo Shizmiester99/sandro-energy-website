@@ -1,6 +1,3 @@
-/* =========================
-   ELEMENTS
-========================= */
 const productsBtn = document.getElementById("productsBtn");
 const menu = document.getElementById("megaMenu");
 
@@ -8,130 +5,89 @@ const mainCatsEl = document.getElementById("mainCats");
 const subCatsEl = document.getElementById("subCats");
 const productsEl = document.getElementById("products");
 
-/* =========================
-   STATE
-========================= */
+/* Map category → JSON file */
+const CATEGORY_FILES = {
+  transmission: "transmission-transformation.json",
+  distribution: "distribution-utilization.json",
+  storage: "energy-storage.json",
+  automotive: "automotive-electrical.json"
+};
+
 let categoryData = null;
-let currentCategory = "transmission";
 
-/* =========================
-   CATEGORY → JSON FILE
-========================= */
-function getCategoryFile(category) {
-  if (category === "transmission")
-    return "assets/data/transmission-transformation.json";
-  if (category === "distribution")
-    return "assets/data/distribution-utilization.json";
-  if (category === "storage")
-    return "assets/data/energy-storage.json";
-
-  return null;
-}
-
-/* =========================
-   MENU TOGGLE
-========================= */
+/* Toggle mega menu */
 productsBtn.addEventListener("click", e => {
   e.stopPropagation();
   menu.classList.toggle("hidden");
 
+  // preload default category once
   if (!categoryData) {
-    loadCategory("transmission"); // default
+    loadCategory("transmission");
   }
 });
 
-menu.addEventListener("click", e => e.stopPropagation());
-
+/* Close menu on outside click */
 document.addEventListener("click", () => {
   menu.classList.add("hidden");
 });
 
-/* =========================
-   LOAD CATEGORY
-========================= */
-function loadCategory(category) {
-  const file = getCategoryFile(category);
-  if (!file) return;
-
-  currentCategory = category;
-  categoryData = null;
-
-  fetch(file)
+/* Load category JSON */
+function loadCategory(categoryKey) {
+  fetch(`assets/data/${CATEGORY_FILES[categoryKey]}`)
     .then(res => res.json())
     .then(data => {
       categoryData = data;
-      renderMainCategory(data);
+      renderSubcategories(data.subcategories);
+
+      // ✅ HARD-CODED PRESELECTION
+      const firstSub = data.subcategories[0];
+      renderProducts(firstSub.products);
     })
-    .catch(err => console.error("Category load error:", err));
+    .catch(err => console.error(err));
 }
 
-/* =========================
-   PANEL 1 (Main Category)
-========================= */
-function renderMainCategory(data) {
-  mainCatsEl.innerHTML = `
-    <div class="mega-item active">${data.title}</div>
-  `;
-
-  // Preselect FIRST subcategory
-  if (data.subcategories && data.subcategories.length) {
-    renderSubCategories(data.subcategories);
-  }
-}
-
-/* =========================
-   PANEL 2 (Subcategories)
-========================= */
-function renderSubCategories(subcategories) {
+/* Render subcategories */
+function renderSubcategories(subcategories) {
   subCatsEl.innerHTML = "";
   productsEl.innerHTML = "";
 
   subcategories.forEach((sub, index) => {
     const el = document.createElement("div");
     el.textContent = sub.title;
-    el.className = "mega-item";
 
-    if (index === 0) el.classList.add("active");
+    if (index === 0) el.style.color = "#37BEB0";
 
     el.onclick = () => {
-      document
-        .querySelectorAll("#subCats .mega-item")
-        .forEach(i => i.classList.remove("active"));
-      el.classList.add("active");
-
       renderProducts(sub.products);
+      highlight(subCatsEl, el);
     };
 
     subCatsEl.appendChild(el);
-
-    // Preselect FIRST product group
-    if (index === 0) {
-      renderProducts(sub.products);
-    }
   });
 }
 
-/* =========================
-   PANEL 3 (Products)
-========================= */
+/* Render products */
 function renderProducts(products) {
-  productsEl.innerHTML = products
-    .map(
-      p => `
-      <a 
-        href="/product.html?cat=${currentCategory}&id=${p.id}"
-        class="product-link"
-      >
-        ${p.title}
-      </a>
-    `
-    )
-    .join("");
+  productsEl.innerHTML = "";
+
+  products.forEach((p, index) => {
+    const a = document.createElement("a");
+    a.textContent = p.title;
+    a.href = `product.html?id=${p.id}&cat=${categoryData.id}`;
+
+    if (index === 0) a.style.color = "#37BEB0";
+
+    productsEl.appendChild(a);
+  });
 }
 
-/* =========================
-   MAIN CATEGORY CLICK HANDLERS
-========================= */
+/* Highlight helper */
+function highlight(container, activeEl) {
+  [...container.children].forEach(el => (el.style.color = ""));
+  activeEl.style.color = "#37BEB0";
+}
+
+/* Category click listeners */
 document.querySelectorAll("[data-category]").forEach(el => {
   el.addEventListener("click", e => {
     e.stopPropagation();
