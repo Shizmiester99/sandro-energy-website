@@ -56,31 +56,75 @@
       "products": [
         {
           "id": "prefabricated-substation",
-          "title": "Prefabricated Substation",
-          "description": "Placeholder description for Prefabricated Substation.",
+          "title": "High-Voltage Substation with E-house",
+          "description": "Prefabricated modular substations have outstanding advantages such as fast construction, small footprint, low investment, and flexible layout, and are widely used in the construction of substations in various fields such as new energy, petroleum, coal, industrial users, and urban centers.
+
+",
           "bullets": [
-            "Factory-assembled modules",
-            "Fast on-site deployment",
-            "Compact footprint",
-            "Standards compliant"
+            " ",
+            " ",
+            " ",
+            " "
           ],
           "image": "assets/img/products/prefabricated-substation.jpg",
           "features": [
             {
               "index": "01",
-              "title": "Modular design",
-              "text": "Plug-and-play building blocks accelerate construction and commissioning."
+              "title": "Product technical solution",
+              "text": "1. The core of a substation is its equipment, and Siyuan has the research and production capabilities for a full range of primary and secondary power equipment in substations.
+2. The typical layout scheme of the E-house covers 10~330kV substations, and the E-house has independent and customized design capabilities. Through rational design of structural strength, anti-corrosion, insulation, HVAC, dust and waterproof, it meets various substation operating conditions and has the most complete test report on the market.
+3. Fifteen years of experience in domestic and international substation EPC projects, able to provide turnkey projects for customers"
             },
             {
               "index": "02",
-              "title": "Integrated protection &amp; control",
-              "text": "Primary equipment delivered with pre-integrated secondary systems."
+              "title": "Reduce costs, increase efficiency, and create value",
+              "text": "1. Large scale production with good efficiency and high quality at the same price, creating maximum value for customers.
+2. Strong overall optimization design capabilities, providing optimal system solutions, and reducing the comprehensive cost of substations through site layout, equipment selection recommendations, and other aspects."
             }
           ],
           "specifications": {
-            "Voltage level": "Up to 245kV (placeholder)",
-            "Enclosure": "Skid / Containerized",
-            "Environmental rating": "IP-rated, utility grade"
+            "Prefabricated Cabin Corrosion Resistance Environment": " ",
+            "Earthquake Resistance Intensity": "≤ 9 ，0.4 g",
+            "Roof Slope": "
+≥3°~5°",
+            "Roof Load": "≥2500 N/m²",
+            "Cabin Shell Metal Material Salt Spray
+Resistance Time": "1680 h",
+            "Cabin Shell Metal Material Alternating 
+Humidity and Heat Test Temperature, Time
+
+": "+55°C ±2°C",
+            "Cabin Shell Metal Material Alternating
+Humidity and Heat Test Temperature, Time
+
+": "≥240 h",
+            "Box Service Life": "≥40 y
+
+",
+            "Box Shell Protection Level
+
+": "≥IP55
+
+",
+            "Box Fire Resistance Limit
+
+": "≥180 min
+
+",
+            "Cabin Wall Thickness
+
+": "≥120 mm
+
+",
+            "Outer Shell Steel Plate Thickness
+
+": "≥2 mm
+
+",
+            "Cabin Inner Bottom Plate Thickness
+
+": "≥6 mm
+",
           }
         },
         {
