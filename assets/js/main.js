@@ -1,3 +1,6 @@
+/* =========================
+   ELEMENTS
+========================= */
 const productsBtn = document.getElementById("productsBtn");
 const menu = document.getElementById("megaMenu");
 
@@ -5,55 +8,58 @@ const mainCatsEl = document.getElementById("mainCats");
 const subCatsEl = document.getElementById("subCats");
 const productsEl = document.getElementById("products");
 
-const CATEGORY_FILES = {
-  "transmission": "transmission-transformation.json",
-  "distribution": "distribution-utilization.json",
-  "storage": "energy-storage.json",
-};
-
+/* =========================
+   STATE
+========================= */
 let categoryData = null;
+let currentCategory = "transmission";
 
-function setActive(el, selector) {
-  document.querySelectorAll(selector).forEach(e => {
-    e.style.color = "";
-    e.style.fontWeight = "";
-  });
+/* =========================
+   CATEGORY → JSON FILE
+========================= */
+function getCategoryFile(category) {
+  if (category === "transmission")
+    return "/assets/data/transmission-transformation.json";
+  if (category === "distribution")
+    return "/assets/data/distribution-utilization.json";
+  if (category === "storage")
+    return "/assets/data/energy-storage.json";
+  if (category === "automotive")
+    return "/assets/data/automotive-electrical.json";
 
-  el.style.color = "#37BEB0";
-  el.style.fontWeight = "600";
+  return null;
 }
 
-/* Toggle menu */
+/* =========================
+   MENU TOGGLE
+========================= */
 productsBtn.addEventListener("click", e => {
   e.stopPropagation();
   menu.classList.toggle("hidden");
 
-  if (!categoryData) loadCategory("transmission");
+  if (!categoryData) {
+    loadCategory("transmission"); // default
+  }
 });
 
-
-/* Prevent close when clicking inside */
 menu.addEventListener("click", e => e.stopPropagation());
 
-/* Close when clicking outside */
 document.addEventListener("click", () => {
   menu.classList.add("hidden");
 });
 
-
-const BASE = window.location.pathname.includes("sandro-energy-website")
-  ? "/sandro-energy-website"
-  : "";
-
-function loadCategory(categoryKey) {
-  const file = CATEGORY_FILES[categoryKey];
+/* =========================
+   LOAD CATEGORY
+========================= */
+function loadCategory(category) {
+  const file = getCategoryFile(category);
   if (!file) return;
 
-  fetch(`${BASE}/assets/data/${file}`)
-    .then(res => {
-      if (!res.ok) throw new Error(`Failed to load ${file}`);
-      return res.json();
-    })
+  currentCategory = category;
+  categoryData = null;
+
+  fetch(file)
+    .then(res => res.json())
     .then(data => {
       categoryData = data;
       renderMainCategory(data);
@@ -61,21 +67,24 @@ function loadCategory(categoryKey) {
     .catch(err => console.error("Category load error:", err));
 }
 
-
-
+/* =========================
+   PANEL 1 (Main Category)
+========================= */
 function renderMainCategory(data) {
-  // highlight first main category (already clicked)
-  const firstMain = document.querySelector(
-    `[data-category="${data.id}"]`
-  );
-  if (firstMain) setActive(firstMain, "[data-category]");
+  mainCatsEl.innerHTML = `
+    <div class="mega-item active">${data.title}</div>
+  `;
 
-  // PRESELECT first subcategory
-  const firstSub = data.subcategories[0];
-  renderSubCategories(data.subcategories, firstSub);
+  // Preselect FIRST subcategory
+  if (data.subcategories && data.subcategories.length) {
+    renderSubCategories(data.subcategories);
+  }
 }
 
-function renderSubCategories(subcategories, preselectSub) {
+/* =========================
+   PANEL 2 (Subcategories)
+========================= */
+function renderSubCategories(subcategories) {
   subCatsEl.innerHTML = "";
   productsEl.innerHTML = "";
 
@@ -83,52 +92,51 @@ function renderSubCategories(subcategories, preselectSub) {
     const el = document.createElement("div");
     el.textContent = sub.title;
     el.className = "mega-item";
-    el.style.cursor = "pointer";
+
+    if (index === 0) el.classList.add("active");
 
     el.onclick = () => {
-      setActive(el, "#subCats .mega-item");
+      document
+        .querySelectorAll("#subCats .mega-item")
+        .forEach(i => i.classList.remove("active"));
+      el.classList.add("active");
+
       renderProducts(sub.products);
     };
 
     subCatsEl.appendChild(el);
 
-    // HARD-CODED PRESELECTION
-    if (sub === preselectSub) {
-      setActive(el, "#subCats .mega-item");
+    // Preselect FIRST product group
+    if (index === 0) {
       renderProducts(sub.products);
     }
   });
 }
 
+/* =========================
+   PANEL 3 (Products)
+========================= */
 function renderProducts(products) {
-  productsEl.innerHTML = "";
-
-  products.forEach((p, index) => {
-    const link = document.createElement("a");
-    link.href = `/product.html?cat=${categoryData.id}&id=${p.id}`;
-    link.textContent = p.title;
-    link.className = "product-link";
-    link.style.display = "block";
-    link.style.marginBottom = "8px";
-
-    if (index === 0) {
-      link.style.color = "#37BEB0";
-      link.style.fontWeight = "600";
-    }
-
-    productsEl.appendChild(link);
-  });
+  productsEl.innerHTML = products
+    .map(
+      p => `
+      <a 
+        href="/product.html?cat=${currentCategory}&id=${p.id}"
+        class="product-link"
+      >
+        ${p.title}
+      </a>
+    `
+    )
+    .join("");
 }
 
+/* =========================
+   MAIN CATEGORY CLICK HANDLERS
+========================= */
 document.querySelectorAll("[data-category]").forEach(el => {
   el.addEventListener("click", e => {
     e.stopPropagation();
-
-    const category = el.dataset.category;
-
-    // reset cached data so re-render works
-    categoryData = null;
-
-    loadCategory(category);
+    loadCategory(el.dataset.category);
   });
 });
