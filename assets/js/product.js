@@ -7,28 +7,34 @@ const productId = params.get("id");
 
 if (!category || !productId) {
   console.error("Missing category or product id");
+  throw new Error("Invalid product URL");
 }
 
 /* =========================
    CATEGORY → JSON FILE
 ========================= */
-let jsonFile = "";
+const CAT_FILES = { //CAT = CATEGORY
+  transmission: "transmission-transformation.json",
+  distribution: "distribution-utilization.json",
+  storage: "energy-storage.json",
+  automotive: "automotive-electrical.json"
+};
 
-if (category === "transmission") {
-  jsonFile = "assets/data/transmission-transformation.json";
-} else if (category === "distribution") {
-  jsonFile = "assets/data/distribution-utilization.json";
-} else if (category === "storage") {
-  jsonFile = "assets/data/energy-storage.json";
-}  else {
+const file = CAT_FILES[category];
+
+if (!file) {
   console.error("Unknown category:", category);
+  throw new Error("Unknown category");
 }
 
 /* =========================
    FETCH + RENDER
 ========================= */
-fetch(jsonFile)
-  .then(res => res.json())
+fetch(`/assets/data/${file}`)
+  .then(res => {
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return res.json();
+  })
   .then(data => {
     const product = findProduct(data, productId);
     if (!product) throw new Error("Product not found");
