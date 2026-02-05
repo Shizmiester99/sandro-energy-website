@@ -74,7 +74,7 @@ function renderSubCategories(subcategories) {
   });
 }
 
-/* Render products */
+/* Render products 
 function renderProducts(products) {
   productsEl.innerHTML = products
   .map(p =>
@@ -92,6 +92,33 @@ function renderProducts(products) {
     a.textContent = p.title;
     a.href = `product.html?id=${p.id}&cat=${categoryData._key}`;
 
+    if (index === 0) a.style.color = "#37BEB0";
+
+    productsEl.appendChild(a);
+  });
+} */
+
+/* Render products — fixed (no duplication) */
+function renderProducts(products) {
+  // Clear previous items
+  productsEl.innerHTML = "";
+
+  // Optional: de‑dupe by product id in case your data repeats across subcategories
+  const seen = new Set();
+
+  products.forEach((p, index) => {
+    if (seen.has(p.id)) return;    // remove this line if you *want* duplicates from data
+    seen.add(p.id);
+
+    const a = document.createElement("a");
+    a.className = "product-link";
+    a.textContent = p.title;
+    a.href = `/product.html?cat=${encodeURIComponent(currentCategory)}&id=${encodeURIComponent(p.id)}`;
+
+    // Prevent menu from closing when clicking inside
+    a.addEventListener("click", (evt) => evt.stopPropagation());
+
+    // Highlight first
     if (index === 0) a.style.color = "#37BEB0";
 
     productsEl.appendChild(a);
