@@ -34,6 +34,8 @@ document.addEventListener("click", () => {
 
 /* Load category JSON */
 function loadCategory(categoryKey) {
+  currentCategory = categoryKey;
+  
   fetch(`assets/data/${CATEGORY_FILES[categoryKey]}`)
     .then(res => res.json())
     .then(data => {
