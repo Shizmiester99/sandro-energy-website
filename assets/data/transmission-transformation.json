@@ -925,60 +925,83 @@
       "products": [
         {
           "id": "oil-immersed-power-capacitor",
-          "title": "Oil-Immersed Power Capacitor",
-          "description": "Placeholder description for Oil-Immersed Power Capacitor.",
+          "title": "Oil-Immersed Power Capacitor Unit",
+          "description": "The basic constituent unit of a capacitor bank, consisting of one or more capacitor elements assembled in the same housing with terminals for connection.",
           "bullets": [
-            "Reactive power compensation",
-            "Low losses",
-            "High reliability",
-            "Grid standards compliant"
+            "Fully Automated Production Line",
+            "Low Error",
+            "Low Losses",
+            "Short Lead Time"
           ],
           "image": "assets/img/products/oil-immersed-power-capacitor.jpg",
           "features": [
             {
               "index": "01",
-              "title": "Efficiency",
-              "text": "Low dielectric losses for long-term performance."
+              "title": "Fully Automated Production Line",
+              "text": "Equipped with advanced automated production lines: wire winding; insulation resistance testing; fuse assembly; core pressing, winding, and packaging processes are all completed on automated assembly lines, ensuring high product consistency and stable quality."
             },
             {
               "index": "02",
-              "title": "Safety",
-              "text": "Designed with appropriate protection interfaces."
+              "title": "Low Error",
+              "text": "Capacitance tolerance is small"
+            },
+               {
+              "index": "03",
+              "title": "Low Losses",
+              "text": "low heat generation, dielectric loss at rated voltage is less than 0.0002"
+            },
+            {
+              "index": "04",
+              "title": "Short lead time.",
+              "text": "Advanced automated production lines are highly efficient, resulting in short production cycles."
             }
           ],
           "specifications": {
-            "Voltage level": "Up to 245kV (placeholder)",
-            "Dielectric": "Impregnated film (placeholder)",
-            "Configuration": "Single / Bank"
+            "System nominal voltage": "1kV - 24kV",
+            "Rated frequency": "50Hz - 60Hz",
+            "Rated capacity": "30kvar - 1000kvar", 
+            "Capacitance deviation": "-1% to +4% or -2% to +2%",
+            "Dielectric loss at rated voltage": "tanδ ≤ 0.0002"
           }
         },
         {
           "id": "open-rack-capacitor-installation",
-          "title": "Open Rack Type Capacitor Installation",
-          "description": "Placeholder description for Open Rack Type Capacitor Installation.",
+          "title": "Open Rack Type Capacitor Installation sets",
+          "description": "The capacitor set consisting of parallel capacitors, series reactors, isolating switches, discharge coils, surge arresters, brackets, etc. is installed in shunt with the power grid for reactive power compensation and harmonic filtering.",
           "bullets": [
-            "Scalable bank architecture",
-            "Accessible maintenance",
-            "Flexible ratings",
-            "Protection integration"
+            "The product specifications cover various voltage grades.",
+            "Product coverage area is wide and covers various industries",
+            "Modular Design",
+            "High adaptability"
           ],
           "image": "assets/img/products/open-rack-capacitor-installation.jpg",
           "features": [
             {
               "index": "01",
-              "title": "Modularity",
-              "text": "Banks configured to system reactive needs."
+              "title": "The product specifications cover various voltage grades.",
+              "text": "We can design and manufacture Shunt, Series, AC filter, and DC filter capacitors as well as test capacitor towers ranging from 6kV to 1000kV."
             },
             {
               "index": "02",
-              "title": "Maintainability",
-              "text": "Rack layout for safe access and replacement."
+              "title": "Product coverage area is wide and covers various industries",
+              "text": "Product coverage area is wide and covers various industries, including Power, Transportation, Metallurgy, Petrochemical, Steel, Power Generation, Coal mining, Ports, etc."
+            },
+              {
+              "index": "03",
+              "title": "Modular Design",
+              "text": "Horizontal installation, small footprint, meets the requirements of complete assembly and transportation, with minimal on-site installation work and easy maintenance."
+            }
+              {
+              "index": "04",
+              "title": "High adaptability",
+              "text": "The device can be designed to meet the requirements of the operating environment, such as high anti-pollution, high anti-corrosion, high anti-seismic, and high-altitude, to adapt to various harsh environments."
             }
           ],
           "specifications": {
-            "Voltage level": "Up to 245kV (placeholder)",
-            "Bank type": "Shunt / Filter (placeholder)",
-            "Protection": "Fuses / Reactor (placeholder)"
+            "System nominal voltage": "6kV - 1000kV",
+            "Rated frequency": "50Hz/60Hz",
+            "Rated capacity": "100kvar and above",
+            "Capacitance deviation of the device": "no more than 0 - +3%"
           }
         }
       ]
