@@ -579,54 +579,78 @@
         },
         {
           "id": "substation-monitoring-control",
-          "title": "Substation Monitoring and Control",
-          "description": "Placeholder description for Substation Monitoring and Control.",
+          "title": "Substation Monitoring and Control: IES-302 Bay Control Unit",
+          "description": "IES-302 bay control unit is a general purpose control and automation device in all substations, powerplants and industrial domain applications. The modular conception permits the hardware adaption exact to client requirements. It adopts unified software and hardware platform, supports comprehensive functions including protection, control, measurement and monitoring, is easy to use and maintain.The device is freely programmable. Functional logic diagrams can be developed with the use of graphical programming tool which also supports the configuration of binary inputs and outputs, analog inputs, control buttons, LEDs, disturbance recorder, event recorder, and user interface. Freely programmable logic makes it possible to modify typical functional logic diagrams considering a peculiar nature of the protected object. Three basic types of standard 19” case help to choose the most appropriate solution.",
           "bullets": [
-            "Real-time visualization",
-            "Alarm &amp; event management",
-            "SCADA integration",
-            "Historical archiving"
+            "Widely Application",
+            "Highly Flexible",
+            "Multiple Funtion",
+            "Easy Maintenance"
           ],
           "image": "assets/img/products/substation-monitoring-control.jpg",
           "features": [
             {
               "index": "01",
-              "title": "Situational awareness",
-              "text": "Unified HMI for operations and maintenance."
+              "title": "Widely Application",
+              "text": "Wide range of applications: It is suitable for a variety of application scenarios, and can be applied in single CB, dual CB, 3/2 whole diameter, multi-segment bus (maximum 4 segments), power transformer (2-windings, 3-windings or autotransformer), multi-bays (maximum 6 bays), IO-box, etc."
             },
             {
               "index": "02",
-              "title": "Scalability",
-              "text": "Expandable architecture for multi-station fleets."
+              "title": "Highly Flexible",
+              "text": "Offers optional functions including voltage, current, power, and frequency protection, which form a complete backup protection. Supports DC analog input and DC analog output."
+            },
+            {
+              "index": "03",
+              "title": "Multiple Funtion",
+              "text": "Support rich control functions, with optional functions as synchronization, reclosing, AVR, etc. HMI operation is simple and easy to use, providing single-line diagram display and control functions. Provide up to 15th harmonic measurement, as well as function of energy metering and power quality calculation."
+            },
+            {
+              "index": "04",
+              "title": "Easy Maintenance",
+              "text": "Remote control, measurement, and other components are open to users for configuration. Each slot on the hardware can be assigned with I/O."
             }
           ],
           "specifications": {
-            "Architecture": "Client/Server (placeholder)",
-            "Protocols": "IEC 60870-5 / DNP3 / IEC 61850 (placeholder)",
-            "Redundancy": "N+1 / Hot-standby"
+              "Standard": "IEC 60225-1: 2009",
+            "Dimensions (W×H×D)": "455×266.7×233.5mm（6U，without mounting bracket), 221.3x266.7x233.5mm（6U 1/2，without mounting bracket), 160.3x266.7x233.5mm（6U 1/3，without mounting bracket",
+            "Mounting Way": "Flush mounted、semi-flush mounted、wall mounted、panel mounted",
+            "Material": "Stainless steel",
+            "Protection Class": "2 or 4 100Base-TX RJ45 Ethernet ports, 2 or 4 100Base-FX optical ports, 2 RS-485 serial ports for SCADA communication, 1 RS-485 serial port for clock synchronization, 1 front RJ45 port for debugging",
+            "Communication Ports": "Flush mounted、semi-flush mounted、wall mounted、panel mounted",
+            "Communication Protocol": "IEC 61850 Editions 1&2&2.1, IEC 60870-5-103, IEC 60870-5-104, DNP3.0, Modbus, IEC 62439 Parallel Redundancy Protocol (PRP), IEC 62439 High-availability Seamless Redundancy (HSR), IEEE 802.1w Rapid Spanning Tree Protocol (RSTP)"
           }
         },
         {
           "id": "substation-intelligent-om",
-          "title": "Substation Intelligent Operation and Maintenance",
-          "description": "Placeholder description for Substation Intelligent Operation and Maintenance.",
+          "title": "Substation Intelligent Operation and Maintenance: Super5000 Comprehensive Surveillance & Operation System（Central Control Automation System",
+          "description": "An intelligent monitoring system for substation equipment, providing technical support of equipment operation, control, surveillance, monitoring and maintenance management. Four major categories of applications: surveillance and monitoring, operation and control, maintenance management, and system maintenance.",
           "bullets": [
-            "Predictive maintenance",
-            "Asset health indexing",
-            "Anomaly detection",
-            "Work order integration"
+            "Flexible Hybrid Unified Architecture",
+            "Scalable Hardware Demands",
+            "Modular Design for Functions",
+            "Solid Technological Capabilities"
           ],
           "image": "assets/img/products/substation-intelligent-om.jpg",
           "features": [
             {
               "index": "01",
-              "title": "Analytics",
-              "text": "Condition-based models for asset performance."
+              "title": "Flexible Hybrid Unified Architecture",
+              "text": "Universal platform and modular application design concept, High-performance distributed real-time data storage, Supported access to millions of real-time data points, Microservice technology, High openness and scalability, Lightweight containers, Easy to deploy functions and maintain, Support major vendor systems and platforms"
             },
             {
               "index": "02",
-              "title": "Integration",
-              "text": "Interfaces with EAM/CMMS systems (placeholder)."
+              "title": "Scalable Hardware Demands",
+              "text": "Flexible hardware configuration, Smooth upgrade, Modular deployment, and system Quick setup, Major cost-effective or Autonomous controllable hardware, Step-by-step construction and compatibility during the transition period of the centralized control station, Save investment and integration debugging time"
+            },
+             {
+              "index": "03",
+              "title": "Modular Design for Functions",
+              "text": "Utilizing modular deployment to quickly build and expand new applications, and Adapt to the needs of different professions, Featured applications such as "device health diagnosis integrated with AI" and 'digital twin of 3D reality', Multiple professional applications such as monitoring, auxiliary control, inspection, Intelligent diagnosis, Artificial intelligence, Digital twin"
+            },
+            {
+              "index": "04",
+              "title": "Solid Technological Capabilities",
+              "text": "Leading ability to integrate primary and secondary technologies, A professional artificial intelligence R&D team, Rich practical applications of monitoring, auxiliary control, inspection, diagnosis, and digital twin engineering"
             }
           ],
           "specifications": {
@@ -637,25 +661,30 @@
         },
         {
           "id": "online-monitoring",
-          "title": "Online Monitoring",
-          "description": "Placeholder description for Online Monitoring.",
+          "title": "Online Monitoring: UDM-561/562 RTU device",
+          "description": "The RTU device receives and processes the equipment status from the digital remote meter. CMS or DL/T860 and other standard protocols are used to the SCADA or auxiliary system.",
           "bullets": [
-            "Continuous condition assessment",
-            "Alarms &amp; thresholds",
-            "Remote access",
-            "Historical trends"
+            "Flexible Combination Configuration and One-Stop Purchase",
+            "Reliable Products and Guaranteed Supply",
+            "Delivery and Service",
+            "Standard Protocols"
           ],
           "image": "assets/img/products/online-monitoring.jpg",
           "features": [
             {
               "index": "01",
-              "title": "Real-time insights",
-              "text": "Key parameters tracked for early issue detection."
+              "title": "Flexible Combination Configuration and One-Stop Purchase",
+              "text": "Overall solution for remote transmission and monitoring of SF6 meter, Highly integrated system, one-stop purchase, Flexible combination configuration, suitable for all types of substations of State Grid and China Southern Power Grid, multiple distribution schemes"
             },
             {
               "index": "02",
-              "title": "Dashboards",
-              "text": "Customizable visualizations for operations teams."
+              "title": "Reliable Products and Guaranteed Supply",
+              "text": "Reliable quality ，Self owned product line, Automotive Industry Standard quality control and guarantee"
+            },
+             {
+              "index": "03",
+              "title": "Delivery and Service",
+              "text": "Professional service team is able to provide customized solution design, project initiation technical support, and technical renovation plan support, Provide localized services with 24-hour rapid response"
             }
           ],
           "specifications": {
