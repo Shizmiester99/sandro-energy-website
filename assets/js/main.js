@@ -63,6 +63,9 @@ function renderSubCategories(subcategories) {
 
     el.addEventListener("click", e => {
   e.stopPropagation(); // 🔥 THIS is the key
+
+   // clear before render
+      productsEl.innerHTML = "";
   renderProducts(sub.products);
    highlight(subCatsEl, el);
 });
