@@ -797,13 +797,15 @@
             }
           ],
           "specifications": {
-              "Standard": "IEC 60225-1: 2009",
+            "Standard": "IEC 60225-1: 2009",
             "Dimensions (W×H×D)": "455×266.7×233.5mm（6U，without mounting bracket), 221.3x266.7x233.5mm（6U 1/2，without mounting bracket), 160.3x266.7x233.5mm（6U 1/3，without mounting bracket",
             "Mounting Way": "Flush mounted、semi-flush mounted、wall mounted、panel mounted",
             "Material": "Stainless steel",
             "Protection Class": "2 or 4 100Base-TX RJ45 Ethernet ports, 2 or 4 100Base-FX optical ports, 2 RS-485 serial ports for SCADA communication, 1 RS-485 serial port for clock synchronization, 1 front RJ45 port for debugging",
             "Communication Ports": "Flush mounted、semi-flush mounted、wall mounted、panel mounted",
-            "Communication Protocol": "IEC 61850 Editions 1&2&2.1, IEC 60870-5-103, IEC 60870-5-104, DNP3.0, Modbus, IEC 62439 Parallel Redundancy Protocol (PRP), IEC 62439 High-availability Seamless Redundancy (HSR), IEEE 802.1w Rapid Spanning Tree Protocol (RSTP)"
+            "Communication Protocol": "IEC 61850 Editions 1&2&2.1, IEC 60870-5-103, IEC 60870-5-104, DNP3.0, Modbus, IEC 62439 Parallel Redundancy Protocol (PRP), IEC 62439 High-availability Seamless Redundancy (HSR), IEEE 802.1w Rapid Spanning Tree Protocol (RSTP)",
+            "Clock Synchronization": "IRIG-B: IRIG-B via serial port, PPS: Pulse per second (PPS) via serial port or binary input, IEEE 1588: Clock message based on IEEE 1588 via Ethernet network, SNTP: Unicast (point-to-point) & broadcast SNTP mode via Ethernet network",
+            "Function": "Phase overcurrent protection (50/51P), Earth-fault protection (50/51G), Negative-sequence overcurrent protection (50/51Q), Undercurrent protection (37), Phase overvoltage protection (59P), Positive-sequence overvoltage protection (59Pos), Negative-sequence overvoltage protection (59Q), Residual overvoltage protection (59G), Phase undervoltage protection (27P), Overfrequency protection (81O), Underfrequency protection (81U), Reverse power protection (32R), Breaker failure protection (50BF), Transfer trip (TT), Auto-reclosing (79)",
           }
         },
         {
@@ -840,9 +842,7 @@
             }
           ],
           "specifications": {
-            "Data sources": "IEDs, sensors, SCADA",
-            "Analytics": "CBM / RCM (placeholder)",
-            "APIs": "REST/JSON (placeholder)"
+            "tba": "available on request"
           }
         },
         {
@@ -874,9 +874,11 @@
             }
           ],
           "specifications": {
-            "Sampling": "Configurable rates",
-            "Comms": "Ethernet / Cellular (placeholder)",
-            "Data retention": "Configurable"
+            "Power Supply": "DC 110V / DC 220V/AC220V",
+            "Dimensions (W x H x D)": "259mm×177mm×278mm (4U high/19 inch wide standard chassis half layer)",
+            "Hole Size (W x H)": "241mm×176mm,M6 bolt",
+            "Communication Interface": "Network (Optical * 2), Serial (RS485 electrical * 7)",
+            "Communication Protocol": "IEC61850、MODBUS"
           }
         }
       ]
@@ -915,9 +917,14 @@
             }
           ],
           "specifications": {
-            "Voltage level": "Up to 550kV (placeholder)",
-            "Accuracy class": "Metering / Protection",
-            "Insulation": "Oil / Gas / Solid (placeholder)"
+            "Aseismatic standard": "ETG1020/IEEE 693",
+            "Altitudem": "≤1000m, and high altitude customizable",
+            "Temperature range": "-60-50℃",
+            "Frequency": "50/60Hz",
+            "Accuracy class": "Measurement：0.2S、0.2、0.5S、0.5、1.0, Protection：5P、10P ",
+            "Secondary current": "1 and 5A",
+            "Primary current": "0.5-8000A",
+            "Rated voltage": "27.5-220kV"
           }
         },
         {
@@ -954,9 +961,10 @@
             }
           ],
           "specifications": {
-            "Voltage level": "Up to 550kV (placeholder)",
-            "Type": "Inductive / Capacitive (placeholder)",
-            "Accuracy class": "Metering / Protection"
+            "Voltage level": "66kV-500kV",
+            "Phase Number": "Single Phase, Three Phase",
+            "Gas insulation": "SF6, Mixed air, clean air",
+            "the isolated structure": "product optional"
           }
         },
         {
@@ -981,9 +989,10 @@
             }
           ],
           "specifications": {
-            "Voltage level": "Up to 550kV (placeholder)",
-            "Capacitance": "As specified",
-            "Application": "PLC / Measurement"
+            "Voltage level": "AC: 1000kV, DC: 1400kV",
+            "Capacitance": "0.0028,0.0052μF",
+            "Pollution grade": "PLC / Measurement",
+            "Altitude": "≤1000m, and high altitude can be customized"
           }
         },
         {
@@ -1012,9 +1021,11 @@
             }
           ],
           "specifications": {
-            "Primary voltage": "HV line (placeholder)",
-            "Secondary": "Common station service levels",
-            "Insulation": "Oil / Gas (placeholder)"
+            "Voltage": "SOPVT:72.5-245kV, SGPVT:72.5-550kV",
+            "Standard": "IEC 61869, IEC 60076, IEEE C57.12, IEEE C57.13, IEEE 693",
+            "Output voltage": "230/400V, 220/380V/120/240V (customizable)",
+            "Temperature range": "-50~+40℃",
+            "Frequency": "50/60Hz"
           }
         }
       ]
