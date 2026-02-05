@@ -292,96 +292,6 @@
             "Rated peak withstand current": "up to 104 kA"       
           }
         },
-         {
-          "id": "gas-insulated-switchgear",
-          "title": "252kV Gas Insulated Switchgear",
-          "description": "ZF28-252 Gas Insulated Switchgear is a three-phase AC high-voltage electrical equipment, which is designed for controlling, measuring, protecting, and switching power transmission lines, and can be combined into the required main wiring arrangement according to user requirements.",
-          "bullets": [
-            "Compact structure",
-            "High reliability",
-            "High modularity",
-            "High safety"
-          ],
-          "image": "assets/img/products/252kvgas-insulated-switchgear.jpg",
-          "features": [
-            {
-              "index": "01",
-              "title": "Compact structure",
-              "text": "It features a three-phase common enclosure design, allowing for flexible and convenient engineering arrangement."
-            },
-            {
-              "index": "02",
-              "title": "High reliability",
-              "text": "It adopts a double-channel sealing structure, ensuring an annual gas leakage rate of less than 0.1%. With excellent insulation performance, it exhibits a whole bay partial discharge of less than 3pC. It also features a three-station isolation earthing switch structure, which includes mechanical interlock between the isolation and earthing mechanisms for effectively avoiding misoperation."
-            },
-              {
-              "index": "03",
-              "title": "High safety",
-              "text": "With busbars and outgoing lines arranged on both sides of the circuit breaker, and inspection and maintenance accesses provided on both sides of the bay, it eliminates the need to enter the bay for routing inspection."
-            },
-            {
-              "index": "04",
-              "title": "High modularity",
-              "text": "The product boasts a highly modular design. The connecting flanges are of standardized dimensions, allowing for flexible configuration according to requirements, and the modules are highly interchangeable, facilitating expansion and the optimization of substation layout."
-            }
-          ],
-          "specifications": {
-            "Rated voltage": "252 kV",
-            "Rated frequency": "up to 5000 A"
-            "Rated short-duration power-frequency withstand voltage（1 min，effective value）Phase to phase,phase to ground": "460 kV",
-            "Rated short-duration power-frequency withstand voltage（1 min，effective value）Across isolating distance": "460+154 kV",
-            "Rated lightning impulse withstand voltage（peak value）Phase to phase,phase to ground": "1050 kV",
-            "Rated lightning impulse withstand voltage（peak value）Across isolating distance": "1050+206 kV",
-            "Rated short-time withstand current": "up to 63 kA",
-            "Rated duration of short-circuit": "3 s",
-            "Rated peak withstand current": "up to 171 kA"       
-          }
-        },
-         {
-          "id": "gas-insulated-switchgear",
-          "title": "363/420kV Gas Insulated Switchgear",
-          "description": "ZF28-420 Gas Insulated Switchgear is a three-phase AC high-voltage electrical equipment, which is designed for controlling, measuring, protecting, and switching power transmission lines, and can be combined into the required main wiring arrangement according to user requirements.",
-          "bullets": [
-            "Compact structure",
-            "High reliability",
-            "High modularity",
-            "Excellent Performance"
-          ],
-          "image": "assets/img/products/420kvgas-insulated-switchgear.jpg",
-          "features": [
-            {
-              "index": "01",
-              "title": "Compact structure",
-              "text": "It features a three-phase common enclosure design, allowing for flexible and convenient engineering arrangement."
-            },
-            {
-              "index": "02",
-              "title": "High reliability",
-              "text": "It adopts a double-channel sealing structure, ensuring an annual gas leakage rate of less than 0.1%. With excellent insulation performance, it exhibits a whole bay partial discharge of less than 3pC. It also features a three-station isolation earthing switch structure, which includes mechanical interlock between the isolation and earthing mechanisms for effectively avoiding misoperation."
-            },
-              {
-              "index": "03",
-              "title": "Excellent performance",
-              "text": "Developed on the basis of 420 series, this product is featured by a larger insulation margin"
-            },
-            {
-              "index": "04",
-              "title": "High modularity",
-              "text": "The product boasts a highly modular design. The connecting flanges are of standardized dimensions, allowing for flexible configuration according to requirements, and the modules are highly interchangeable, facilitating expansion and the optimization of substation layout."
-            }
-          ],
-          "specifications": {
-            "Rated voltage": "363/420 kV",
-            "Rated frequency": "up to 5000 A"
-            "Rated short-duration power-frequency withstand voltage（1 min，effective value）Phase to phase,phase to ground": "520 kV",
-            "Rated short-duration power-frequency withstand voltage（1 min，effective value）Across isolating distance": "520+210 kV",
-            "Rated lightning impulse withstand voltage（peak value）Phase to phase,phase to ground": "1175 kV",
-            "Rated lightning impulse withstand voltage（peak value）Across isolating distance": "1175+295 kV",
-            "Rated short-time withstand current": "up to 63 kA",
-            "Rated duration of short-circuit": "3 s",
-            "Rated peak withstand current": "up to 171 kA"       
-          }
-        },
         {
           "id": "550kVgas-insulated-switchgear",
           "title": "550kV Gas Insulated Switchgear",
@@ -603,6 +513,102 @@
             "Rated current(A)": "Up to 4000",
             "RRated short-circuit breaking current(A)": "Up to 40",
             "Rated short circuit making current (peak)(kA)": "Up to 108",
+            "Rated short-time withstand current duration(s)": "4",
+            "Rated operating sequence": "O-0.3s-CO-3min-CO",
+            "Mechanical edurance(times)": "10000"   
+          }
+        },
+          {
+          "id": "36live-tank-cb",
+          "title": "ZW36 Outdoor HV AC Vacuum Circuit Breaker",
+          "description": "LW36 Outdoor High-voltage AC SF₆ Circuit Breaker features strong environmental adaptability, high reliability, and maintenance-free operation. Rated voltage covers 40.5-170kV, providing three-pole intertripping & pole-discrepancy operation solutions. Suitable for high-voltage power transmission and distribution applications such as substations and distribution networks.",
+          "bullets": [
+            "Excellent sealing protection",
+            "Superior environmental adaptability",
+            "Reliable mechanical performance",
+            "Excellent breaking performance"
+          ],
+          "image": "assets/img/products/36live-tank-cb.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Excellent sealing protection",
+              "text": "Adopts diaphragm sealing structure. SF₆ gas leakage rate ≤0.05% per year."
+            },
+            {
+              "index": "02",
+              "title": "Superior environmental adaptability",
+              "text": "Insulating medium eliminates low-temperature liquefaction risks. No exposed mechanical transmission components. Withstands harsh conditions including -50℃ extreme cold, high altitude, condensation, and ice coverage."
+            },
+               {
+              "index": "03",
+              "title": "Reliable mechanical performance",
+              "text": "Adopts an integrated die-cast aluminum base spring operating mechanism. Compact structural design ensures stable output performance, high reliability, and maintenance-free operation. Mechanical life meets M2 class requirements."
+            },
+               {
+              "index": "04",
+              "title": "Excellent breaking performance",
+              "text": "Full product series delivers breaking capacity up to 40kA, suitable for diverse complex operating conditions."
+            }
+            
+          ],
+          "specifications": {
+            "Rated voltage": "40.5, 72.5, 126, 145, 170 (kV)",
+            "Rated frequency": "50/60 (Hz)"
+            "First-pole-to-clear Factor": "1.3/1.5",
+            "Rated current(A)": "Up to 4000",
+            "Rated short-circuit breaking current(A)": "Up to 50",
+            "Rated short circuit making current (peak)(kA)": "Up to 125",
+            "Rated short-time withstand current(kA)": "Up to 50",
+            "Rated peak withstand current(kA)": "Up to 125",
+            "Rated short-time withstand current duration(s)": "4",
+            "Rated operating sequence": "O-0.3s-CO-3min-CO",
+            "Mechanical edurance(times)": "10000"   
+          }
+        },
+         {
+          "id": "58live-tank-cb",
+          "title": "LW58 Outdoor HV AC SF6 Circuit Breaker",
+          "description": "LW58 Outdoor High-voltage AC SF₆ Circuit Breaker features strong environmental adaptability, high reliability, and maintenance-free operation. Rated voltage 252kV. Provides three-pole intertripping & pole-discrepancy operation solutions. Suitable for high-voltage power transmission and distribution applications such as substations.",
+          "bullets": [
+            "Superior interrupting performance",
+            "Reliable mechanical performance",
+            "Excellent sealing protection",
+            "Exceptional environmental adaptability"
+          ],
+          "image": "assets/img/products/58live-tank-cb.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Excellent sealing protection",
+              "text": "Adopts diaphragm sealing structure. SF₆ gas leakage rate ≤0.05% per year."
+            },
+            {
+              "index": "02",
+              "title": "Superior environmental adaptability",
+              "text": "Provides low-temperature application solutions with pure SF₆ gas or SF₆ gas mixtures. Capable of withstanding -50℃ extreme cold, high altitude, high seismic conditions (1.0g), and other harsh environments."
+            },
+               {
+              "index": "03",
+              "title": "Reliable mechanical performance",
+              "text": "Adopts an integrated die-cast aluminum base spring operating mechanism. Compact structural design ensures stable output performance, high reliability, and maintenance-free operation. Mechanical life meets M2 class requirements."
+            },
+               {
+              "index": "04",
+              "title": "Excellent breaking performance",
+              "text": "Employs dual-motion self-energy & assisted compression arc-extinguishing technology. Delivers robust interrupting capability across the entire series (up to 63kA), suitable for diverse complex operating conditions."
+            }
+            
+          ],
+          "specifications": {
+            "Rated voltage": "252 (kV)",
+            "Rated frequency": "50/60 (Hz)"
+            "First-pole-to-clear Factor": "1.3/1.5",
+            "Rated current(A)": "Up to 5000",
+            "Rated short-circuit breaking current(A)": "Up to 63",
+            "Rated short circuit making current (peak)(kA)": "Up to 158",
+            "Rated short-time withstand current(kA)": "Up to 63",
+            "Rated peak withstand current(kA)": "Up to 158",
             "Rated short-time withstand current duration(s)": "4",
             "Rated operating sequence": "O-0.3s-CO-3min-CO",
             "Mechanical edurance(times)": "10000"   
