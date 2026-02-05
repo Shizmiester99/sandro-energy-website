@@ -293,6 +293,96 @@
           }
         },
         {
+          "id": "550kVgas-insulated-switchgear",
+          "title": "550kV Gas Insulated Switchgear",
+          "description": "ZF28A-550 Gas Insulated Switchgear is a three-phase AC high-voltage electrical equipment, which is designed for controlling, measuring, protecting, and switching power transmission lines, and can be combined into the required main wiring arrangement according to user requirements.",
+          "bullets": [
+            "Compact structure",
+            "High reliability",
+            "High modularity",
+            "Excellenct Performance"
+          ],
+          "image": "assets/img/products/550kvgas-insulated-switchgear.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Compact structure",
+              "text": "It features a three-phase common enclosure design, allowing for flexible and convenient engineering arrangement."
+            },
+            {
+              "index": "02",
+              "title": "High reliability",
+              "text": "It adopts a double-channel sealing structure, ensuring an annual gas leakage rate of less than 0.1%. With excellent insulation performance, it exhibits a whole bay partial discharge of less than 3pC. It also features a three-station isolation earthing switch structure, which includes mechanical interlock between the isolation and earthing mechanisms for effectively avoiding misoperation."
+            },
+              {
+              "index": "03",
+              "title": "Excellent performance",
+              "text": "The circuit breaker boasts a double fracture structure and has a 63kA breaking capacity at a time constant of 120ms."
+            },
+            {
+              "index": "04",
+              "title": "High modularity",
+              "text": "The product boasts a highly modular design. The connecting flanges are of standardized dimensions, allowing for flexible configuration according to requirements, and the modules are highly interchangeable, facilitating expansion and the optimization of substation layout."
+            }
+          ],
+          "specifications": {
+            "Rated voltage": "550 kV",
+            "Rated frequency": "up to 6300 A"
+            "Rated short-duration power-frequency withstand voltage（1 min，effective value）Phase to phase,phase to ground": "740 kV",
+            "Rated short-duration power-frequency withstand voltage（1 min，effective value）Across isolating distance": "740+318 kV",
+            "Rated lightning impulse withstand voltage（peak value）Phase to phase,phase to ground": "1675 kV",
+            "Rated lightning impulse withstand voltage（peak value）Across isolating distance": "1675+450 kV",
+            "Rated short-time withstand current": "up to 63 kA",
+            "Rated duration of short-circuit": "3 s",
+            "Rated peak withstand current": "up to 171 kA"       
+          }
+        },
+        {
+          "id": "gas-insulated-switchgear",
+          "title": "800kV Gas Insulated Switchgear",
+          "description": "ZF28-800 Gas Insulated Switchgear is a three-phase AC high-voltage electrical equipment, which is designed for controlling, measuring, protecting, and switching power transmission lines, and can be combined into the required main wiring arrangement according to user requirements.",
+          "bullets": [
+            "Compact structure",
+            "Good usability",
+            "High modularity",
+            "High safety"
+          ],
+          "image": "assets/img/products/800kvgas-insulated-switchgear.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Compact structure",
+              "text": "It features a three-phase common enclosure design, allowing for flexible and convenient engineering arrangement."
+            },
+            {
+              "index": "02",
+              "title": "Good usability",
+              "text": "The mechanism is placed at a low position, with meters conveniently located and indicators clearly visible, meeting customer habits and facilitating maintenance."
+            },
+              {
+              "index": "03",
+              "title": "High safety",
+              "text": "With busbars and outgoing lines arranged on both sides of the circuit breaker, and inspection and maintenance accesses provided on both sides of the bay, it eliminates the need to enter the bay for routing inspection."
+            },
+            {
+              "index": "04",
+              "title": "High modularity",
+              "text": "The product boasts a highly modular design. The connecting flanges are of standardized dimensions, allowing for flexible configuration according to requirements, and the modules are highly interchangeable, facilitating expansion and the optimization of substation layout."
+            }
+          ],
+          "specifications": {
+            "Rated voltage": "800 kV",
+            "Rated frequency": "up to 6300 A"
+            "Rated short-duration power-frequency withstand voltage（1 min，effective value）Phase to phase,phase to ground": "960 kV",
+            "Rated short-duration power-frequency withstand voltage（1 min，effective value）Across isolating distance": "960+462 kV",
+            "Rated lightning impulse withstand voltage（peak value）Phase to phase,phase to ground": "2100 kV",
+            "Rated lightning impulse withstand voltage（peak value）Across isolating distance": "2100+650 kV",
+            "Rated short-time withstand current": "up to 63/80 kA",
+            "Rated duration of short-circuit": "3 s",
+            "Rated peak withstand current": "up to 171 kA"       
+          }
+        },
+        {
           "id": "gas-insulated-transmission-line",
           "title": "252/550kV Gas-Insulated Transmission Line",
           "description": "GXL 28-252/550 Gas-insulated Transmission Line is a transmission line with high voltage level, large transmission capacity and high safety and reliability. It features a safer, more efficient, green and intelligent transmission mode than cable and overhead line.",
