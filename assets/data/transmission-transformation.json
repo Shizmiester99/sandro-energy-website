@@ -292,6 +292,96 @@
             "Rated peak withstand current": "up to 104 kA"       
           }
         },
+         {
+          "id": "gas-insulated-switchgear",
+          "title": "252kV Gas Insulated Switchgear",
+          "description": "ZF28-252 Gas Insulated Switchgear is a three-phase AC high-voltage electrical equipment, which is designed for controlling, measuring, protecting, and switching power transmission lines, and can be combined into the required main wiring arrangement according to user requirements.",
+          "bullets": [
+            "Compact structure",
+            "High reliability",
+            "High modularity",
+            "High safety"
+          ],
+          "image": "assets/img/products/252kvgas-insulated-switchgear.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Compact structure",
+              "text": "It features a three-phase common enclosure design, allowing for flexible and convenient engineering arrangement."
+            },
+            {
+              "index": "02",
+              "title": "High reliability",
+              "text": "It adopts a double-channel sealing structure, ensuring an annual gas leakage rate of less than 0.1%. With excellent insulation performance, it exhibits a whole bay partial discharge of less than 3pC. It also features a three-station isolation earthing switch structure, which includes mechanical interlock between the isolation and earthing mechanisms for effectively avoiding misoperation."
+            },
+              {
+              "index": "03",
+              "title": "High safety",
+              "text": "With busbars and outgoing lines arranged on both sides of the circuit breaker, and inspection and maintenance accesses provided on both sides of the bay, it eliminates the need to enter the bay for routing inspection."
+            },
+            {
+              "index": "04",
+              "title": "High modularity",
+              "text": "The product boasts a highly modular design. The connecting flanges are of standardized dimensions, allowing for flexible configuration according to requirements, and the modules are highly interchangeable, facilitating expansion and the optimization of substation layout."
+            }
+          ],
+          "specifications": {
+            "Rated voltage": "252 kV",
+            "Rated frequency": "up to 5000 A"
+            "Rated short-duration power-frequency withstand voltage（1 min，effective value）Phase to phase,phase to ground": "460 kV",
+            "Rated short-duration power-frequency withstand voltage（1 min，effective value）Across isolating distance": "460+154 kV",
+            "Rated lightning impulse withstand voltage（peak value）Phase to phase,phase to ground": "1050 kV",
+            "Rated lightning impulse withstand voltage（peak value）Across isolating distance": "1050+206 kV",
+            "Rated short-time withstand current": "up to 63 kA",
+            "Rated duration of short-circuit": "3 s",
+            "Rated peak withstand current": "up to 171 kA"       
+          }
+        },
+         {
+          "id": "gas-insulated-switchgear",
+          "title": "363/420kV Gas Insulated Switchgear",
+          "description": "ZF28-420 Gas Insulated Switchgear is a three-phase AC high-voltage electrical equipment, which is designed for controlling, measuring, protecting, and switching power transmission lines, and can be combined into the required main wiring arrangement according to user requirements.",
+          "bullets": [
+            "Compact structure",
+            "High reliability",
+            "High modularity",
+            "Excellent Performance"
+          ],
+          "image": "assets/img/products/420kvgas-insulated-switchgear.jpg",
+          "features": [
+            {
+              "index": "01",
+              "title": "Compact structure",
+              "text": "It features a three-phase common enclosure design, allowing for flexible and convenient engineering arrangement."
+            },
+            {
+              "index": "02",
+              "title": "High reliability",
+              "text": "It adopts a double-channel sealing structure, ensuring an annual gas leakage rate of less than 0.1%. With excellent insulation performance, it exhibits a whole bay partial discharge of less than 3pC. It also features a three-station isolation earthing switch structure, which includes mechanical interlock between the isolation and earthing mechanisms for effectively avoiding misoperation."
+            },
+              {
+              "index": "03",
+              "title": "Excellent performance",
+              "text": "Developed on the basis of 420 series, this product is featured by a larger insulation margin"
+            },
+            {
+              "index": "04",
+              "title": "High modularity",
+              "text": "The product boasts a highly modular design. The connecting flanges are of standardized dimensions, allowing for flexible configuration according to requirements, and the modules are highly interchangeable, facilitating expansion and the optimization of substation layout."
+            }
+          ],
+          "specifications": {
+            "Rated voltage": "363/420 kV",
+            "Rated frequency": "up to 5000 A"
+            "Rated short-duration power-frequency withstand voltage（1 min，effective value）Phase to phase,phase to ground": "520 kV",
+            "Rated short-duration power-frequency withstand voltage（1 min，effective value）Across isolating distance": "520+210 kV",
+            "Rated lightning impulse withstand voltage（peak value）Phase to phase,phase to ground": "1175 kV",
+            "Rated lightning impulse withstand voltage（peak value）Across isolating distance": "1175+295 kV",
+            "Rated short-time withstand current": "up to 63 kA",
+            "Rated duration of short-circuit": "3 s",
+            "Rated peak withstand current": "up to 171 kA"       
+          }
+        },
         {
           "id": "550kVgas-insulated-switchgear",
           "title": "550kV Gas Insulated Switchgear",
