@@ -35,6 +35,7 @@ document.addEventListener("click", () => {
 /* Load category JSON */
 function loadCategory(categoryKey) {
   currentCategory = categoryKey;
+  highlightMainCategory(categoryKey);      // <-- add this line
   
   fetch(`assets/data/${CATEGORY_FILES[categoryKey]}`)
     .then(res => res.json())
@@ -127,6 +128,13 @@ function renderProducts(products) {
   });
 }
 
+function highlightMainCategory(categoryKey) {
+  document
+    .querySelectorAll('#mainCats [data-category]')
+    .forEach(el => el.classList.toggle('active', el.dataset.category === categoryKey));
+}
+
+
 /* Highlight helper */
 function highlight(container, activeEl) {
   [...container.children].forEach(el => (el.style.color = ""));
@@ -136,7 +144,10 @@ function highlight(container, activeEl) {
 /* Category click listeners */
 document.querySelectorAll("[data-category]").forEach(el => {
   el.addEventListener("click", e => {
-    e.stopPropagation();
+  e.stopPropagation(); 
+  const key = el.dataset.category;
+  highlightMainCategory(key);  // <-- ensures visual state updates immediately
+
     loadCategory(el.dataset.category);
   });
 });
