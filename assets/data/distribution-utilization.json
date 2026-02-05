@@ -1,6 +1,6 @@
 {
   "id": "distribution-utilization",
-  "title": "Distribution & Utilization",
+  "title": "Distribution &amp; Utilization",
   "subcategories": [
     {
       "id": "medium-voltage-substation",
@@ -9,14 +9,33 @@
         {
           "id": "prefabricated-medium-voltage-substation",
           "title": "Prefabricated Medium-Voltage Substation",
-          "description": "x",
-          "bullets": ["x", "x", "x", "x"],
+          "description": "The YB series high/low voltage pre-installed substation is integrated by high-voltage switches, distribution transformers, low-voltage switches, electrical energy metering devices, power compensation capacitors, etc., which are installed in a hoistable box as a set of power distribution devices in the power distribution grid with a rated frequency of 50Hz (60Hz)",
+          "bullets": [
+            "Cost-effective",
+            "Reliable quality",
+            "After-sales response",
+            "hoistable box"
+          ],
           "image": "assets/img/products/prefabricated-medium-voltage-substation.jpg",
           "features": [
-            { "title": "x", "text": "x" }
+            {
+              "title": "Cost-effective",
+              "text": "Combine fluid and thermal simulation, optimise the design, and recommend the parameters to meet the efficiency of the energy storage system and the national standard temperature rise. Meet the requirements of \"five preventions\", self-sustain key parts, and optimise costs and delivery."
+            },
+            {
+              "title": "Reliable quality",
+              "text": "The dry mass of the core components can be reduced by autonomy and control. It has passed the 4500-metre-high altitude test, and the insulation performance is excellent. IPD process and quality management mode, high one-time qualification rate, MES production management realises process traceability, and products use PLM for full life cycle management."
+            },
+            {
+              "title": "After-sales response",
+              "text": "Regularly inspect and troubleshoot the equipment to ensure the safe and reliable operation of the equipment. Set up service responsibilities according to the province, and set up a full-time team nearby to reserve spare parts and tools. Achieve 1 hours of rapid response and service, and 4 hours to the project site."
+            }
           ],
           "specifications": {
-            "x": "x"
+            "Capacity": "≤6800kVA(常见容量：2750kVA、3450kVA、5000kVA)",
+            "Low-voltage side voltage": "≤2kV（常见电压：0.55kV、0.6kV、0.69kV、1.5kV）",
+            "High-voltage side voltage": "≤40.5kV",
+            "Frequency": "50Hz（60Hz）"
           }
         }
       ]
@@ -28,27 +47,67 @@
         {
           "id": "dry-distribution-transformer",
           "title": "Dry Distribution Transformer",
-          "description": "x",
-          "bullets": ["x", "x", "x", "x"],
+          "description": "Dry type transformer refers to a transformer in which the iron core and winding are not immersed in insulating oil, mainly composed of two parts: the iron core and the winding. It achieves cooling through air convection and has the characteristics of flame retardancy, flame retardancy, fire prevention, explosion prevention, and environmental protection. It is safe and reliable to use, and easy to install and maintain.",
+          "bullets": [
+            "Safe and reliable",
+            "flame retardancy",
+            "fire prevention",
+            "insulating oil"
+          ],
           "image": "assets/img/products/dry-distribution-transformer.jpg",
           "features": [
-            { "title": "x", "text": "x" }
+            {
+              "title": "Safe and Reliable",
+              "text": "The product has the characteristics of high energy efficiency, low noise, flame retardancy, and self extinguishing, and can be used in places with high fire safety requirements."
+            },
+            {
+              "title": "Excellent Short-Circuit Withstand Ability",
+              "text": "Requires no maintenance.No maintenance.It can applies to all kinds of difficult environment play its special role."
+            },
+            {
+              "title": "Environmentally Friendly",
+              "text": "Lack of oil in the design makes them ideal for environmentally sensitive areas."
+            },
+            {
+              "title": "Application in Harsh Environments",
+              "text": "Cast Resin Transformers provide the maximum protection from moisture, particulates and pollution and can survive in some of the harshest environments in the marketplace"
+            }
           ],
           "specifications": {
-            "x": "x"
+            "Capacity": "200~5000kVA",
+            "Voltage level": "≤40.5kV",
+            "Degrees of protection provided by enclosure": "Indoor:IP2X~IP3X,outdoor:IP54"
           }
         },
         {
           "id": "medium-voltage-reactor",
           "title": "Medium Voltage Reactor",
-          "description": "x",
-          "bullets": ["x", "x", "x", "x"],
+          "description": "The parallel reactor compensates the inductive capacitance on the transmission line, especially for lightly loaded lines, to avoid uncontrolled increase in voltage.",
+          "bullets": [
+            "Consistent Quality",
+            "Low operating noise",
+            "Low loss and low temperature rise",
+            " parallel reactor"
+          ],
           "image": "assets/img/products/medium-voltage-reactor.jpg",
           "features": [
-            { "title": "x", "text": "x" }
+            {
+              "title": "Consistent Quality",
+              "text": "We introduce world-class equipment production lines to ensure consistent product quality, such as Joerg iron core cutting lines from Germany and Heidrichs pouring equipment from Germany."
+            },
+            {
+              "title": "Low operating noise",
+              "text": "Low operating noise"
+            },
+            {
+              "title": "Low loss and low temperature rise",
+              "text": "The loss of is lower than the national standards, and 40% lower than the same capacity air-core reactor; The temperature rise is 10% lower than the national standard and is superior to the average level in the industry.; low loss ensures lower operating costs for our products, reducing the operating costs of our customers; low temperature rise ensures a longer service life for our products and longer usage time for our customers."
+            }
           ],
           "specifications": {
-            "x": "x"
+            "Capacity": "&lt;120000kVAR",
+            "Voltage level": "6~66kV",
+            "Ambient Temperature": "-45°C~45°C"
           }
         }
       ]
@@ -60,40 +119,303 @@
         {
           "id": "outdoor-pole-mounted-switchgear",
           "title": "Outdoor Pole Mounted Switchgear (Set Series)",
-          "description": "x",
-          "bullets": ["x", "x", "x", "x"],
+          "description": "Type ZW20-12 outdoor pole-mounted, high voltage vacuum circuit breaker (hereinafter referred to as circuit breaker) is 12 kV three-phase AC, 50 Hz outdoor high voltage switchgear, It's mainly used to switch load current, overload current and short circuit current of electric power system.",
+          "bullets": [
+            "Consistent Quality",
+            "Low operating noise",
+            "Low loss and low temperature rise",
+            "high voltage vacuum circuit breaker"
+          ],
           "image": "assets/img/products/outdoor-pole-mounted-switchgear.jpg",
           "features": [
-            { "title": "x", "text": "x" }
+            { "title": " ", "text": " " }
           ],
           "specifications": {
-            "x": "x"
+            " ": " "
           }
         },
         {
           "id": "cabinet-switchgear",
-          "title": "Cabinet Switchgear (Set Series)",
-          "description": "x",
-          "bullets": ["x", "x", "x", "x"],
-          "image": "assets/img/products/cabinet-switchgear.jpg",
+          "title": "Cabinet Switchgear:MSC-36/40.5 Gas-Insulated Switchgear ",
+          "description": "MSC-36/40.5 Gas-Insulated Switchgear is a metal-enclosed switchgear. It is suitable for three-phase AC power supply system with rated voltage of 40.5 kV. It is used to accept and distribute electric energy and control and protect lines.",
+          "bullets": [
+            "MSC-36/40.5",
+            "Gas-Insulated Switchgear",
+            "three-phase AC power supply ",
+            "40.5 kV"
+          ],
+          "image": "assets/img/products/36cabinet-switchgear.jpg",
           "features": [
-            { "title": "x", "text": "x" }
+            { "title": " ", "text": " " }
           ],
           "specifications": {
-            "x": "x"
+            "Rated voltage": "36/40.5",
+            "Rated frequency": "50/60",
+            "Rated current": "630/1250/1600/2500/3150",
+            "Rated power frequency 1min withstand voltage": "70/80-95/118",
+            "Lightning impulse withstand voltage": "170/195-185/215",
+            "Rated short-circuit breaking current": "25/31.5",
+            "Short time withstand current": "25/4，31.5/4",
+            "Peak withstand current": "25/31.5",
+            "Height": "2300",
+            "Width": "600/800",
+            "Depth": "1400/1600/1800"
           }
         },
         {
-          "id": "mv-gis",
-          "title": "Medium Voltage Gas-Insulated Switchgear",
-          "description": "x",
-          "bullets": ["x", "x", "x", "x"],
-          "image": "assets/img/products/mv-gis.jpg",
+          "id": "cabinet-switchgear",
+          "title": "Cabinet Switchgear:MSC-2X31.5 Gas-Insulated Switchgear",
+          "description": "MSC-2X31.5 Gas-Insulated Switchgear is specially designed for the traction system of electrified high-speed railway. It has gas insulated metal enclosed switch equipment, anti-corrosion, dust-proof, moisture-proof and good environmental adaptability. Meet the characteristics of high altitude use environment.",
+          "bullets": [
+            "anti-corrosion",
+            "environmental adaptability",
+            "MSC-2X31.5",
+            "electrified high-speed railway"
+          ],
+          "image": "assets/img/products/2X31.5cabinet-switchgear.jpg",
           "features": [
-            { "title": "x", "text": "x" }
+            {
+              "title": " ",
+              "text": "Mechanical endurance:Vacuum circuit breaker: 20,000 times;\nThree position switch: 5,000 times;"
+            },
+            {
+              "title": " ",
+              "text": "The IAC internal arcing is 31.5kA/s (A-FLR);"
+            },
+            {
+              "title": " ",
+              "text": "The IAC internal arcing is 31.5kA/s (A-FLR);"
+            },
+            {
+              "title": " ",
+              "text": "Suitable for various harsh environments, such as high altitudes,\nhigh humidity, and high corrosion."
+            }
           ],
           "specifications": {
-            "x": "x"
+            " ": " "
+          }
+        },
+        {
+          "id": "cabinet-switchgear",
+          "title": "Cabinet Switchgear:MSC GREEN-12 Clean Air gas-insulated Switchgear",
+          "description": "MSC GREEN-12 Clean Air gas-insulated Switchgear is an environmental friendly gas-insulated metal-enclosed switchgear newly designed and developed by Sieyuan Medium Voltage. It is suitable for three-phase AC, rated voltage 12kV power supply system. It is used to receive and distribute electric energy and control and protect the line.",
+          "bullets": [
+            "MSC GREEN-12",
+            "Sieyuan Medium Voltage",
+            "voltage 12kV ",
+            "three-phase AC"
+          ],
+          "image": "assets/img/products/MSC GREEN-12cabinet-switchgear.jpg",
+          "features": [
+            {
+              "title": " ",
+              "text": "Mechanical endurance:Vacuum circuit breaker: 20,000 times; Three position switch: 5,000 times;"
+            },
+            {
+              "title": " ",
+              "text": "The IAC internal arcing is 31.5kA/s (A-FLR);"
+            },
+            {
+              "title": " ",
+              "text": "It can maintain rated insulation level and 1.1 times the through-flow capacity at zero gauge pressure;"
+            },
+            {
+              "title": " ",
+              "text": "Suitable for various harsh environments, such as high altitudes, high humidity, and high corrosion."
+            }
+          ],
+          "specifications": {
+            " ": " "
+          }
+        },
+        {
+          "id": "cabinet-switchgear",
+          "title": "Cabinet Switchgear:MSC GREEN-24 Clean Air gas-insulated Switchgear",
+          "description": "MSC GREEN-24 Clean Air gas-insulated Switchgear is an environmental friendly gas-insulated metal-enclosed switchgear newly designed and developed by Sieyuan Medium Voltage. It is suitable for three-phase AC, rated voltage 24kV power supply system. It is used to receive and distribute electric energy and control and protect the line.",
+          "bullets": [
+            "MSC GREEN-24",
+            "Sieyuan Medium Voltage",
+            "metal-enclosed switchgear",
+            "24kV power supply system"
+          ],
+          "image": "assets/img/products/MSC GREEN-24cabinet-switchgear.jpg",
+          "features": [
+            { "title": " ", "text": " " }
+          ],
+          "specifications": {
+            " ": " "
+          }
+        },
+        {
+          "id": "cabinet-switchgear",
+          "title": "Cabinet Switchgear:MSC GREEN-36/40.5 Clean Air Gas-insulated Switchgear",
+          "description": "MSC GREEN-36/40.5 Clean Air gas-insulated Switchgear is an environmental friendly gas-insulated metal-enclosed switchgear newly designed and developed by Sieyuan Medium Voltage. It is suitable for three-phase AC, rated voltage 40.5 kV power supply system. It is used to receive and distribute electric energy and control and protect the line.",
+          "bullets": [
+            "MSC GREEN-36/40.5",
+            "three-phase AC",
+            "voltage 40.5 kV power",
+            "clean Air gas-insulated Switchgear"
+          ],
+          "image": "assets/img/products/MSC GREEN-36/40.5cabinet-switchgear.jpg",
+          "features": [
+            { "title": " ", "text": " " }
+          ],
+          "specifications": {
+            " ": " "
+          }
+        },
+        {
+          "id": "cabinet-switchgear",
+          "title": "Cabinet Switchgear:MSA-12 Air Insulated Metal-Clad Switchgear",
+          "description": "MSA-12 Air Insulated Metal-Clad Switchgear (referred to as switchgear) is complete equipment of three-phase AC 50Hz、60Hz busbar and sectionalized busbar system, used for receiving and distributing 12kV network energy and implementing automatic control, monitoring, and event recording of circuits.",
+          "bullets": [
+            "MSA-12 Air Insulated Metal-Clad",
+            "12kV network energy",
+            "recording of circuits",
+            "60Hz busbar"
+          ],
+          "image": "assets/img/products/MSA-12cabinet-switchgear.jpg",
+          "features": [
+            {
+              "title": " ",
+              "text": "Equipped with full and reliable electrical interlock devices;"
+            },
+            {
+              "title": " ",
+              "text": "Equipped with full and reliable electrical interlock devices;"
+            },
+            {
+              "title": " ",
+              "text": "The withdrawable part of Circuit breaker is designed with anti-tilt functions for safer, more flexible operation;"
+            },
+            {
+              "title": " ",
+              "text": "It strictly adheres to protection level requirements, with a protection level of IP4X"
+            }
+          ],
+          "specifications": {
+            " ": " "
+          }
+        },
+        {
+          "id": "cabinet-switchgear",
+          "title": "Cabinet Switchgear:MSA-24 Air Insulated Metal-Clad Switchgear",
+          "description": "The MSA-24 Air Insulated Metal-Clad Switchgear (referred to as switchgear) is complete equipment of three-phase AC 50Hz、 60Hz busbar and sectionalized busbar system, used for receiving and distributing 24kV network energy and implementing automatic control, monitoring, and event recording of circuits.",
+          "bullets": [
+            "MSA-24 Air Insulated Metal-Clad Switchgear",
+            "circuits",
+            "ectionalized busbar system",
+            "three-phase AC 50Hz"
+          ],
+          "image": "assets/img/products/MSA-24cabinet-switchgear.jpg",
+          "features": [
+            {
+              "title": " ",
+              "text": "Equipped with full and reliable electrical interlock devices;"
+            },
+            {
+              "title": " ",
+              "text": "Withdrawable part of Circuit breaker is equipped with a door interlock when entering or exiting to ensure personnel safety;"
+            },
+            {
+              "title": " ",
+              "text": "Withdrawable part of Circuit breaker is equipped with a door interlock when entering or exiting to ensure personnel safety;"
+            },
+            {
+              "title": " ",
+              "text": "It strictly adheres to protection level requirements, with a protection level of IP4X"
+            }
+          ],
+          "specifications": {
+            " ": " "
+          }
+        },
+        {
+          "id": "cabinet-switchgear",
+          "title": "Cabinet Switchgear:MSA-36/40.5 Air Insulated Metal-Clad Switchgear",
+          "description": "MSA-36/40.5 Air Insulated Metal-Clad Switchgear (referred to as the switchgear) is a product independently developed by the Sieyuan MV Company. lt is designed for three-phase AC 50Hz, 60Hz power systems，used for receiving and distributing electricity and performing control, protection, and monitoring of circuits.",
+          "bullets": [
+            "control",
+            "circuits",
+            "MSA-36/40.5",
+            "Sieyuan MV Company"
+          ],
+          "image": "assets/img/products/MSA-36/40.5cabinet-switchgear.jpg",
+          "features": [
+            {
+              "title": " ",
+              "text": "Equipped with full and reliable electrical interlock devices;"
+            },
+            {
+              "title": " ",
+              "text": "Withdrawable part of Circuit breaker is equipped with a door interlock when entering or exiting to ensure personnel safety;"
+            },
+            {
+              "title": " ",
+              "text": "The withdrawable part of Circuit breaker is designed with anti-tilt functions for safer, more flexible operation;"
+            },
+            {
+              "title": " ",
+              "text": "It strictly adheres to protection level requirements, with a protection level of IP4X"
+            }
+          ],
+          "specifications": {
+            " ": " "
+          }
+        },
+        {
+  "id": "cabinet-switchgear",
+  "title": "Cabinet Switchgear:MSR GREEN-24 Clean Air gas-insulated Ring Main Unit",
+  "description": "This innovative RMU utilizes clean air (GWP &lt;1) as the insulating medium, combining eco-friendliness with uncompromised performance. The laser-welded stainless steel gas compartment (leakage ≤0.05%) and micro-positive pressure (0.07MPa) enhance operational safety and maintenance efficiency. Compliant with State Grid standards, it features a 10,000-cycle breaker lifespan, ≤10 pC partial discharge, and corrosion-resistant construction. Ideal for diverse environments, the non-toxic, non-flammable design offers LSC2-PM operational continuity, reducing lifecycle costs through zero gas recycling.",
+  "image": "assets/img/products/MSR GREEN-24cabinet-switchgear.jpg",
+  "features": [
+    {
+      "title": " ",
+      "text": "This product inherits all the advantages of SF6 ring main units;"
+    },
+    {
+      "title": " ",
+      "text": "Highly stable, non-toxic, non-combustible, applicable to various ambient temperatures;"
+    },
+    {
+      "title": " ",
+      "text": "Laser-welded stainless steel gas tank and unique sealing technology are adopted, with a leakage rate ≤0.05%;"
+    },
+    {
+      "title": " ",
+      "text": "Inflation pressure of 0.07MPA and micro-positive pressure design make it safer for personnel operation"
+    }
+  ],
+  "specifications": {
+    " ": " "
+  }
+},
+        {
+          "id": "mv-gis",
+          "title": "ZF28-40.5 Gas-Insulated Metal-Enclosed Switchgear",
+          "description": "ZF28-40.5 gas-insulated metal-enclosed switchgear adopts the group 's existing mature GIS technology above 110 kV, which has the characteristics of strong capacitive / inductive current capacity, small partial discharge, large insulation margin, low leakage rate, strong weather resistance and long",
+          "bullets": ["Great Endurance", "Low Leakage", "Flexible Installation", "Highly Safe"],
+          "image": "assets/img/products/mv-gis.jpg",
+          "features": [
+           {
+      "title": " ",
+      "text": "SF6 circuit breaker mechanical endurance:10,000 operations; three-position mechanical life:10,000 operations; grounding switch mechanical endurance:10,000 operations;"
+    },
+    {
+      "title": " ",
+      "text": "EDS can be installed on both sides of the CB, with independent dooropening for each module to prevent misoperation, and reserved ports foron-site testing;"
+    },
+    {
+      "title": " ",
+      "text": "Annual leakage rate of the entire cabinet is <0.05%,"
+    },
+    {
+      "title": " ",
+      "text": "Fully enclosed cast aluminum alloy shell, corrosion-resistant eddy-current-free, safe, and reliable."
+    }
+          ],
+          "specifications": {
+            "tba": "available upon request."
           }
         }
       ]
