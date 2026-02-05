@@ -16,7 +16,7 @@
             "Smart features",
             "Smart operation"
           ],
-          "image": "assets/img/products/hvdc-circuit-breaker.jpg",
+          "image": "assets/img/hvdc-circuit-breaker.jpg",
           "features": [
             {
               "index": "01",
@@ -64,7 +64,7 @@
             "Small Footprint",
             "Flexible Layout"
           ],
-          "image": "assets/img/products/prefabricated-substation.jpg",
+          "image": "assets/img/prefabricated-substation.jpg",
           "features": [
             {
               "index": "01",
@@ -103,7 +103,7 @@
             "Emergency Power Suitable",
             "Facilitates Transporation"
           ],
-          "image": "assets/img/products/mobile-substation.jpg",
+          "image": "assets/img/mobile-substation.jpg",
           "features": [
             {
               "index": "01",
@@ -147,7 +147,7 @@
             "Customized Solutions",
             "Diverse Suitability"
           ],
-          "image": "assets/img/products/oil-immersed-power-transformer.jpg",
+          "image": "assets/img/oil-immersed-power-transformer.jpg",
           "features": [
             {
               "index": "01",
@@ -183,7 +183,7 @@
             "Space saving and high reliability",
             "Extended service life and hassle-free maintenance"
           ],
-          "image": "assets/img/products/gas-insulated-power-transformer.jpg",
+          "image": "assets/img/gas-insulated-power-transformer.jpg",
           "features": [
             {
               "index": "01",
@@ -226,7 +226,7 @@
             "High reliability",
             "Enhanced Power Quality"
           ],
-          "image": "assets/img/products/high-voltage-reactor.jpg",
+          "image": "assets/img/high-voltage-reactor.jpg",
           "features": [
             {
               "index": "01",
@@ -257,7 +257,7 @@
             "High modularity",
             "High safety"
           ],
-          "image": "assets/img/products/gas-insulated-switchgear.jpg",
+          "image": "assets/img/gas-insulated-switchgear.jpg",
           "features": [
             {
               "index": "01",
@@ -302,7 +302,7 @@
             "High modularity",
             "Excellenct Performance"
           ],
-          "image": "assets/img/products/550kvgas-insulated-switchgear.jpg",
+          "image": "assets/img/550kvgas-insulated-switchgear.jpg",
           "features": [
             {
               "index": "01",
@@ -347,7 +347,7 @@
             "High modularity",
             "High safety"
           ],
-          "image": "assets/img/products/800kvgas-insulated-switchgear.jpg",
+          "image": "assets/img/800kvgas-insulated-switchgear.jpg",
           "features": [
             {
               "index": "01",
@@ -392,7 +392,7 @@
             "Good usability",
             "Intelligent Transmission"
           ],
-          "image": "assets/img/products/gas-insulated-transmission-line.jpg",
+          "image": "assets/img/gas-insulated-transmission-line.jpg",
           "features": [
             {
               "index": "01",
@@ -430,7 +430,7 @@
             "Reliable mechanical performance",
             "Highly modular design"
           ],
-          "image": "assets/img/products/hybrid-gis.jpg",
+          "image": "assets/img/hybrid-gis.jpg",
           "features": [
             {
               "index": "01",
@@ -482,7 +482,7 @@
             "Reliable mechanical performance",
             "Excellent breaking performance"
           ],
-          "image": "assets/img/products/live-tank-cb.jpg",
+          "image": "assets/img/live-tank-cb.jpg",
           "features": [
             {
               "index": "01",
@@ -528,7 +528,7 @@
             "Reliable mechanical performance",
             "Excellent breaking performance"
           ],
-          "image": "assets/img/products/36live-tank-cb.jpg",
+          "image": "assets/img/36live-tank-cb.jpg",
           "features": [
             {
               "index": "01",
@@ -576,7 +576,7 @@
             "Excellent sealing protection",
             "Exceptional environmental adaptability"
           ],
-          "image": "assets/img/products/58live-tank-cb.jpg",
+          "image": "assets/img/58live-tank-cb.jpg",
           "features": [
             {
               "index": "01",
@@ -624,7 +624,7 @@
             "Superior interrupting performance",
             "Excellent sealing performance"
           ],
-          "image": "assets/img/products/dead-tank-cb.jpg",
+          "image": "assets/img/dead-tank-cb.jpg",
           "features": [
             {
               "index": "01",
@@ -671,7 +671,7 @@
             "Fully sealed bearing housing",
             "Maintenance-free transmission"
           ],
-          "image": "assets/img/products/hv-disconnector-switch.jpg",
+          "image": "assets/img/hv-disconnector-switch.jpg",
           "features": [
             {
               "index": "01",
@@ -721,7 +721,7 @@
             "Future Orientated",
             "Freely Programmable"
           ],
-          "image": "assets/img/products/protection-relay.jpg",
+          "image": "assets/img/protection-relay.jpg",
           "features": [
             {
               "index": "01",
@@ -774,7 +774,7 @@
             "Multiple Funtion",
             "Easy Maintenance"
           ],
-          "image": "assets/img/products/substation-monitoring-control.jpg",
+          "image": "assets/img/substation-monitoring-control.jpg",
           "features": [
             {
               "index": "01",
@@ -819,7 +819,7 @@
             "Modular Design for Functions",
             "Solid Technological Capabilities"
           ],
-          "image": "assets/img/products/substation-intelligent-om.jpg",
+          "image": "assets/img/substation-intelligent-om.jpg",
           "features": [
             {
               "index": "01",
@@ -856,7 +856,7 @@
             "Delivery and Service",
             "Standard Protocols"
           ],
-          "image": "assets/img/products/online-monitoring.jpg",
+          "image": "assets/img/online-monitoring.jpg",
           "features": [
             {
               "index": "01",
@@ -899,7 +899,7 @@
             "Excellent insulation performance",
             "High Stability"
           ],
-          "image": "assets/img/products/current-transformer.jpg",
+          "image": "assets/img/current-transformer.jpg",
           "features": [
             {
               "index": "01",
@@ -938,7 +938,7 @@
             "Full type test capability",
             "Quality leadership"
           ],
-          "image": "assets/img/products/voltage-transformer.jpg",
+          "image": "assets/img/voltage-transformer.jpg",
           "features": [
             {
               "index": "01",
@@ -976,7 +976,7 @@
             "High electric performance",
             "Maintenance friendly"
           ],
-          "image": "assets/img/products/coupling-capacitor.jpg",
+          "image": "assets/img/coupling-capacitor.jpg",
           "features": [
             {
               "index": "01",
@@ -1008,7 +1008,7 @@
             "Excellent mechanical performance",
             "Excellent insulation performance"
           ],
-          "image": "assets/img/products/powerpt-ssvt.jpg",
+          "image": "assets/img/powerpt-ssvt.jpg",
           "features": [
             {
               "index": "01",
@@ -1046,7 +1046,7 @@
             "Heat Resistant",
             "Double Sealing"
           ],
-          "image": "assets/img/products/uhv-ac-bushing.jpg",
+          "image": "assets/img/uhv-ac-bushing.jpg",
           "features": [
             {
               "index": "01",
@@ -1085,7 +1085,7 @@
             "Heat Resistant",
             "Double Sealing"
           ],
-          "image": "assets/img/products/uhv-dc-bushing.jpg",
+          "image": "assets/img/uhv-dc-bushing.jpg",
           "features": [
              {
               "index": "01",
@@ -1131,7 +1131,7 @@
             "Low Losses",
             "Short Lead Time"
           ],
-          "image": "assets/img/products/oil-immersed-power-capacitor.jpg",
+          "image": "assets/img/oil-immersed-power-capacitor.jpg",
           "features": [
             {
               "index": "01",
@@ -1172,7 +1172,7 @@
             "Modular Design",
             "High adaptability"
           ],
-          "image": "assets/img/products/open-rack-capacitor-installation.jpg",
+          "image": "assets/img/open-rack-capacitor-installation.jpg",
           "features": [
             {
               "index": "01",
@@ -1219,7 +1219,7 @@
             "Low loss level, low noise",
             "Long service life"
           ],
-          "image": "assets/img/products/earthing-transformer.jpg",
+          "image": "assets/img/earthing-transformer.jpg",
           "features": [
             {
               "index": "01",
@@ -1260,7 +1260,7 @@
             "Self Extinguishing",
             "Qualiy Arc-Suppresion"
           ],
-          "image": "assets/img/products/arc-suppression-coil.jpg",
+          "image": "assets/img/arc-suppression-coil.jpg",
           "features": [
             {
               "index": "01",
@@ -1291,7 +1291,7 @@
             "Good anti-oxidation ability",
             "High toughness"
           ],
-          "image": "assets/img/products/neutral-grounding-resistor.jpg",
+          "image": "assets/img/neutral-grounding-resistor.jpg",
           "features": [
             {
               "index": "01",
@@ -1329,7 +1329,7 @@
             "High accuracy in selecting lines",
             "Enhanced Safety"
           ],
-          "image": "assets/img/products/flexible-grounding-device.jpg",
+          "image": "assets/img/flexible-grounding-device.jpg",
           "features": [
             {
               "index": "01",
