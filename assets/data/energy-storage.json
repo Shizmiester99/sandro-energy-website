@@ -11,7 +11,7 @@
           "title": "Lithium Battery Energy Storage Systems",
           "description": "x",
           "bullets": ["x", "x", "x", "x"],
-          "image": "assets/img/products/lithium-battery-ess.jpg",
+          "image": "assets/imgs/lithium-battery-ess.jpg",
           "features": [
             { "title": "x", "text": "x" }
           ],
@@ -30,7 +30,7 @@
           "title": "Supercapacitor",
           "description": "x",
           "bullets": ["x", "x", "x", "x"],
-          "image": "assets/img/products/supercapacitor.jpg",
+          "image": "assets/imgs/supercapacitor.jpg",
           "features": [
             { "title": "x", "text": "x" }
           ],
@@ -43,7 +43,7 @@
           "title": "Hybrid Ultracapacitor",
           "description": "x",
           "bullets": ["x", "x", "x", "x"],
-          "image": "assets/img/products/hybrid-ultracapacitor.jpg",
+          "image": "assets/imgs/hybrid-ultracapacitor.jpg",
           "features": [
             { "title": "x", "text": "x" }
           ],
@@ -56,7 +56,7 @@
           "title": "High-power Lithium Ion Cell",
           "description": "x",
           "bullets": ["x", "x", "x", "x"],
-          "image": "assets/img/products/high-power-li-ion-cell.jpg",
+          "image": "assets/imgs/high-power-li-ion-cell.jpg",
           "features": [
             { "title": "x", "text": "x" }
           ],
@@ -75,7 +75,7 @@
           "title": "Residential ESS",
           "description": "x",
           "bullets": ["x", "x", "x", "x"],
-          "image": "assets/img/products/residential-ess.jpg",
+          "image": "assets/imgs/residential-ess.jpg",
           "features": [
             { "title": "x", "text": "x" }
           ],
