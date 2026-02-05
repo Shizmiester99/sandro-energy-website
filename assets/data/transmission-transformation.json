@@ -527,31 +527,54 @@
       "products": [
         {
           "id": "protection-relay",
-          "title": "Protection Relay",
-          "description": "Placeholder description for Protection Relay.",
+          "title": "Protection Relay: IES-311 Feeder Protection",
+          "description": "IES-311 is a microprocessor-based protection, control and monitoring device designed for various primary equipments (such as overhead line, underground cable and auxiliary transformer etc.) on solidly grounded, Peterson coil grounded, low impedance grounded and ungrounded system. With flexible and powerful configuration tool, IES-311 offers future-oriented system solutions with high investment security and low operating costs. The device is freely programmable. Functional logic diagrams can be developed with the use of graphical programming tool which also supports the configuration of binary inputs and outputs, analog inputs, control buttons, LEDs, disturbance recorder, event recorder, and user interface. Freely programmable logic makes it possible to modify typical functional logic diagrams considering a peculiar nature of the protected object. Three basic types of standard 19” case help to choose the most appropriate solution.",
           "bullets": [
-            "Comprehensive protection functions",
-            "IEC 61850 support",
-            "High-speed performance",
-            "Event &amp; disturbance records"
+            "Flexible",
+            "Powerful",
+            "Future Orientated",
+            "Freely Programmable"
           ],
           "image": "assets/img/products/protection-relay.jpg",
           "features": [
             {
               "index": "01",
-              "title": "Interoperability",
-              "text": "Standards-based communications and data models."
+              "title": "Highly Flexible",
+              "text": "Support 6 currents and 5 voltages inputs. Together with flexible PLC logic, it can easily realize the automatic switchover of backup power supply."
             },
             {
               "index": "02",
-              "title": "Security",
-              "text": "Role-based access and secure protocols (placeholder)."
-            }
+              "title": "Multiple Funtion",
+              "text": "Powerful GOOSE function helps to realize the simple busbar protection and shortens the busbar fault clearing time."
+            },
+             {
+              "index": "03",
+              "title": "High Realibility",
+              "text": "Unique phase selection element to avoid the problem of wrong selection of multiple phases by using out-of-range phase selection elements."
+            },
+             {
+              "index": "04",
+              "title": "Fast Tripping",
+              "text": "With special processing in CB failure protection, the dropout time of current criterion element is less than 12 ms."
+            },
+             {
+              "index": "05",
+              "title": "High Accuracy",
+              "text": "Support fault location function which can locate the fault location with the deviation less than 5%."
+            },
+             {
+              "index": "06",
+              "title": "Widely Application",
+              "text": "Up to 10 remote control outputs which can meet the control requirements of multiple breakers, switches and ground switches."
           ],
           "specifications": {
-            "Protocols": "IEC 61850 / DNP3 / Modbus (placeholder)",
-            "CT/VT inputs": "Configurable",
-            "I/O": "Programmable"
+            "Standard": "IEC 60225-1: 2009",
+            "Dimensions (W×H×D)": "455×266.7×233.5mm（6U，without mounting bracket), 221.3x266.7x233.5mm（6U 1/2，without mounting bracket), 160.3x266.7x233.5mm（6U 1/3，without mounting bracket",
+            "Mounting Way": "Flush mounted、semi-flush mounted、wall mounted、panel mounted",
+            "Material": "Stainless steel",
+            "Protection Class": "2 or 4 100Base-TX RJ45 Ethernet ports, 2 or 4 100Base-FX optical ports, 2 RS-485 serial ports for SCADA communication, 1 RS-485 serial port for clock synchronization, 1 front RJ45 port for debugging",
+            "Communication Ports": "Flush mounted、semi-flush mounted、wall mounted、panel mounted",
+            "Communication Protocol": "IEC 61850 Editions 1&2&2.1, IEC 60870-5-103, IEC 60870-5-104, DNP3.0, Modbus, IEC 62439 Parallel Redundancy Protocol (PRP), IEC 62439 High-availability Seamless Redundancy (HSR), IEEE 802.1w Rapid Spanning Tree Protocol (RSTP)"
           }
         },
         {
