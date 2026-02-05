@@ -384,89 +384,138 @@
       "products": [
         {
           "id": "live-tank-cb",
-          "title": "Live Tank Circuit Breaker",
-          "description": "Placeholder description for Live Tank Circuit Breaker.",
+          "title": "ZW39 Outdoor HV AC Vacuum Circuit Breaker",
+          "description": "ZW39 Vacuum Circuit Breaker is an eco-friendly outdoor high-voltage AC switching equipment featuring strong environmental adaptability, high reliability, and maintenance-free operation. Configurable with internal or external CT per user requirements. Suitable for high-voltage power transmission and distribution applications including substations, distribution networks, and railways.",
           "bullets": [
-            "Proven interrupter technology",
-            "High mechanical endurance",
-            "Low maintenance",
-            "Wide climate applicability"
+            "Eco-friendly design",
+            "Superior environmental adaptability",
+            "Reliable mechanical performance",
+            "Excellent breaking performance"
           ],
           "image": "assets/img/products/live-tank-cb.jpg",
           "features": [
             {
               "index": "01",
-              "title": "Performance",
-              "text": "Fast, reliable interruption for diverse grid conditions."
+              "title": "Eco-friendly design",
+              "text": "Employs vacuum interrupter units with nitrogen or clean air as insulating medium. Fluorine-free solution with GWP value of 0."
             },
             {
               "index": "02",
-              "title": "Serviceability",
-              "text": "Accessible design simplifies routine maintenance."
+              "title": "Superior environmental adaptability",
+              "text": "Insulating medium eliminates low-temperature liquefaction risks. No exposed mechanical transmission components. Withstands harsh conditions including -50℃ extreme cold, high altitude, condensation, and ice coverage."
+            },
+               {
+              "index": "03",
+              "title": "Reliable mechanical performance",
+              "text": "Adopts an integrated die-cast aluminum base spring operating mechanism. Compact structural design ensures stable output performance, high reliability, and maintenance-free operation. Mechanical life meets M2 class requirements."
+            },
+               {
+              "index": "04",
+              "title": "Excellent breaking performance",
+              "text": "Full product series delivers breaking capacity up to 40kA, suitable for diverse complex operating conditions."
             }
+            
           ],
           "specifications": {
-            "Voltage level": "Up to 550kV (placeholder)",
-            "Drive": "Spring / Hydraulic",
-            "Interrupting medium": "Gas / Vacuum (placeholder)"
+            "Rated voltage": "31.5, 40.5, 72.5, 145 (kV)",
+            "Rated frequency": "50/60 (Hz)"
+            "First-pole-to-clear Factor": "1.3/1.5",
+            "Rated current(A)": "Up to 4000",
+            "RRated short-circuit breaking current(A)": "Up to 40",
+            "Rated short circuit making current (peak)(kA)": "Up to 108",
+            "Rated short-time withstand current duration(s)": "4",
+            "Rated operating sequence": "O-0.3s-CO-3min-CO",
+            "Mechanical edurance(times)": "10000"   
           }
         },
         {
           "id": "dead-tank-cb",
-          "title": "Dead Tank Circuit Breaker",
-          "description": "Placeholder description for Dead Tank Circuit Breaker.",
+          "title": "LW58A Outdoor HV AC SF6 Circuit Breaker",
+          "description": "LW58A Outdoor High-voltage AC SF₆ Tank Circuit Breaker features strong environmental adaptability, high reliability, and maintenance-free operation. With a rated voltage covering 40.5-800kV, it provides three-pole intertripping & pole-discrepancy operation solutions. Suitable for high-voltage power transmission and distribution applications including substations and distribution networks.",
           "bullets": [
-            "Grounded tank safety",
-            "High short-circuit ratings",
-            "Robust design",
-            "Standards compliant"
+            "Compact design",
+            "High reliability",
+            "Superior interrupting performance",
+            "Excellent sealing performance"
           ],
           "image": "assets/img/products/dead-tank-cb.jpg",
           "features": [
             {
               "index": "01",
-              "title": "Safety",
-              "text": "Grounded tank construction enhances operator protection."
+              "title": "Compact design",
+              "text": "Integrated with external CT, reduced product footprint, low center of gravity, and excellent seismic performance."
             },
             {
               "index": "02",
-              "title": "Durability",
-              "text": "Engineered for harsh environments and heavy duty cycles."
+              "title": "High reliability",
+              "text": "Adopts a new integrated die-cast aluminum base spring operating mechanism. Compact structural design ensures stable output performance, high reliability, and maintenance-free operation. Mechanical life meets M2 class requirements."
+            },
+             {
+              "index": "03",
+              "title": "Superior interrupting performance",
+              "text": "Utilizes dual-motion self-energy & assisted compression arc-extinguishing technology. Delivers strong interrupting capability across the entire series (up to 63kA), suitable for diverse complex conditions."
+            },
+             {
+              "index": "04",
+              "title": "Excellent sealing performance",
+              "text": "Employs diaphragm sealing structure. SF₆ gas leakage rate ≤0.05% per year."
             }
           ],
           "specifications": {
-            "Voltage level": "Up to 550kV (placeholder)",
-            "Drive": "Spring / Hydraulic",
-            "Interrupting medium": "Gas / Vacuum (placeholder)"
+            "Rated voltage (kV)": "40.5, 72.5, 126, 145, 252, 363, 420, 550, 800",
+            "Rated frequency (Hz)": "50/60"
+            "First-pole-to-clear Factor": "1.3/1.5",
+            "Rated current(A)": "Up to 6300",
+            "Rated short-circuit breaking current(A)": "Up to 63",
+            "Rated short circuit making current (peak)(kA)": "Up to 171",
+            "Rated short-time withstand current(kA)": "Up to 63",
+            "Rated peak withstand current(kA)": "Up to 171",
+            "Rated short-time withstand current duration(s)": "4",
+            "Rated operating sequence": "O-0.3s-CO-3min-CO",
+            "Mechanical edurance(times)": "10000"
           }
         },
         {
           "id": "hv-disconnector-switch",
-          "title": "HV Disconnector Switch",
-          "description": "Placeholder description for HV Disconnector Switch.",
+          "title": "GW4 Outdoor HV AC Disconnector",
+          "description": "GW4 Series product is a double-column horizontal rotary type outdoor high-voltage disconnector. Rated voltage covers 12-550kV.",
           "bullets": [
-            "Visible isolation",
-            "Reliable interlocking",
-            "Outdoor / Indoor variants",
-            "Custom configurations"
+            "Conductive material & current-carrying performance",
+            "Novel contact structure",
+            "Fully sealed bearing housing,
+            "Maintenance-free transmission"
           ],
           "image": "assets/img/products/hv-disconnector-switch.jpg",
           "features": [
             {
               "index": "01",
-              "title": "Isolation assurance",
-              "text": "Clear isolating gaps for maintenance safety."
+              "title": "Conductive material & current-carrying performance",
+              "text": "Conductive arms employ slot-shaped aluminum alloy profiles (high conductivity, high strength) with anodized surface treatment. Combines corrosion resistance, high mechanical strength, and excellent heat dissipation. Supports maximum rated current of 5000A with short-time withstand current up to 63kA."
             },
             {
               "index": "02",
-              "title": "Integration",
-              "text": "Compatible with breaker bays and busbar schemes."
+              "title": "Novel contact structure",
+              "text": "Self-energized contact fingers utilize chrome bronze alloy’s inherent elasticity to clamp the contact blade. Beyond meeting standard current-carrying requirements, it satisfies short-term thermal load and electromagnetic force under short-circuit faults while offering superior mechanical wear resistance."
+            },
+             {
+              "index": "03",
+              "title": "Fully sealed bearing housing",
+              "text": "Die-cast aluminum bearing housing adopts fully sealed structure. Prevents lubricant loss or solidification, eliminating oil replenishment maintenance. Internal combined-support bearing design ensures gravity torque and horizontal component force are respectively borne by two specialized bearings."
+            },
+             {
+              "index": "04",
+              "title": "Maintenance-free transmission",
+              "text": "Transmission system designed per maintenance-free requirements. Self-lubricating bushings paired with stainless steel pins prevent binding issues in rotating components."
             }
           ],
           "specifications": {
-            "Voltage level": "Up to 550kV (placeholder)",
-            "Type": "Center / Double break",
-            "Mounting": "Outdoor / Indoor"
+            "Rated voltage (kV)": "12, 24, 40.5, 72.5, 126, 145, 170, 252, 420, 550",
+            "Rated frequency (Hz)": "50/60"
+            "Rated current(A)": "Up to 5000"
+            "Rated short-time withstand current(kA)": "Up to 63",
+            "Rated peak withstand current(kA)": "Up to 164",
+            "Operating Temperature（℃)": "-50 ~ +55",
+            "Ice coating（mm）": "Up to 20"
           }
         }
       ]
