@@ -111,6 +111,27 @@ header {
   color: var(--accent);
 }
 
+
+/* ===== MEGA MENU COLOR FIX ===== */
+
+/* Default color for mega menu items */
+.mega-column a,
+.mega-column div {
+  color: var(--text);
+}
+
+/* Hover stays green */
+.mega-column a:hover,
+.mega-column div:hover {
+  color: var(--accent);
+}
+
+/* Active / highlighted item */
+.mega-column .active {
+  color: var(--accent);
+}
+
+
 .hidden {
   display: none;
 }
