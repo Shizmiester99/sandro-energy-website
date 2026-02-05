@@ -1014,117 +1014,149 @@
         {
           "id": "earthing-transformer",
           "title": "Earthing Transformer",
-          "description": "Placeholder description for Earthing Transformer.",
+          "description": "The earthing transformer is usually used in a power system without neutral point, to provide an artificial neutral connection for earthing directly or via an impedance such as an arc suppression reactor, a resistor, a current-limiting reactor and so on.The grounding transformer may adopt a secondary (low-voltage winding) for continuous use as a power supply for the substation station.",
           "bullets": [
-            "System grounding",
-            "Zig-zag or wye-delta",
-            "Fault current control",
-            "Custom ratings"
+            "Low zero-sequence impedance",
+            "High magnetizing impedance",
+            "Low loss level, low noise",
+            "Long service life"
           ],
           "image": "assets/img/products/earthing-transformer.jpg",
           "features": [
             {
               "index": "01",
-              "title": "Grounding performance",
-              "text": "Stabilizes system neutral and fault levels."
+              "title": "Low zero-sequence impedance",
+              "text": " "
             },
             {
               "index": "02",
-              "title": "Configurable",
-              "text": "Multiple connection schemes supported."
+              "title": "High magnetizing impedance",
+              "text": " "
+            },
+             {
+              "index": "03",
+              "title": "Low loss level, low noise",
+              "text": " "
+            },
+            {
+              "index": "04",
+              "title": "Long service life",
+              "text": " "
             }
           ],
           "specifications": {
-            "Voltage level": "As specified (placeholder)",
-            "Connection": "Zig-zag / Wye-Delta",
-            "Rating": "Per system studies"
+            "Insulation Type": "Dry-type/Oil-immersed",
+            "Type Code": "6kV~35kV/6kV~66kV",
+            "Voltage Scope": "100kVA~3800kVA/100kVA~5700kVA",
+            "Capacity Range": "-25°C ~ +45°C/-45°C ~ +45°C",
+            "Environmental Temperature": "-45°C ~ +45°C/-45°C ~ +45°C",
           }
         },
         {
           "id": "arc-suppression-coil",
           "title": "Arc Suppression Coil",
-          "description": "Placeholder description for Arc Suppression Coil.",
+          "description": "The arc-suppression coil can provide an inductive current to compensate for the short-circuit capacitive current in case of a grounding fault, reduce the grounding current and finally achieve the purpose of arc self-extinguishing, effectively reducing the arc overvoltage.",
           "bullets": [
-            "Resonant grounding",
-            "Arc suppression",
-            "Adaptive tuning (optional)",
-            "Enhanced continuity"
+            "Full Series Product",
+            "High Reliability",
+            "Self Extinguishing",
+            "Qualiy Arc-Suppresion"
           ],
           "image": "assets/img/products/arc-suppression-coil.jpg",
           "features": [
             {
               "index": "01",
-              "title": "Resonant control",
-              "text": "Compensates capacitive earth fault currents."
+              "title": "Full series product",
+              "text": "Products cover 6kV-66kV，independent design and production of all primary and secondary equipment of arc suppression coil. We have good research on the performance of various type of products and we accumulated rich operation experience."
             },
             {
               "index": "02",
-              "title": "Monitoring",
-              "text": "Optional automation for dynamic tuning."
+              "title": "High reliability",
+              "text": "Controller adopts the secondary power supply technique, can withstand destructive electromagnetic interference, the primary and secondary system all adopt the optical/electrical isolation, can completely eliminate the interference of a system to the controller. Controller design for double reset circuit, which can realize the system automatic recovery."
             }
           ],
           "specifications": {
-            "Voltage level": "As specified (placeholder)",
-            "Tuning": "Fixed / Automatic",
-            "Installation": "Indoor / Outdoor"
+            "Insulation Type": "Dry-type/Oil-immersed",
+            "Adjust method": "Tap-change/Phase Controlled/Capacitor Tuning",
+            "Voltage Scope": "6kV~35kV/6kV~66kV",
+            "Capacity Range": "100kVA~3800kVA/100kVA~5700kVA",
+            "Environmental Temperature": "-25°C ~ +45°C/-45°C ~ +45°C"
           }
         },
         {
           "id": "neutral-grounding-resistor",
           "title": "Neutral Grounding Resistor",
-          "description": "Placeholder description for Neutral Grounding Resistor.",
+          "description": "In the neutral grounding modes of the distribution network, the neutral grounding through small-resistor is a commonly used grounding mode. This mode can effectively limit the intermittent arc grounding overvoltage and reduce the system operating overvoltage.",
           "bullets": [
-            "Limits fault current",
-            "Thermal withstand",
-            "Corrosion resistant",
-            "Custom enclosures"
+            "High temperature durability",
+            "Stable resistance",
+            "Good anti-oxidation ability",
+            "High toughness"
           ],
           "image": "assets/img/products/neutral-grounding-resistor.jpg",
           "features": [
             {
               "index": "01",
-              "title": "Protection",
-              "text": "Controls ground fault energy to protect equipment."
+              "title": "High temperature durability",
+              "text": "The melting point is up to 1390°C, and the maximum operating temperature is 1100°C"
             },
             {
               "index": "02",
-              "title": "Durability",
-              "text": "Weather-proof designs for substation service."
+              "title": "Stable resistance",
+              "text": "Small temperature coefficient, reliably guaranteeing the protection sensitivity"
+            },
+            {
+              "index": "03",
+              "title": "Good anti-oxidation ability",
+              "text": "Able to maintain excellent anti-oxidation performance under high temperature of 1100°C, suitable for badly-polluted environment"
+            },
+             {
+              "index": "04",
+              "title": "High toughness",
+              "text": "Able to maintain good toughness and is not prone to fracture under operating conditions with drastic temperature changes"
             }
           ],
           "specifications": {
-            "Ohmic value": "Per system design",
-            "Duty": "10s / Continuous (placeholder)",
-            "Enclosure": "IP-rated"
+            "Voltage Scope": "6kV~66kV",
+            "Current Range": "100A~2000A"
           }
         },
         {
           "id": "flexible-grounding-device",
           "title": "Flexible Grounding Device",
-          "description": "Placeholder description for Flexible Grounding Device.",
+          "description": "The flexible grounding system is provided with the advantages of the resonance grounding technology and the low resistor grounding technology, which enables free switching from one grounding mode to another to be easily achieved under different fault conditions. It not only largely ensures the safety of equipment and personel, but also guarantees high reliability of power supply.",
           "bullets": [
-            "Adaptive grounding strategy",
-            "Grid condition responsive",
-            "Integration ready",
-            "High reliability"
+            "High reliability",
+            "Quickly isolate faults",
+            "High accuracy in selecting lines",
+            "Enhanced Safety"
           ],
           "image": "assets/img/products/flexible-grounding-device.jpg",
           "features": [
             {
               "index": "01",
-              "title": "Adaptivity",
+              "title": "High reliability",
               "text": "Adjusts grounding mode based on system state."
             },
             {
               "index": "02",
-              "title": "Automation",
+              "title": "Quickly isolate faults",
               "text": "Interfaces with protection and control schemes."
+            },
+             {
+              "index": "03",
+              "title": "High accuracy in selecting lines",
+              "text": "Designed with a line selection tripping unit, ensure accurate cut-off of the faulty unit."
             }
           ],
           "specifications": {
-            "Control": "Automatic / Manual",
-            "Interfaces": "SCADA / Protection (placeholder)",
-            "Installation": "Indoor / Outdoor"
+            "Voltage Scope": "6kV~35kV",
+            "ASC Adjust Method": "Tap-change/Phase Controlled/Capacitor Tuning",
+            "ASC Capacity Range": "100kVA~4400kVA",
+            "Volt-ampere Characteristics": "Excellent linearity within 0-110% rated voltage range",
+            "Grounding Response Time": "Less than 10μs",
+            "Flexible ground resistance device control": "Vacuum contactor control",
+            "Resistance input time": "0.1s~10s"
           }
         }
       ]
