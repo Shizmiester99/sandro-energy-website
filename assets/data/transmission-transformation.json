@@ -249,89 +249,130 @@
       "products": [
         {
           "id": "gas-insulated-switchgear",
-          "title": "Gas Insulated Switchgear",
-          "description": "Placeholder description for Gas Insulated Switchgear.",
+          "title": "145kV Gas Insulated Switchgear",
+          "description": "ZF28A-145 Gas Insulated Switchgear is a three-phase AC high-voltage electrical equipment, which is designed for controlling, measuring, protecting, and switching power transmission lines, and can be combined into the required main wiring arrangement according to user requirements.",
           "bullets": [
-            "Compact bay layout",
+            "Compact structure",
             "High reliability",
-            "Reduced maintenance",
-            "Arc-safe design"
+            "High modularity",
+            "High safety"
           ],
           "image": "assets/img/products/gas-insulated-switchgear.jpg",
           "features": [
             {
               "index": "01",
-              "title": "Space efficiency",
-              "text": "High integration for urban or constrained substations."
+              "title": "Compact structure",
+              "text": "It features a three-phase common enclosure design, allowing for flexible and convenient engineering arrangement."
             },
             {
               "index": "02",
-              "title": "Operational safety",
-              "text": "Enhanced interlocks and arc-resistant compartments."
+              "title": "High reliability",
+              "text": "It adopts a double-channel sealing structure, ensuring an annual gas leakage rate of less than 0.1%. With excellent insulation performance, it exhibits a whole bay partial discharge of less than 3pC. It also features a three-station isolation earthing switch structure, which includes mechanical interlock between the isolation and earthing mechanisms for effectively avoiding misoperation."
+            },
+              {
+              "index": "03",
+              "title": "High safety",
+              "text": "With busbars and outgoing lines arranged on both sides of the circuit breaker, and inspection and maintenance accesses provided on both sides of the bay, it eliminates the need to enter the bay for routing inspection."
+            },
+            {
+              "index": "04",
+              "title": "High modularity",
+              "text": "The product boasts a highly modular design. The connecting flanges are of standardized dimensions, allowing for flexible configuration according to requirements, and the modules are highly interchangeable, facilitating expansion and the optimization of substation layout."
             }
           ],
           "specifications": {
-            "Voltage level": "Up to 550kV (placeholder)",
-            "Insulation": "Gas",
-            "Bay configuration": "Single / Double bus"
+            "Rated voltage": "145 kV",
+            "Rated frequency": "up to 3150 A"
+            "Rated short-duration power-frequency withstand voltage（1 min，effective value）Phase to phase,phase to ground": "275 kV",
+            "Rated short-duration power-frequency withstand voltage（1 min，effective value）Across isolating distance": "275+92 kV",
+            "Rated lightning impulse withstand voltage（peak value）Phase to phase,phase to ground": "650 kV",
+            "Rated lightning impulse withstand voltage（peak value）Across isolating distance": "650+118 kV",
+            "Rated short-time withstand current": "up to 40 kA",
+            "Rated duration of short-circuit": "4 s",
+            "Rated peak withstand current": "up to 104 kA"       
           }
         },
         {
           "id": "gas-insulated-transmission-line",
-          "title": "Gas-Insulated Transmission Line",
-          "description": "Placeholder description for Gas-Insulated Transmission Line.",
+          "title": "252/550kV Gas-Insulated Transmission Line",
+          "description": "GXL 28-252/550 Gas-insulated Transmission Line is a transmission line with high voltage level, large transmission capacity and high safety and reliability. It features a safer, more efficient, green and intelligent transmission mode than cable and overhead line.",
           "bullets": [
-            "High power density",
-            "Underground / Tunnel installation",
-            "Low EMF emissions",
-            "High availability"
+            "Excellent performance",
+            "High safety",
+            "Good usability",
+            "Intelligent Transmission"
           ],
           "image": "assets/img/products/gas-insulated-transmission-line.jpg",
           "features": [
             {
               "index": "01",
-              "title": "Right-of-way optimization",
-              "text": "Suitable for dense urban corridors and sensitive areas."
+              "title": "Excellent performance",
+              "text": "It boasts a particularly high transmission capacity, with a maximum current of up to 8000A, and exhibits minimal thermal and electrical energy losses, resulting in good energy-saving effect."
             },
             {
               "index": "02",
-              "title": "Reliability",
-              "text": "Sealed system with minimal maintenance."
+              "title": "High safety",
+              "text": "It has good protection performance, and is characterized by less maintenance work and an extremely low failure rate. It shows strong resistance against disasters such as ice, snow, and earthquakes, and offers excellent fire protection performance, ensuring high safety and reliability"
+            },
+             {
+              "index": "03",
+              "title": "Good usability",
+              "text": "It is easy to maintain and inspect, and has a long service life. It covers a small space, supports a wide voltage range, and can be installed in various ways."
             }
           ],
           "specifications": {
-            "Voltage level": "Up to 550kV (placeholder)",
-            "Installation": "Tunnel / Underground",
-            "Power rating": "High-capacity (placeholder)"
+            "Rated voltage": "252 kV/550 kV",
+            "Rated frequency": "up to 4000 A/up to 5000 A",
+            "Rated short-duration power-frequency withstand voltage（1 min，effective value）": "460 kV/740 kV",
+            "Rated lightning impulse withstand voltage（peak value）": "1050 kV/1675 kV",
+            "Rated short-time withstand current": "up to 63 kA",
+            "Rated duration of short-circuit": "3 s",
+            "Rated peak withstand current": "up to 171 kA"         
           }
         },
         {
           "id": "hybrid-gis",
-          "title": "Hybrid Gas Insulated Switchgear",
-          "description": "Placeholder description for Hybrid Gas Insulated Switchgear.",
+          "title": "ZHW58A Hybrid Gas Insulated Switchgear",
+          "description": "ZHW58A combined apparatus integrates modules such as circuit breaker, DS, ES, CT, PT, FES, etc. It features a small footprint, strong environmental adaptability, high reliability, and maintenance-free operation. The rated voltage covers 40.5-145kV, making it suitable for high-voltage power transmission and distribution applications such as substations.",
           "bullets": [
-            "Hybrid AIS/GIS architecture",
-            "Flexible expansion",
-            "Reduced footprint",
-            "Cost-effective retrofit"
+            "Compact structure",
+            "Excellent electrical performance",
+            "Reliable mechanical performance",
+            "Highly modular design"
           ],
           "image": "assets/img/products/hybrid-gis.jpg",
           "features": [
             {
               "index": "01",
-              "title": "Flexibility",
-              "text": "Combines GIS compactness with AIS accessibility."
+              "title": "Compact structure",
+              "text": "Three-phase split-tank design with an integrated base frame. Enables integral three-phase transportation by bay, ensuring convenient and reliable on-site installation."
             },
             {
               "index": "02",
-              "title": "Upgrade path",
-              "text": "Supports staged modernization programs."
+              "title": "Excellent electrical performance",
+              "text": "Superior insulation properties. Integral partial discharge <3pC. Horizontal breaker layout structure enables switching capability of 40kA."
+            },
+             {
+              "index": "03",
+              "title": "UReliable mechanical performance",
+              "text": "Employs a new integrated die-cast aluminum base spring operating mechanism. Compact structural design with stable output performance ensures high reliability and maintenance-free operation. Mechanical life meets M2 class requirements."
+            },
+             {
+              "index": "04",
+              "title": "Highly modular design",
+              "text": "Modular design approach. Standardized connection flange dimensions enable flexible configuration according to requirements. Strong module interchangeability facilitates functional expansion to optimize substation layout."
             }
           ],
           "specifications": {
-            "Voltage level": "Up to 245kV (placeholder)",
-            "Insulation": "Gas + Air",
-            "Bus scheme": "Flexible"
+            "Rated voltage": "31.5, 40.5, 72.5, 145 (kV)",
+            "Rated frequency": "50/60 (Hz)"
+            "First-pole-to-clear Factor": "1.3/1.5",
+            "Rated current(A)": "Up to 4000",
+            "RRated short-circuit breaking current(A)": "Up to 40",
+            "Rated short circuit making current (peak)(kA)": "Up to 108",
+            "Rated short-time withstand current duration(s)": "4",
+            "Rated operating sequence": "O-0.3s-CO-3min-CO",
+            "Mechanical edurance(times)": "10000"   
           }
         }
       ]
