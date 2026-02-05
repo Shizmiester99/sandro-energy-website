@@ -95,31 +95,39 @@
         },
         {
           "id": "mobile-substation",
-          "title": "Mobile Substation",
-          "description": "Placeholder description for Mobile Substation.",
+          "title": "Mobile High-Voltage Substation",
+          "description": "Mobile High-Voltage Substations are a flexible and efficient power solution designed for rapid deployment and temporary power supply. They integrate transformers, switching equipment, and protective devices, capable of operating in various environments and suitable for emergency power, construction sites, events, and temporary facilities. Their modular design facilitates transportation and installation, ensuring a quick response to changes in power demand.",
           "bullets": [
-            "Rapid emergency deployment",
-            "Trailer-mounted",
-            "Flexible configuration",
-            "Grid restoration ready"
+            "Flexible",
+            "Protective Devices",
+            "Emergency Power Suitable",
+            "Facilitates Transporation"
           ],
           "image": "assets/img/products/mobile-substation.jpg",
           "features": [
             {
               "index": "01",
-              "title": "High mobility",
-              "text": "Trailerized design enables fast relocation and setup."
+              "title": "Quick Launch and Benefit Protection",
+              "text": "By leasing mobile substation equipment, the factory can operate quickly with load to ensure customer benefits"
             },
             {
               "index": "02",
-              "title": "Turnkey package",
-              "text": "Includes transformer, switchgear, protection, and auxiliaries."
+              "title": "Capacity Enhancement and Stability Improvement of Power Systems",
+              "text": "The original substation's main transformer is expanded to increase capacity, and load transfer is provided through the lease of mobile substations to provide more stable power guarantees"
+            },
+             {
+              "index": "03",
+              "title": "Compact layout and flexible transportation",
+              "text": "Compact structure, small volume, easy to transport, occupies less land, and is very mobile for investment and withdrawal"
             }
           ],
           "specifications": {
-            "Voltage level": "Up to 245kV (placeholder)",
-            "Transport": "Trailer / Skid",
-            "Setup time": "Fast deployment"
+            "110/10kV Mobile High Voltage Substation for Vehicles": "Main transformer capacity：40 MVA\n10kV outgoing line side：6 Return circuit 400-800 A\nvehicle configuration：Power transformer&HGIS trailer+E-house trailer\nSize（L*W*H mm）：\nPower transformer&HGIS trailer：20000*3000*4500\nE-house trailer：13000*2500*4450",
+            "110/10kV Mobile High Voltage Substation for Vehicles": "Main transformer capacity：20 MVA. 10kV outgoing line side：6 Return circuit. 400-800 A. Vehicle configuration：Power transformer&HGIS trailer+E-house trailer. Size（L*W*H mm）：Power transformer&HGIS trailer：16500*3000*4500. E-house trailer：13000*2500*4450,
+            "35/10kV Mobile High Voltage Substation for Vehicles": "Main transformer capacity：20 MVA. 10kV outgoing line side：6 Return circuit 400-800 A. Vehicle configuration：Power transformer&HGIS trailer+E-house trailer. Size（L*W*H mm）：. Power transformer&HGIS trailer：13000*3000*4500. E-house trailer：12500*2500*4450",
+            "110kV Skid Mounted High Voltage Substation": "Main transformer capacity：50 MVA. 10kV outgoing line side：7 Return circuit 400-800 A. Configuration：High voltage substation module+Power Distribution Module. Size（L*W*H mm）：. High voltage substation moduler：14540*3200*8380. Power Distribution Module：15500*10040*3100",
+            "35kV Skid Mounted High Voltage Substation": "Main transformer capacity：20 MVA. 10kV outgoing line side：7 Return circuit 400-800 A. Configuration：Integration of power transformation and distribution. Size（L*W*H mm）：12500*9000*3500",
+            "Sub-section post": "Size（L*W*H mm）：. Two incoming lines and six outgoing lines：12500*2500*3330 .Two incoming lines and eight outgoing lines：12000*3400*3330. Two incoming lines and ten outgoing lines：13000*3400*3330"
           }
         }
       ]
@@ -132,88 +140,104 @@
         {
           "id": "oil-immersed-power-transformer",
           "title": "Oil Immersed Insulated Power Transformer",
-          "description": "Placeholder description for Oil Immersed Insulated Power Transformer.",
+          "description": "Sieyuan Toshiba's Oil-Immersed Power Transformer is designed and manufactured with Toshiba's core technology, covering voltage ratings up to 750kV. It features low losses, low noise, minimal partial discharge, and high short-circuit impedance, making it suitable for diverse installation environments and demanding operating conditions.",
           "bullets": [
-            "High efficiency core",
-            "Robust insulation system",
-            "On-load / off-load tap options",
-            "IEC / IEEE compliant"
+            "Highly Reliable Design",
+            "Superior Performance",
+            "Customized Solutions",
+            "Diverse Suitability"
           ],
           "image": "assets/img/products/oil-immersed-power-transformer.jpg",
           "features": [
             {
               "index": "01",
-              "title": "Thermal performance",
-              "text": "Optimized cooling design for rated loading and ambient conditions."
+              "title": "Highly Reliable Design",
+              "text": "Incorporating Toshiba Japan technology with stringent quality control throughout the entire process to ensure long-term stable operation."
             },
             {
               "index": "02",
-              "title": "Reliability",
-              "text": "Field-proven insulation and mechanical robustness."
+              "title": "Superior Performance",
+              "text": "Features low loss, low noise, low partial discharge, and high short-circuit resistance"
+            },
+             {
+              "index": "03",
+              "title": "Customized Solutions",
+              "text": "Professional tailored solutions to meet diverse environmental and operational"
             }
           ],
           "specifications": {
-            "Voltage level": "Up to 750kV (placeholder)",
-            "Cooling medium": "Mineral oil / Ester oil",
-            "Tap changer": "On-load / Off-load"
+            "Voltage level": "Up to 750kV",
+            "Capacity": "Up to 1000MVA",
+            "Arrangement Type of Radiator": "Integrated, Split",
+            "Cooling medium": "Mineral oil, Ester oil",
+            "Insulation level of Neutral": "Full , Graded"
           }
         },
         {
           "id": "gas-insulated-power-transformer",
           "title": "Gas Insulated Power Transformer",
-          "description": "Placeholder description for Gas Insulated Power Transformer.",
+          "description": "Gas-insulated transformers utilize inert gas as the insulating medium, featuring compact structure, fireproof and explosion-proof characteristics, making them particularly suitable for space-constrained installations like urban substations. These transformers offer high reliability, near-maintenance-free operation, and excellent environmental adaptability.",
           "bullets": [
-            "Compact footprint",
-            "Reduced fire risk",
-            "Low maintenance",
-            "Standards compliant"
+            "Reliable quality and outstanding performance",
+            "Explosion-proof and non-flammable",
+            "Space saving and high reliability",
+            "Extended service life and hassle-free maintenance"
           ],
           "image": "assets/img/products/gas-insulated-power-transformer.jpg",
           "features": [
             {
               "index": "01",
-              "title": "Space saving",
-              "text": "Optimized for urban and space-constrained substations."
+              "title": "Reliable quality and outstanding performance",
+              "text": "Our products deliver reliable quality and outstanding performance. Manufactured with industry-leading specialized production and testing equipment in dedicated dust-proof, moisture-resistant, and temperature-controlled GIS transformer workshops. Standard models comply with GB 20052-2024 Class II energy efficiency requirements, while custom-designed models meeting Class I energy efficiency standards are available upon request."
             },
             {
               "index": "02",
-              "title": "Environmental",
-              "text": "Designed to minimize environmental impact."
+              "title": "Explosion-proof and non-flammable",
+              "text": "DUtilizing inert gas as insulation medium, it demonstrates minimal tank pressure increase during internal faults compared to conventional oil-immersed transformers, completely eliminating tank rupture risks and ensuring absolute safety for substation equipment, achieving true explosion-proof and fire-proof performance."
+            },
+               {
+              "index": "03",
+              "title": "Space saving and high reliability",
+              "text": "With customizable R&D solutions, it flexibly adapts to diverse application scenarios. The integrated structural design significantly reduces overall substation costs, while offering flexible main transformer room layout, easy installation, and maintenance-free operation."
+            },
+               {
+              "index": "04",
+              "title": "Extended service life and hassle-free maintenance",
+              "text": "By positioning the cooler air pumps in the lower low-temperature zone, it effectively slows lubricant and gear aging, extending pump service life by over 30%. The innovative "hot-swappable air pump" design enables safer and more convenient maintenance, reducing user maintenance frequency by 50% while significantly improving operational efficiency."
             }
           ],
           "specifications": {
-            "Voltage level": "Up to 245kV (placeholder)",
-            "Insulation": "Gas-insulated",
-            "Cooling": "Forced / Natural (placeholder)"
+            "Voltage level": "110kV, 220kV",
+            "Insulated Gas": "SF6",
+            "Capacity": "80MVA",
+            "Number of Phase": "Single Phase, Three Phase",
+            "Cooling mode": "GNAN,GDAN,GDAF,GDWF",
+            "Transformer arrangement": "Integrated, Split",
+            "Neutral insulation level": "Full, Graded"
           }
         },
         {
           "id": "high-voltage-reactor",
-          "title": "High Voltage Reactor",
-          "description": "Placeholder description for High Voltage Reactor.",
+          "title": "High Voltage Shunt Reactor",
+          "description": "Sieyuan Toshiba's High-Voltage Shunt Reactor features low noise, high reliability, and safe operation. It effectively neutralizes the capacitive effect of EHV long-distance transmission lines, absorbs excess reactive power, and improves power transmission efficiency. Additionally, It suppresses harmonic currents in the power system, enhancing power quality for end-users.",
           "bullets": [
-            "Reactive power control",
-            "Robust construction",
-            "Grid stability support",
-            "Custom configurations"
+            "Low loss",
+            "Low noise",
+            "High reliability",
+            "Enhanced Power Quality"
           ],
           "image": "assets/img/products/high-voltage-reactor.jpg",
           "features": [
             {
               "index": "01",
-              "title": "Performance",
-              "text": "Designed to meet harmonic and thermal requirements."
-            },
-            {
-              "index": "02",
-              "title": "Integration",
-              "text": "Compatible with modern protection and control schemes."
+              "title": "Low loss, low noise, and high reliability",
+              "text": "The shunt reactor adopts a radial iron disc structure with high core fill factor, uniform magnetic flux distribution, negligible leakage flux, and low no-load loss. The iron discs are separated by special non-magnetic spacers (e.g., marble), and the entire assembly is vacuum-impregnated with epoxy resin, ensuring minimal vibration and ultra-low operational noise."
             }
           ],
           "specifications": {
-            "Voltage level": "Up to 245kV (placeholder)",
-            "Type": "Shunt / Series",
-            "Cooling": "AN / AF (placeholder)"
+            "Voltage level": "750kV and below",
+            "Cooling medium": "Mineral oil, Ester oil",
+            "Voltage Regulation": "Fixed, Adjustable"
           }
         }
       ]
