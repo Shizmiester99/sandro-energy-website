@@ -16,7 +16,7 @@
             "After-sales response",
             "hoistable box"
           ],
-          "image": "assets/img/products/prefabricated-medium-voltage-substation.jpg",
+          "image": "assets/imgs/prefabricated-medium-voltage-substation.jpg",
           "features": [
             {
               "title": "Cost-effective",
@@ -54,7 +54,7 @@
             "fire prevention",
             "insulating oil"
           ],
-          "image": "assets/img/products/dry-distribution-transformer.jpg",
+          "image": "assets/imgs/dry-distribution-transformer.jpg",
           "features": [
             {
               "title": "Safe and Reliable",
@@ -89,7 +89,7 @@
             "Low loss and low temperature rise",
             " parallel reactor"
           ],
-          "image": "assets/img/products/medium-voltage-reactor.jpg",
+          "image": "assets/imgs/medium-voltage-reactor.jpg",
           "features": [
             {
               "title": "Consistent Quality",
@@ -126,7 +126,7 @@
             "Low loss and low temperature rise",
             "high voltage vacuum circuit breaker"
           ],
-          "image": "assets/img/products/outdoor-pole-mounted-switchgear.jpg",
+          "image": "assets/imgs/outdoor-pole-mounted-switchgear.jpg",
           "features": [
             { "title": " ", "text": " " }
           ],
@@ -144,7 +144,7 @@
             "three-phase AC power supply ",
             "40.5 kV"
           ],
-          "image": "assets/img/products/36cabinet-switchgear.jpg",
+          "image": "assets/imgs/36cabinet-switchgear.jpg",
           "features": [
             { "title": " ", "text": " " }
           ],
@@ -172,7 +172,7 @@
             "MSC-2X31.5",
             "electrified high-speed railway"
           ],
-          "image": "assets/img/products/2X31.5cabinet-switchgear.jpg",
+          "image": "assets/imgs/2X31.5cabinet-switchgear.jpg",
           "features": [
             {
               "title": " ",
@@ -205,7 +205,7 @@
             "voltage 12kV ",
             "three-phase AC"
           ],
-          "image": "assets/img/products/MSC GREEN-12cabinet-switchgear.jpg",
+          "image": "assets/imgs/MSC GREEN-12cabinet-switchgear.jpg",
           "features": [
             {
               "title": " ",
@@ -238,7 +238,7 @@
             "metal-enclosed switchgear",
             "24kV power supply system"
           ],
-          "image": "assets/img/products/MSC GREEN-24cabinet-switchgear.jpg",
+          "image": "assets/imgs/MSC GREEN-24cabinet-switchgear.jpg",
           "features": [
             { "title": " ", "text": " " }
           ],
@@ -256,7 +256,7 @@
             "voltage 40.5 kV power",
             "clean Air gas-insulated Switchgear"
           ],
-          "image": "assets/img/products/MSC GREEN-36/40.5cabinet-switchgear.jpg",
+          "image": "assets/imgs/MSC GREEN-36/40.5cabinet-switchgear.jpg",
           "features": [
             { "title": " ", "text": " " }
           ],
@@ -274,7 +274,7 @@
             "recording of circuits",
             "60Hz busbar"
           ],
-          "image": "assets/img/products/MSA-12cabinet-switchgear.jpg",
+          "image": "assets/imgs/MSA-12cabinet-switchgear.jpg",
           "features": [
             {
               "title": " ",
@@ -307,7 +307,7 @@
             "ectionalized busbar system",
             "three-phase AC 50Hz"
           ],
-          "image": "assets/img/products/MSA-24cabinet-switchgear.jpg",
+          "image": "assets/imgs/MSA-24cabinet-switchgear.jpg",
           "features": [
             {
               "title": " ",
@@ -340,7 +340,7 @@
             "MSA-36/40.5",
             "Sieyuan MV Company"
           ],
-          "image": "assets/img/products/MSA-36/40.5cabinet-switchgear.jpg",
+          "image": "assets/imgs/MSA-36/40.5cabinet-switchgear.jpg",
           "features": [
             {
               "title": " ",
@@ -367,7 +367,7 @@
   "id": "cabinet-switchgear",
   "title": "Cabinet Switchgear:MSR GREEN-24 Clean Air gas-insulated Ring Main Unit",
   "description": "This innovative RMU utilizes clean air (GWP &lt;1) as the insulating medium, combining eco-friendliness with uncompromised performance. The laser-welded stainless steel gas compartment (leakage ≤0.05%) and micro-positive pressure (0.07MPa) enhance operational safety and maintenance efficiency. Compliant with State Grid standards, it features a 10,000-cycle breaker lifespan, ≤10 pC partial discharge, and corrosion-resistant construction. Ideal for diverse environments, the non-toxic, non-flammable design offers LSC2-PM operational continuity, reducing lifecycle costs through zero gas recycling.",
-  "image": "assets/img/products/MSR GREEN-24cabinet-switchgear.jpg",
+  "image": "assets/imgs/MSR GREEN-24cabinet-switchgear.jpg",
   "features": [
     {
       "title": " ",
@@ -395,7 +395,7 @@
           "title": "ZF28-40.5 Gas-Insulated Metal-Enclosed Switchgear",
           "description": "ZF28-40.5 gas-insulated metal-enclosed switchgear adopts the group 's existing mature GIS technology above 110 kV, which has the characteristics of strong capacitive / inductive current capacity, small partial discharge, large insulation margin, low leakage rate, strong weather resistance and long",
           "bullets": ["Great Endurance", "Low Leakage", "Flexible Installation", "Highly Safe"],
-          "image": "assets/img/products/mv-gis.jpg",
+          "image": "assets/imgs/mv-gis.jpg",
           "features": [
            {
       "title": " ",
@@ -429,7 +429,7 @@
           "title": "Container Capacitor",
           "description": "x",
           "bullets": ["x", "x", "x", "x"],
-          "image": "assets/img/products/container-capacitor.jpg",
+          "image": "assets/imgs/container-capacitor.jpg",
           "features": [
             { "title": "x", "text": "x" }
           ],
@@ -442,7 +442,7 @@
           "title": "Cabinet Capacitor",
           "description": "x",
           "bullets": ["x", "x", "x", "x"],
-          "image": "assets/img/products/cabinet-capacitor.jpg",
+          "image": "assets/imgs/cabinet-capacitor.jpg",
           "features": [
             { "title": "x", "text": "x" }
           ],
@@ -455,7 +455,7 @@
           "title": "Assembling Capacitor Installation",
           "description": "x",
           "bullets": ["x", "x", "x", "x"],
-          "image": "assets/img/products/assembling-capacitor-installation.jpg",
+          "image": "assets/imgs/assembling-capacitor-installation.jpg",
           "features": [
             { "title": "x", "text": "x" }
           ],
@@ -474,7 +474,7 @@
           "title": "Distribution Terminal Unit",
           "description": "x",
           "bullets": ["x", "x", "x", "x"],
-          "image": "assets/img/products/distribution-terminal-unit.jpg",
+          "image": "assets/imgs/distribution-terminal-unit.jpg",
           "features": [
             { "title": "x", "text": "x" }
           ],
@@ -493,7 +493,7 @@
           "title": "Low Voltage DC Switch",
           "description": "x",
           "bullets": ["x", "x", "x", "x"],
-          "image": "assets/img/products/low-voltage-dc-switch.jpg",
+          "image": "assets/imgs/low-voltage-dc-switch.jpg",
           "features": [
             { "title": "x", "text": "x" }
           ],
@@ -506,7 +506,7 @@
           "title": "Low Voltage Switch-Disconnectors and Fuses",
           "description": "x",
           "bullets": ["x", "x", "x", "x"],
-          "image": "assets/img/products/lv-switch-disconnector-fuse.jpg",
+          "image": "assets/imgs/lv-switch-disconnector-fuse.jpg",
           "features": [
             { "title": "x", "text": "x" }
           ],
@@ -519,7 +519,7 @@
           "title": "Low Voltage AC Switch",
           "description": "x",
           "bullets": ["x", "x", "x", "x"],
-          "image": "assets/img/products/low-voltage-ac-switch.jpg",
+          "image": "assets/imgs/low-voltage-ac-switch.jpg",
           "features": [
             { "title": "x", "text": "x" }
           ],
