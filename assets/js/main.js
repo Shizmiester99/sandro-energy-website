@@ -60,10 +60,12 @@ function renderSubCategories(subcategories) {
 
     if (index === 0) el.style.color = "#37BEB0";
 
-    el.onclick = () => {
-      renderProducts(sub.products);
-      highlight(subCatsEl, el);
-    };
+
+    el.addEventListener("click", e => {
+  e.stopPropagation(); // 🔥 THIS is the key
+  renderProducts(sub.products);
+   highlight(subCatsEl, el);
+});
 
     subCatsEl.appendChild(el);
   });
@@ -73,7 +75,10 @@ function renderSubCategories(subcategories) {
 function renderProducts(products) {
   productsEl.innerHTML = products
   .map(p =>
-    `<a href="/product.html?cat=${currentCategory}&id=${p.id}">
+    `<a href="/product.html?cat=${currentCategory}&id=${p.id}"
+    class="product-link"
+    onclick="event.stopPropagation()"
+    >
       ${p.title}
     </a>`
   )
