@@ -752,6 +752,7 @@
               "index": "06",
               "title": "Widely Application",
               "text": "Up to 10 remote control outputs which can meet the control requirements of multiple breakers, switches and ground switches."
+             }
           ],
           "specifications": {
             "Standard": "IEC 60225-1: 2009",
@@ -805,12 +806,12 @@
             "Communication Ports": "Flush mounted、semi-flush mounted、wall mounted、panel mounted",
             "Communication Protocol": "IEC 61850 Editions 1&2&2.1, IEC 60870-5-103, IEC 60870-5-104, DNP3.0, Modbus, IEC 62439 Parallel Redundancy Protocol (PRP), IEC 62439 High-availability Seamless Redundancy (HSR), IEEE 802.1w Rapid Spanning Tree Protocol (RSTP)",
             "Clock Synchronization": "IRIG-B: IRIG-B via serial port, PPS: Pulse per second (PPS) via serial port or binary input, IEEE 1588: Clock message based on IEEE 1588 via Ethernet network, SNTP: Unicast (point-to-point) & broadcast SNTP mode via Ethernet network",
-            "Function": "Phase overcurrent protection (50/51P), Earth-fault protection (50/51G), Negative-sequence overcurrent protection (50/51Q), Undercurrent protection (37), Phase overvoltage protection (59P), Positive-sequence overvoltage protection (59Pos), Negative-sequence overvoltage protection (59Q), Residual overvoltage protection (59G), Phase undervoltage protection (27P), Overfrequency protection (81O), Underfrequency protection (81U), Reverse power protection (32R), Breaker failure protection (50BF), Transfer trip (TT), Auto-reclosing (79)",
+            "Function": "Phase overcurrent protection (50/51P), Earth-fault protection (50/51G), Negative-sequence overcurrent protection (50/51Q), Undercurrent protection (37), Phase overvoltage protection (59P), Positive-sequence overvoltage protection (59Pos), Negative-sequence overvoltage protection (59Q), Residual overvoltage protection (59G), Phase undervoltage protection (27P), Overfrequency protection (81O), Underfrequency protection (81U), Reverse power protection (32R), Breaker failure protection (50BF), Transfer trip (TT), Auto-reclosing (79)"
           }
         },
         {
           "id": "substation-intelligent-om",
-          "title": "Substation Intelligent Operation and Maintenance: Super5000 Comprehensive Surveillance & Operation System（Central Control Automation System",
+          "title": "Substation Intelligent Operation and Maintenance: Super5000 Comprehensive Surveillance & Operation System（Central Control Automation System)",
           "description": "An intelligent monitoring system for substation equipment, providing technical support of equipment operation, control, surveillance, monitoring and maintenance management. Four major categories of applications: surveillance and monitoring, operation and control, maintenance management, and system maintenance.",
           "bullets": [
             "Flexible Hybrid Unified Architecture",
@@ -833,7 +834,7 @@
              {
               "index": "03",
               "title": "Modular Design for Functions",
-              "text": "Utilizing modular deployment to quickly build and expand new applications, and Adapt to the needs of different professions, Featured applications such as 'evice health diagnosis integrated with AI" and 'digital twin of 3D reality', Multiple professional applications such as monitoring, auxiliary control, inspection, Intelligent diagnosis, Artificial intelligence, Digital twin"
+              "text": "Utilizing modular deployment to quickly build and expand new applications, and Adapt to the needs of different professions, Featured applications such as 'device health diagnosis integrated with AI' and 'digital twin of 3D reality', Multiple professional applications such as monitoring, auxiliary control, inspection, Intelligent diagnosis, Artificial intelligence, Digital twin"
             },
             {
               "index": "04",
@@ -933,7 +934,7 @@
           "description": "The inductive voltage transformer is used for GIS, it is widely applied to the nominal system voltage is 66-1000kV, and 50/60Hz frequency in power system, for the secondary measurement apparatus, protection and control device provide voltage signal.",
           "bullets": [
             "Complete range of products",
-            "Lean production,
+            "Lean production",
             "Full type test capability",
             "Quality leadership"
           ],
