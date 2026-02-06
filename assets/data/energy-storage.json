@@ -8,15 +8,30 @@
       "products": [
         {
           "id": "lithium-battery-ess",
-          "title": "Lithium Battery Energy Storage Systems",
-          "description": "x",
-          "bullets": ["x", "x", "x", "x"],
-          "image": "assets/imgs/lithium-battery-ess.jpg",
+          "title": "esGrid utility-scale battery storage system",
+          "description": "The esGrid utility-scale energy storage system with lithium batteries as the energy storage medium, cluster control architecture and All-in-one design to fulfill functions such as smoothing the output fluctuations of renewable energy, frequency regulation, capacity leasing, load shifting, and standby power supply, thereby enhancing the stability of the power grid.",
+          "bullets": ["Pioneering the "cluster controlled" architecture", "Standard container for oversea transportation", "3D thermal system design", ""4+1" safety design"],
+          "image": "assets/img/lithium-battery-ess.jpg",
           "features": [
-            { "title": "x", "text": "x" }
+            { 
+              "title": "Pioneering the "cluster controlled" architecture", 
+              "text": "Avoiding circulation currents between clusters, and increasing the system's available capacity by 15% and efficiency by 2%." 
+            },
+             { 
+               "title": "Standard container for oversea transportation",
+               "text": "All-in-one design, side by side mirror layout, reduces the overall project footprint by 30% compared to traditional solutions." 
+             },
+             {
+               "title": "3D thermal system design", 
+               "text": "Temperature difference between battery cells≤ 2℃, system life cycles increased by 1000 times." 
+             },
+             { 
+               "title": "4+1" safety design",
+               "text": "Insulation between battery cells, pack liquid electrical isolation, cluster electrical isolation, physical isolation in the container, and intelligent warning throughout the station to avoid fire risks."
+             }
           ],
           "specifications": {
-            "x": "x"
+            "tba": "available upon request."
           }
         }
       ]
@@ -28,62 +43,86 @@
         {
           "id": "supercapacitor",
           "title": "Supercapacitor",
-          "description": "x",
-          "bullets": ["x", "x", "x", "x"],
-          "image": "assets/imgs/supercapacitor.jpg",
+          "description": "GMCC's 3.0V supercapacitors are manufactured with independent intellectual property rights of dry electrode technology and full tab hard connection and full laser welding process, featuring good electrochemical stability, long cycle life, low internal resistance, strong vibration resistance and high safety. Applicable to automotive (active stabilizer bar/active suspension, EMB electro-mechanical braking, start-stop/auxiliary power), new power systems (static synchronous compensator SSC, energy storage frequency regulation, backup power), rail transportation/engineering machinery (power supply, energy recovery device), data centers/high-end manufacturing (UPS, DVR, impulse power supply) , etc. Meet the requirements of GB/T34870, DL/T2080, QC/T 741 standards and AEC-Q200 vehicle regulations.Certified by UL, RoHs, Reach.",
+          "bullets": ["Advanced Dry Electrode Technology", "Low Internal Resistance, Strong Vibration Resistance, High Safety", "Measured 1,000,000 charge and discharge cycles", "Automotive Grade Quality"],
+          "image": "assets/img/supercapacitor.jpg",
           "features": [
-            { "title": "x", "text": "x" }
+            { 
+              "title": "Advanced Dry Electrode Technology", 
+              "text": "Possessing independent intellectual property rights, breaking the foreign monopoly. Good electrochemical stability, no impurity and solvent residue. Strong vibration resistance, no risk of particles shedding, no internal short circuit due to shedding particles, not easy to cause capacitance diving. Eco-friendly." 
+            },
+             { 
+               "title": "Low Internal Resistance, Strong Vibration Resistance, High Safety",
+               "text": "Adopting full tab, hard connection and full laser welding process, it has low DC internal resistance, strong vibration resistance and low risk of liquid leakage. No electrochemical reaction. Design of directional pressure relief on cell lid to avoid secondary disasters and fundamentally eliminating the risk of thermal runaway and explosion." 
+             },
+             {
+               "title": "Long Life", 
+               "text": "High-temperature load life: ＞1,500 hours @3.0V/65°C; ＞4,000 hours @2.85V/65°C; ＞14,000 hours @2.7V/65°C. Cycle life: Measured 1,000,000 charge and discharge cycles." 
+             },
+             { 
+               "title": "Automotive Grade Quality",
+               "text": "Meet AEC-Q200 automotive grade requirements, and supplied nearly ten million 3.0V supercapacitor cells in bulk to automobile and power system industries, with failure rate≤100PPM (one in ten thousand)."
+             }
           ],
           "specifications": {
-            "x": "x"
+            "tba": "available on request."
           }
         },
         {
           "id": "hybrid-ultracapacitor",
           "title": "Hybrid Ultracapacitor",
-          "description": "x",
-          "bullets": ["x", "x", "x", "x"],
+          "description": "Hybrid ultra capacitor combines the principles and advantages of EDLC supercapacitors and lithium batteries, with an energy density of 80~120Wh/kg. It makes up for the disadvantages of low energy density in traditional EDLC supercapacitors, and has much better charge and discharge rate, low temperature performance and cycle life performance than lithium batteries. Applicable to automotive (redundant/backup power), new power systems (primary/secondary frequency regulation), smart grid backup power (FTU/DTU), rail transportation/engineering machinery (power supply), uninterruptible power supply (UPS) and so on. Meet the requirements of GB/T34870, GB/T 31485, DL/T2080, QC/T 741 standards and AEC-Q200 vehicle regulations.Certified by UL, UN38.3, RoHs, Reach.",
+          "bullets": ["Low temperature weather resistance-40℃", "Discharge ratio>100C", "Cycle life >30,000 @2.8~4.2V", "Low Internal Resistance, High Vibration Resistance, High Safety"],
           "image": "assets/imgs/hybrid-ultracapacitor.jpg",
           "features": [
-            { "title": "x", "text": "x" }
+            { 
+              "title": "High Discharge Rate and Good Low-temperature Performance", 
+              "text": "High-efficiency carrier transport capability discharge rate can reach 100C. Adopting an enhanced low-temperature design, the discharge energy retention rate at -40℃exceeds 60% at 5C discharge rate." 
+            },
+             { 
+               "title": "Low Internal Resistance, High Vibration Resistance, High Safety,
+               "text": "Adopting full tab, hard connection and full laser welding process, it has low DC internal resistance, strong vibration resistance and low risk of liquid leakage. The directional pressure relief design on cell lid makes pressure relief more precise and effective, avoiding interaction effects on surrounding cells and secondary disasters."
+             {
+               "title": "Excellent Cycle Life", 
+               "text": "Cycle life: 30,000 cycles @2.8~4.2V; Cycle life: 100,000 cycles @2.8~4.0V; Cycle life: >150,000 cycles @2.8~3.8V." 
+             },
+             { 
+               "title": "Automotive Grade Quality",
+               "text": "Meet AEC-Q200 automotive grade requirements, and supplied nearly ten million 3.0V supercapacitor cells in bulk to automobile and power system industries, with failure rate≤100PPM (one in ten thousand)."
+             }
           ],
           "specifications": {
-            "x": "x"
+             "tba": "available on request."
           }
         },
         {
           "id": "high-power-li-ion-cell",
-          "title": "High-power Lithium Ion Cell",
-          "description": "x",
-          "bullets": ["x", "x", "x", "x"],
+          "title": "16Ah Ultra-long and High-power Lithium Ion Cell",
+          "description": "Relying on the unique design of the chemical system, this high-power product features an ultra-long cycle and storage life, high rate continuous charging and discharging capabilities, as well as the ability of high rate charge under low temperature.",
+          "bullets": ["High Power", "Ultra long lifespan", "Ultra low temperature", "High charge rate"],
           "image": "assets/imgs/high-power-li-ion-cell.jpg",
           "features": [
-            { "title": "x", "text": "x" }
+              { 
+              "title": "High Power", 
+              "text": "Instantaneous power output of over 50C, continuous discharging capability of over 30C and continuous charging capability of over 10C" 
+            },
+             { 
+               "title": "Ultra long lifespan",
+               "text": "The charging life at room temperature is over 20,000 cycles with 10C charg and discharge rate under 100% SOC." 
+             },
+             {
+               "title": "Ultra low temperature", 
+               "text": "It has the ability to charge at 1C under -20℃" 
+             },
+             { 
+               "title": "High charge rate",
+               "text": "Product features an ultra-long cycle and storage life, high rate continuous charging and discharging capabilities"
           ],
           "specifications": {
-            "x": "x"
+            "tba": "available on request."
           }
         }
       ]
-    },
-    {
-      "id": "residential-ess",
-      "title": "Residential ESS",
-      "products": [
-        {
-          "id": "residential-ess",
-          "title": "Residential ESS",
-          "description": "x",
-          "bullets": ["x", "x", "x", "x"],
-          "image": "assets/imgs/residential-ess.jpg",
-          "features": [
-            { "title": "x", "text": "x" }
-          ],
-          "specifications": {
-            "x": "x"
-          }
-        }
-      ]
-    }
+    }  
   ]
 }
