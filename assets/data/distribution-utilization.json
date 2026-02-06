@@ -426,41 +426,78 @@
       "products": [
         {
           "id": "container-capacitor",
-          "title": "Container Capacitor",
-          "description": "x",
-          "bullets": ["x", "x", "x", "x"],
+          "title": "Container Type Capacitor",
+          "description": "A capacitor bank assembly consisting of a bypass switch, capacitors, reactors, discharge coils, surge arresters, vacuum contactors, and secondary equipment housed in a metal box. Simple structure, smart product design, and modular assembly. Automatic group switching is used for optimal utilization of capacitors.",
+          "bullets": ["Excellent structure", "Intelligent design", "High reliability", "High reliability"],
           "image": "assets/imgs/container-capacitor.jpg",
           "features": [
-            { "title": "x", "text": "x" }
+            { 
+              "title": "Excellent structure",
+              "text": "Compact structure, small footprint, the area occupied by the same capacity frame is reduced by more than 30%." 
+            },
+              { 
+              "title": "Intelligent design",
+              "text": "The products can be grouped and automatically switched on and off to achieve automatic reactive power compensation, thereby improving the efficiency of compensation." 
+            },
+              { 
+              "title": "High reliability",
+              "text": "Combining mechanical and electrical anti-error interlocking functions to ensure safe operation of the equipment." 
+            },
+              { 
+              "title": "High reliability",
+              "text": "High-strength enclosure that meets the requirements for preventing internal arc fires, with a cabinet-style product's report on arc fire testing.
+            }
           ],
           "specifications": {
-            "x": "x"
+            "tba": "available upon request"
           }
         },
         {
           "id": "cabinet-capacitor",
-          "title": "Cabinet Capacitor",
-          "description": "x",
-          "bullets": ["x", "x", "x", "x"],
+          "title": "Cabinet Type Capacitor",
+          "description": "A capacitor bank assembly consisting of a bypass switch, capacitors, reactors, discharge coils, surge arresters, vacuum circuit breakers, and secondary equipment housed in a metal cabinet, with the aim of automatically switching capacitors through a rational control and protection system.",
+          "bullets": ["Intelligentization", "Modular design", "High reliability", "Integrated design"],
           "image": "assets/imgs/cabinet-capacitor.jpg",
           "features": [
-            { "title": "x", "text": "x" }
+            { 
+              "title": "Intelligentization", "text": "The products can be switched on and off in groups automatically, achieving automatic reactive power compensation and improving the compensation efficiency." 
+            },
+            { 
+              "title": "Modular design", "text": "Compact structure, small footprint, the area occupied by the same capacity frame is reduced by more than 30%." 
+            },
+            { 
+              "title": "High reliability", "text": "Combining mechanical and electrical anti-error interlocking functions to ensure safe operation of the equipment" 
+            },
+            { 
+              "title": "Integrated design", "text": "The device is pre-assembled, pre-adjusted, and shipped as a complete unit, so the amount of on-site installation and commissioning work is minimal."
+            }
           ],
           "specifications": {
-            "x": "x"
+          "tba": "available upon request"
           }
         },
         {
           "id": "assembling-capacitor-installation",
-          "title": "Assembling Capacitor Installation",
-          "description": "x",
-          "bullets": ["x", "x", "x", "x"],
+          "title": "Assembling Capacitor Installation: Integrated Capacitor Bank",
+          "description": "It consists of parallel capacitors, series reactors, discharge coils, surge arresters, and isolating switches, and the device adopts an oil-immersed, fully enclosed structure, with no exposed live parts. It provides reactive power capacity to the system, thereby improving the power factor of the system, reducing energy losses, and improving power quality.",
+          "bullets": ["High reliability", "Intelligentization", "Adaptable", "Low maintenance requirements"],
           "image": "assets/imgs/assembling-capacitor-installation.jpg",
           "features": [
-            { "title": "x", "text": "x" }
+             { 
+              "title": "Intelligentization", "text": "The products can be switched on and off in groups automatically, achieving automatic reactive power compensation and improving the compensation efficiency." 
+            },
+            { 
+              "title": "Adaptable", "text": "Earthquake-resistant: Directly installed on the ground, it is highly likely to remain intact in the event of an earthquake, thereby reducing the losses caused by earthquake disasters; Highly corrosion-resistant, salt-resistant, and UV-resistant: All exposed electrified parts are completely covered, making it suitable for coastal areas with high salt fog; Protected from animal intrusion: A fully sealed structure, immune to animal intrusion." 
+            },
+            { 
+              "title": "High reliability", "text": "Combining mechanical and electrical anti-error interlocking functions to ensure safe operation of the equipment" 
+            },
+            { 
+              "title": "Low maintenance requirements", "text": "With no exposed live parts, maintenance requirements are minimal during the lifetime of the device, which can greatly save installation and operating costs."
+            }
           ],
           "specifications": {
-            "x": "x"
+            "tba": "available upon request"
           }
         }
       ]
@@ -472,14 +509,49 @@
         {
           "id": "distribution-terminal-unit",
           "title": "Distribution Terminal Unit",
-          "description": "x",
-          "bullets": ["x", "x", "x", "x"],
+          "description": "It is mainly used for the control and monitoring of ring network boxes, opening and closing stations, switch stations and power distribution rooms, and realizes the monitoring of the operating conditions of multiple medium-voltage power supply lines and switches.",
+          "bullets": ["Meet customer needs", "Full life cycle management, reliable quality", "Hassle-free testing", "The service is high-quality and timely, and long-term guaranteed"],
           "image": "assets/imgs/distribution-terminal-unit.jpg",
           "features": [
-            { "title": "x", "text": "x" }
+              { 
+              "title": "Meet customer needs", "text": "The product has complete functions and superior performance to meet the differentiated requirements of various places" 
+            },
+            { 
+              "title": "Full life cycle management, reliable quality", "text": "Self-owned highly automated production line, vehicle-grade quality control, high quality consistency, long service life of equipment, and reduced maintenance costs throughout the life cycle" 
+            },
+            { 
+              "title": "Hassle-free testing", "text": "The products are highly matched with automated testing platforms across the country to ensure a high pass rate of testing" 
+            },
+            { 
+              "title": "The service is high-quality and timely, and long-term guaranteed", "text": "Localized and professional engineering service team with the province as the unit, 24 hours a day to quickly respond to and deal with on-site problems"
+            }
           ],
           "specifications": {
-            "x": "x"
+            "tba": "available upon request"
+          }
+        },
+         {
+          "id": "feeder-terminal-unit",
+          "title": "Feeder Terminal Unit",
+          "description": "It is mainly used with a primary circuit breaker switch, with remote control, telemetry, remote signaling, fault detection functions, and communicates with the distribution automation master station to regulate and control the power distribution equipment, and realize the functions of fault location, fault isolation and rapid restoration of power supply in non-fault areas.",
+          "bullets": ["Meet customer needs", "Full life cycle management, reliable quality", "Hassle-free testing", "The service is high-quality and timely, and long-term guaranteed"],
+          "image": "assets/imgs/feeder-terminal-unit.jpg",
+          "features": [
+             { 
+              "title": "Meet customer needs", "text": "The product has complete functions and superior performance to meet the differentiated requirements of various places" 
+            },
+            { 
+              "title": "Full life cycle management, reliable quality", "text": "Self-owned highly automated production line, vehicle-grade quality control, high quality consistency, long service life of equipment, and reduced maintenance costs throughout the life cycle" 
+            },
+            { 
+              "title": "Hassle-free testing", "text": "The products are highly matched with automated testing platforms across the country to ensure a high pass rate of testing" 
+            },
+            { 
+              "title": "The service is high-quality and timely, and long-term guaranteed", "text": "Localized and professional engineering service team with the province as the unit, 24 hours a day to quickly respond to and deal with on-site problems"
+            }
+          ],
+          "specifications": {
+            "tba": "available upon request"
           }
         }
       ]
