@@ -445,7 +445,7 @@
             },
               { 
               "title": "High reliability",
-              "text": "High-strength enclosure that meets the requirements for preventing internal arc fires, with a cabinet-style product's report on arc fire testing.
+              "text": "High-strength enclosure that meets the requirements for preventing internal arc fires, with a cabinet-style product's report on arc fire testing."
             }
           ],
           "specifications": {
@@ -562,41 +562,74 @@
       "products": [
         {
           "id": "low-voltage-dc-switch",
-          "title": "Low Voltage DC Switch",
-          "description": "x",
-          "bullets": ["x", "x", "x", "x"],
+          "title": "Low-Voltage Switch: DC Molded Case Switch-disconnectors",
+          "description": "This SYM6GZ series DC molded case switch is suitable for DC systems with arated operating voltage of DC1500V and below and a rated operating current of250A and below, providing functions of main circuit connection, breaking, andisolation. Typical application scenarios include electrochemical energy storage,large-scale photovoltaics, DC data centers, and DC distribution.",
+          "bullets": ["Compact Size", "Low Power Consumption", "High Reliability", "High Integration"],
           "image": "assets/imgs/low-voltage-dc-switch.jpg",
           "features": [
-            { "title": "x", "text": "x" }
+            { 
+              "title": "Meet customer needs", "text": "The product has complete functions and superior performance to meet the differentiated requirements of various places" 
+            },
+            { 
+              "title": "Full life cycle management, reliable quality", "text": "Self-owned highly automated production line, vehicle-grade quality control, high quality consistency, long service life of equipment, and reduced maintenance costs throughout the life cycle" 
+            },
+            { 
+              "title": "Hassle-free testing", "text": "The products are highly matched with automated testing platforms across the country to ensure a high pass rate of testing" 
+            },
+            { 
+              "title": "The service is high-quality and timely, and long-term guaranteed", "text": "Localized and professional engineering service team with the province as the unit, 24 hours a day to quickly respond to and deal with on-site problems"
+            }
           ],
           "specifications": {
-            "x": "x"
+            "tba": "available upon request"
           }
         },
         {
           "id": "lv-switch-disconnector-fuse",
-          "title": "Low Voltage Switch-Disconnectors and Fuses",
-          "description": "x",
-          "bullets": ["x", "x", "x", "x"],
+          "title": "Low Voltage Switch-Disconnectors and Fuses: DC Switch-disconnectors and Fuse-combination Units",
+          "description": "The SYH62 Series DC Switch-disconnectors and Fuse-combinatlon Units are suitablefor DC systems with a rated operating voltage of DC1500V or below and arated operating current of 4000A or below, providing functions of maincircuit connection, breaking, isolation, and protection. Typical applicationscenarios include energy storage, photovoltalcs, and Dc distribution.",
+          "bullets": ["Compact Size", "Low Power Consumption", "High Reliability", "High Integration"],
           "image": "assets/imgs/lv-switch-disconnector-fuse.jpg",
           "features": [
-            { "title": "x", "text": "x" }
+            { 
+              "title": "Compact Size:", "text": "Saving installation space with flexible layout" 
+            },
+            { 
+              "title": "Low Power Consumption, "text": "Less heat generation and lowsystem power consumption" 
+            },
+            { 
+              "title": "High Reliability", "text": "High reliability and easy maintenance" 
+            },
+            { 
+              "title": "High Integration", "text": "Multi-functional integration, intelligent and efficient"
+            }
           ],
           "specifications": {
-            "x": "x"
+            "tba": "available upon request"
           }
         },
         {
           "id": "low-voltage-ac-switch",
-          "title": "Low Voltage AC Switch",
-          "description": "x",
-          "bullets": ["x", "x", "x", "x"],
+          "title": "Low Voltage AC Switch: AC Bypass Switch",
+          "description": "This QBS Series Bypass Switch is suitable for the submodule of the SVG/High Voltage Inverter power unit, with a redundant design. when an IGBT in a sub-module fails, the bypass switch can be quickly activated to bypass the fault, ensuring the normal operation of the product.",
+          "bullets": ["Compact Size", "Low Power Consumption", "High Reliability", "High Integration"],
           "image": "assets/imgs/low-voltage-ac-switch.jpg",
           "features": [
-            { "title": "x", "text": "x" }
+            { 
+              "title": "Compact Size:", "text": "Saving installation space with flexible layout" 
+            },
+            { 
+              "title": "Low Power Consumption, "text": "Less heat generation and lowsystem power consumption" 
+            },
+            { 
+              "title": "High Reliability", "text": "High reliability and easy maintenance" 
+            },
+            { 
+              "title": "High Integration", "text": "Multi-functional integration, intelligent and efficient"
+            }
           ],
           "specifications": {
-            "x": "x"
+            "tba": "available upon request"
           }
         }
       ]
