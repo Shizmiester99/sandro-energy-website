@@ -10,7 +10,7 @@
           "id": "lithium-battery-ess",
           "title": "esGrid utility-scale battery storage system",
           "description": "The esGrid utility-scale energy storage system with lithium batteries as the energy storage medium, cluster control architecture and All-in-one design to fulfill functions such as smoothing the output fluctuations of renewable energy, frequency regulation, capacity leasing, load shifting, and standby power supply, thereby enhancing the stability of the power grid.",
-          "bullets": ["Pioneering the "cluster controlled" architecture", "Standard container for oversea transportation", "3D thermal system design", "4+1' safety design"],
+          "bullets": ["Pioneering the cluster controlled" architecture", "Standard container for oversea transportation", "3D thermal system design", "4+1' safety design"],
           "image": "assets/img/lithium-battery-ess.jpg",
           "features": [
             { 
