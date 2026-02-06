@@ -278,42 +278,51 @@ dependable partner for powering industrial success.
       </h3>
 
       <form
-        action="mailto:info@sandroenergy.com"
-        method="post"
-        enctype="text/plain"
-        style="display:flex;flex-direction:column;gap:12px;"
-      >
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
-          <input name="first_name" placeholder="First name" style="padding:12px;border-radius:6px;border:none;">
-          <input name="last_name" placeholder="Last name" style="padding:12px;border-radius:6px;border:none;">
-        </div>
+  action="https://formspree.io/f/mnjbawqy"
+  method="POST"
+  style="display:flex;flex-direction:column;gap:12px;"
+>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+    <input name="first_name" placeholder="First name" required
+      style="padding:12px;border-radius:6px;border:none;">
+    <input name="last_name" placeholder="Last name" required
+      style="padding:12px;border-radius:6px;border:none;">
+  </div>
 
-        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;">
-          <input name="email" placeholder="Email" style="padding:12px;border-radius:6px;border:none;">
-          <input name="mobile" placeholder="Mobile" style="padding:12px;border-radius:6px;border:none;">
-          <input name="subject" placeholder="Subject (optional)" style="padding:12px;border-radius:6px;border:none;">
-        </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;">
+    <input type="email" name="email" placeholder="Email" required
+      style="padding:12px;border-radius:6px;border:none;">
+    <input name="mobile" placeholder="Mobile"
+      style="padding:12px;border-radius:6px;border:none;">
+    <input name="subject" placeholder="Subject (optional)"
+      style="padding:12px;border-radius:6px;border:none;">
+  </div>
 
-        <textarea
-          name="message"
-          rows="4"
-          placeholder="Message"
-          style="padding:12px;border-radius:6px;border:none;"
-        ></textarea>
+  <textarea
+    name="message"
+    rows="4"
+    placeholder="Message"
+    required
+    style="padding:12px;border-radius:6px;border:none;"
+  ></textarea>
 
-        <button type="submit" style="
-          align-self:flex-start;
-          background:#37BEB0;
-          color:#0f1f1f;
-          border:none;
-          padding:12px 28px;
-          border-radius:6px;
-          font-size:14px;
-          cursor:pointer;
-        ">
-          Send
-        </button>
-      </form>
+  <!-- Optional: tells Formspree where replies go -->
+  <input type="hidden" name="_replyto" value="email">
+
+  <button type="submit" style="
+    align-self:flex-start;
+    background:#37BEB0;
+    color:#0f1f1f;
+    border:none;
+    padding:12px 28px;
+    border-radius:6px;
+    font-size:14px;
+    cursor:pointer;
+  ">
+    Send
+  </button>
+</form>
+
     </section>
 
   </div>
