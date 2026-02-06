@@ -1071,7 +1071,7 @@
           ],
           "specifications": {
             "Voltage level": "126-550kV",
-            "Rated primary current: "630-6300A",
+            "Rated primary current": "630-6300A",
             "Current-carrying structure": "Guide-bar type",
             "Ambient temperature": "-45℃-45℃"
           }
@@ -1111,7 +1111,7 @@
           ],
           "specifications": {
             "Voltage level": "±200kV、±400kV、±600kV、±800kV",
-            "Rated primary current: "6300A",
+            "Rated primary current": "6300A",
             "Ambient temperature": "-45℃-45℃"
           }
         }
