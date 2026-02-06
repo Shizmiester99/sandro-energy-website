@@ -82,6 +82,7 @@
              { 
                "title": "Low Internal Resistance, High Vibration Resistance, High Safety",
                "text": "Adopting full tab, hard connection and full laser welding process, it has low DC internal resistance, strong vibration resistance and low risk of liquid leakage. The directional pressure relief design on cell lid makes pressure relief more precise and effective, avoiding interaction effects on surrounding cells and secondary disasters."
+             },
              {
                "title": "Excellent Cycle Life", 
                "text": "Cycle life: 30,000 cycles @2.8~4.2V; Cycle life: 100,000 cycles @2.8~4.0V; Cycle life: >150,000 cycles @2.8~3.8V." 
@@ -117,6 +118,7 @@
              { 
                "title": "High charge rate",
                "text": "Product features an ultra-long cycle and storage life, high rate continuous charging and discharging capabilities"
+             }
           ],
           "specifications": {
             "tba": "available on request."
