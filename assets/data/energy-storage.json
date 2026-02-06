@@ -73,7 +73,7 @@
           "title": "Hybrid Ultracapacitor",
           "description": "Hybrid ultra capacitor combines the principles and advantages of EDLC supercapacitors and lithium batteries, with an energy density of 80~120Wh/kg. It makes up for the disadvantages of low energy density in traditional EDLC supercapacitors, and has much better charge and discharge rate, low temperature performance and cycle life performance than lithium batteries. Applicable to automotive (redundant/backup power), new power systems (primary/secondary frequency regulation), smart grid backup power (FTU/DTU), rail transportation/engineering machinery (power supply), uninterruptible power supply (UPS) and so on. Meet the requirements of GB/T34870, GB/T 31485, DL/T2080, QC/T 741 standards and AEC-Q200 vehicle regulations.Certified by UL, UN38.3, RoHs, Reach.",
           "bullets": ["Low temperature weather resistance-40℃", "Discharge ratio>100C", "Cycle life >30,000 @2.8~4.2V", "Low Internal Resistance, High Vibration Resistance, High Safety"],
-          "image": "assets/imgs/hybrid-ultracapacitor.jpg",
+          "image": "assets/img/hybrid-ultracapacitor.jpg",
           "features": [
             { 
               "title": "High Discharge Rate and Good Low-temperature Performance", 
@@ -100,7 +100,7 @@
           "title": "16Ah Ultra-long and High-power Lithium Ion Cell",
           "description": "Relying on the unique design of the chemical system, this high-power product features an ultra-long cycle and storage life, high rate continuous charging and discharging capabilities, as well as the ability of high rate charge under low temperature.",
           "bullets": ["High Power", "Ultra long lifespan", "Ultra low temperature", "High charge rate"],
-          "image": "assets/imgs/high-power-li-ion-cell.jpg",
+          "image": "assets/img/high-power-li-ion-cell.jpg",
           "features": [
               { 
               "title": "High Power", 
