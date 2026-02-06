@@ -16,7 +16,7 @@
             "After-sales response",
             "hoistable box"
           ],
-          "image": "assets/imgs/prefabricated-medium-voltage-substation.jpg",
+          "image": "assets/img/prefabricated-medium-voltage-substation.jpg",
           "features": [
             {
               "title": "Cost-effective",
@@ -54,7 +54,7 @@
             "fire prevention",
             "insulating oil"
           ],
-          "image": "assets/imgs/dry-distribution-transformer.jpg",
+          "image": "assets/img/dry-distribution-transformer.jpg",
           "features": [
             {
               "title": "Safe and Reliable",
@@ -89,7 +89,7 @@
             "Low loss and low temperature rise",
             " parallel reactor"
           ],
-          "image": "assets/imgs/medium-voltage-reactor.jpg",
+          "image": "assets/img/medium-voltage-reactor.jpg",
           "features": [
             {
               "title": "Consistent Quality",
@@ -126,7 +126,7 @@
             "Low loss and low temperature rise",
             "high voltage vacuum circuit breaker"
           ],
-          "image": "assets/imgs/outdoor-pole-mounted-switchgear.jpg",
+          "image": "assets/img/outdoor-pole-mounted-switchgear.jpg",
           "features": [
             { "title": " ", "text": " " }
           ],
@@ -144,7 +144,7 @@
             "three-phase AC power supply ",
             "40.5 kV"
           ],
-          "image": "assets/imgs/36cabinet-switchgear.jpg",
+          "image": "assets/img/36cabinet-switchgear.jpg",
           "features": [
             { "title": " ", "text": " " }
           ],
@@ -172,7 +172,7 @@
             "MSC-2X31.5",
             "electrified high-speed railway"
           ],
-          "image": "assets/imgs/2X31.5cabinet-switchgear.jpg",
+          "image": "assets/img/2X31.5cabinet-switchgear.jpg",
           "features": [
             {
               "title": " ",
@@ -205,7 +205,7 @@
             "voltage 12kV ",
             "three-phase AC"
           ],
-          "image": "assets/imgs/MSC GREEN-12cabinet-switchgear.jpg",
+          "image": "assets/img/MSC GREEN-12cabinet-switchgear.jpg",
           "features": [
             {
               "title": " ",
@@ -238,7 +238,7 @@
             "metal-enclosed switchgear",
             "24kV power supply system"
           ],
-          "image": "assets/imgs/MSC GREEN-24cabinet-switchgear.jpg",
+          "image": "assets/img/MSC GREEN-24cabinet-switchgear.jpg",
           "features": [
             { "title": " ", "text": " " }
           ],
@@ -256,7 +256,7 @@
             "voltage 40.5 kV power",
             "clean Air gas-insulated Switchgear"
           ],
-          "image": "assets/imgs/MSC GREEN-36/40.5cabinet-switchgear.jpg",
+          "image": "assets/img/MSC GREEN-36/40.5cabinet-switchgear.jpg",
           "features": [
             { "title": " ", "text": " " }
           ],
@@ -274,7 +274,7 @@
             "recording of circuits",
             "60Hz busbar"
           ],
-          "image": "assets/imgs/MSA-12cabinet-switchgear.jpg",
+          "image": "assets/img/MSA-12cabinet-switchgear.jpg",
           "features": [
             {
               "title": " ",
@@ -307,7 +307,7 @@
             "ectionalized busbar system",
             "three-phase AC 50Hz"
           ],
-          "image": "assets/imgs/MSA-24cabinet-switchgear.jpg",
+          "image": "assets/img/MSA-24cabinet-switchgear.jpg",
           "features": [
             {
               "title": " ",
@@ -340,7 +340,7 @@
             "MSA-36/40.5",
             "Sieyuan MV Company"
           ],
-          "image": "assets/imgs/MSA-36/40.5cabinet-switchgear.jpg",
+          "image": "assets/img/MSA-36/40.5cabinet-switchgear.jpg",
           "features": [
             {
               "title": " ",
@@ -367,7 +367,7 @@
   "id": "cabinet-switchgear",
   "title": "Cabinet Switchgear:MSR GREEN-24 Clean Air gas-insulated Ring Main Unit",
   "description": "This innovative RMU utilizes clean air (GWP &lt;1) as the insulating medium, combining eco-friendliness with uncompromised performance. The laser-welded stainless steel gas compartment (leakage ≤0.05%) and micro-positive pressure (0.07MPa) enhance operational safety and maintenance efficiency. Compliant with State Grid standards, it features a 10,000-cycle breaker lifespan, ≤10 pC partial discharge, and corrosion-resistant construction. Ideal for diverse environments, the non-toxic, non-flammable design offers LSC2-PM operational continuity, reducing lifecycle costs through zero gas recycling.",
-  "image": "assets/imgs/MSR GREEN-24cabinet-switchgear.jpg",
+  "image": "assets/img/MSR GREEN-24cabinet-switchgear.jpg",
   "features": [
     {
       "title": " ",
@@ -395,7 +395,7 @@
           "title": "ZF28-40.5 Gas-Insulated Metal-Enclosed Switchgear",
           "description": "ZF28-40.5 gas-insulated metal-enclosed switchgear adopts the group 's existing mature GIS technology above 110 kV, which has the characteristics of strong capacitive / inductive current capacity, small partial discharge, large insulation margin, low leakage rate, strong weather resistance and long",
           "bullets": ["Great Endurance", "Low Leakage", "Flexible Installation", "Highly Safe"],
-          "image": "assets/imgs/mv-gis.jpg",
+          "image": "assets/img/mv-gis.jpg",
           "features": [
            {
       "title": " ",
@@ -429,7 +429,7 @@
           "title": "Container Type Capacitor",
           "description": "A capacitor bank assembly consisting of a bypass switch, capacitors, reactors, discharge coils, surge arresters, vacuum contactors, and secondary equipment housed in a metal box. Simple structure, smart product design, and modular assembly. Automatic group switching is used for optimal utilization of capacitors.",
           "bullets": ["Excellent structure", "Intelligent design", "High reliability", "High reliability"],
-          "image": "assets/imgs/container-capacitor.jpg",
+          "image": "assets/img/container-capacitor.jpg",
           "features": [
             { 
               "title": "Excellent structure",
@@ -457,7 +457,7 @@
           "title": "Cabinet Type Capacitor",
           "description": "A capacitor bank assembly consisting of a bypass switch, capacitors, reactors, discharge coils, surge arresters, vacuum circuit breakers, and secondary equipment housed in a metal cabinet, with the aim of automatically switching capacitors through a rational control and protection system.",
           "bullets": ["Intelligentization", "Modular design", "High reliability", "Integrated design"],
-          "image": "assets/imgs/cabinet-capacitor.jpg",
+          "image": "assets/img/cabinet-capacitor.jpg",
           "features": [
             { 
               "title": "Intelligentization", "text": "The products can be switched on and off in groups automatically, achieving automatic reactive power compensation and improving the compensation efficiency." 
@@ -481,7 +481,7 @@
           "title": "Assembling Capacitor Installation: Integrated Capacitor Bank",
           "description": "It consists of parallel capacitors, series reactors, discharge coils, surge arresters, and isolating switches, and the device adopts an oil-immersed, fully enclosed structure, with no exposed live parts. It provides reactive power capacity to the system, thereby improving the power factor of the system, reducing energy losses, and improving power quality.",
           "bullets": ["High reliability", "Intelligentization", "Adaptable", "Low maintenance requirements"],
-          "image": "assets/imgs/assembling-capacitor-installation.jpg",
+          "image": "assets/img/assembling-capacitor-installation.jpg",
           "features": [
              { 
               "title": "Intelligentization", "text": "The products can be switched on and off in groups automatically, achieving automatic reactive power compensation and improving the compensation efficiency." 
@@ -511,7 +511,7 @@
           "title": "Distribution Terminal Unit",
           "description": "It is mainly used for the control and monitoring of ring network boxes, opening and closing stations, switch stations and power distribution rooms, and realizes the monitoring of the operating conditions of multiple medium-voltage power supply lines and switches.",
           "bullets": ["Meet customer needs", "Full life cycle management, reliable quality", "Hassle-free testing", "The service is high-quality and timely, and long-term guaranteed"],
-          "image": "assets/imgs/distribution-terminal-unit.jpg",
+          "image": "assets/img/distribution-terminal-unit.jpg",
           "features": [
               { 
               "title": "Meet customer needs", "text": "The product has complete functions and superior performance to meet the differentiated requirements of various places" 
@@ -535,7 +535,7 @@
           "title": "Feeder Terminal Unit",
           "description": "It is mainly used with a primary circuit breaker switch, with remote control, telemetry, remote signaling, fault detection functions, and communicates with the distribution automation master station to regulate and control the power distribution equipment, and realize the functions of fault location, fault isolation and rapid restoration of power supply in non-fault areas.",
           "bullets": ["Meet customer needs", "Full life cycle management, reliable quality", "Hassle-free testing", "The service is high-quality and timely, and long-term guaranteed"],
-          "image": "assets/imgs/feeder-terminal-unit.jpg",
+          "image": "assets/img/feeder-terminal-unit.jpg",
           "features": [
              { 
               "title": "Meet customer needs", "text": "The product has complete functions and superior performance to meet the differentiated requirements of various places" 
@@ -565,7 +565,7 @@
           "title": "Low-Voltage Switch: DC Molded Case Switch-disconnectors",
           "description": "This SYM6GZ series DC molded case switch is suitable for DC systems with arated operating voltage of DC1500V and below and a rated operating current of250A and below, providing functions of main circuit connection, breaking, andisolation. Typical application scenarios include electrochemical energy storage,large-scale photovoltaics, DC data centers, and DC distribution.",
           "bullets": ["Compact Size", "Low Power Consumption", "High Reliability", "High Integration"],
-          "image": "assets/imgs/low-voltage-dc-switch.jpg",
+          "image": "assets/img/low-voltage-dc-switch.jpg",
           "features": [
             { 
               "title": "Meet customer needs", "text": "The product has complete functions and superior performance to meet the differentiated requirements of various places" 
@@ -589,7 +589,7 @@
           "title": "Low Voltage Switch-Disconnectors and Fuses: DC Switch-disconnectors and Fuse-combination Units",
           "description": "The SYH62 Series DC Switch-disconnectors and Fuse-combinatlon Units are suitablefor DC systems with a rated operating voltage of DC1500V or below and arated operating current of 4000A or below, providing functions of maincircuit connection, breaking, isolation, and protection. Typical applicationscenarios include energy storage, photovoltalcs, and Dc distribution.",
           "bullets": ["Compact Size", "Low Power Consumption", "High Reliability", "High Integration"],
-          "image": "assets/imgs/lv-switch-disconnector-fuse.jpg",
+          "image": "assets/img/lv-switch-disconnector-fuse.jpg",
           "features": [
             { 
               "title": "Compact Size:", "text": "Saving installation space with flexible layout" 
@@ -613,7 +613,7 @@
           "title": "Low Voltage AC Switch: AC Bypass Switch",
           "description": "This QBS Series Bypass Switch is suitable for the submodule of the SVG/High Voltage Inverter power unit, with a redundant design. when an IGBT in a sub-module fails, the bypass switch can be quickly activated to bypass the fault, ensuring the normal operation of the product.",
           "bullets": ["Compact Size", "Low Power Consumption", "High Reliability", "High Integration"],
-          "image": "assets/imgs/low-voltage-ac-switch.jpg",
+          "image": "assets/img/low-voltage-ac-switch.jpg",
           "features": [
             { 
               "title": "Compact Size:", "text": "Saving installation space with flexible layout" 
