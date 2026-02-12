@@ -192,7 +192,17 @@
             }
           ],
           "specifications": {
-            " ": " "
+           "Rated voltage": "36/40.5",
+            "Rated frequency": "50/60",
+            "Rated current": "630/1250/1600/2500/3150",
+            "Rated power frequency 1min withstand voltage": "70/80-95/118",
+            "Lightning impulse withstand voltage": "170/195-185/215",
+            "Rated short-circuit breaking current": "25/31.5",
+            "Short time withstand current": "25/4，31.5/4",
+            "Peak withstand current": "25/31.5",
+            "Height": "2300",
+            "Width": "600/800",
+            "Depth": "1400/1600/1800"
           }
         },
         {
